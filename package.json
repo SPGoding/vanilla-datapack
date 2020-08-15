@@ -1,0 +1,35 @@
+{
+  "name": "vanilla-datapack",
+  "version": "1.0.0",
+  "description": "A repository with scripts to generate the vanilla data pack from Minecraft: Java Edition server/client files and [vanilla worldgen files](https://github.com/slicedlime/examples).",
+  "main": "scripts/github_action_tick.ts",
+  "private": true,
+  "scripts": {
+    "download_inputs": "ts-node scripts/download_inputs",
+    "gen": "npm run generate",
+    "generate": "ts-node scripts/generate",
+    "get_latest_version": "ts-node scripts/get_latest_version",
+    "github_action_tick": "ts-node scripts/github_action_tick",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPGoding/vanilla-datapack.git"
+  },
+  "author": "SPGoding",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SPGoding/vanilla-datapack/issues"
+  },
+  "homepage": "https://github.com/SPGoding/vanilla-datapack#readme",
+  "devDependencies": {
+    "@types/decompress": "^4.2.3",
+    "@types/node": "^14.0.27"
+  },
+  "dependencies": {
+    "@spgoding/datapack-language-server": "3.0.1",
+    "decompress": "^4.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}

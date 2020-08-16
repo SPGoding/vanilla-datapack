@@ -1,5 +1,7 @@
 # Vanilla Data Pack
 
+![Tick](https://github.com/SPGoding/vanilla-datapack/workflows/Tick/badge.svg)
+
 A repository with scripts to generate the vanilla data pack from Minecraft: Java Edition server/client files and
 [vanilla worldgen files](https://github.com/slicedlime/examples).
 

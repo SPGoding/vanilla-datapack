@@ -3,31 +3,24 @@ import simpleGit, { SimpleGit } from 'simple-git'
 import { downloadInputs } from './download_inputs'
 import { generate } from './generate'
 import { getLatestVersion } from './get_latest_version'
-import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, RootSummaryPath, VersionPath } from './utils'
+import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, RootSummaryPath } from './utils'
 
 (async () => {
     try {
         createDirs()
-        let lastVersion: string | undefined = undefined
-        if (fs.existsSync(VersionPath)) {
-            lastVersion = fs.readFileSync(VersionPath, 'utf-8').trim()
-            console.log(`The latest version was "${lastVersion}" when last checked.`)
-        }
         const latestResult = await getLatestVersion()
-        if (latestResult.version === lastVersion) {
-            console.log(`The latest version ("${latestResult.version}") isn't changed since last execution.`)
-            return
-        }
         const git = simpleGit()
         const { all: allTags } = await git.tags()
+        console.log(`The latest version is "${latestResult.version}".`)
+        console.log(`A list of git tags: ${JSON.stringify(allTags)}.`)
         if (allTags.includes(`${latestResult.version}-summary`)) {
-            console.log(`The latest version ("${latestResult.version}") already exists in git tags.`)
+            console.log(`The latest version already exists in git tags.`)
+            return
         } else {
             await downloadInputs(latestResult)
             await generate()
             await deploy(git, latestResult.version)
         }
-        fs.writeFileSync(VersionPath, `${latestResult.version}\n`, 'utf-8')
     } catch (e) {
         console.error(e)
         process.exit(42)

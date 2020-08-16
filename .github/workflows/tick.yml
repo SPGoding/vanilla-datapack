@@ -24,14 +24,6 @@ jobs:
             ${{ runner.os }}-node-
             ${{ runner.os }}-
 
-      - name: Cache Version
-        uses: actions/cache@v1
-        with:
-          path: generated/version.txt
-          key: ${{ runner.os }}-version-1597532467504
-          restore-keys: |
-            ${{ runner.os }}-version-1597532467504
-
       - name: Install Dependencies
         run: npm i
 

@@ -62,8 +62,6 @@ Only the data for versions released after `1.16.2` (inclusive) can be found in t
     - `flattened.min.json`: Minified [flattened summary](#flattened-summary) of vanilla data pack.
     - `tree.json`: The [tree summary](#tree-summary) of vanilla data pack.
     - `tree.min.json`: Minified [tree summary](#tree-summary) of vanilla data pack.
-  - `version.txt`: Stores the latest version of Minecraft: Java Edition when the `github_action_tick` script was
-    last executed.
 - `input`: Stores all input files for the scripts. This folder is excluded from git to avoid 
   [EULA](https://account.mojang.com/documents/minecraft_eula) violation.
   - `game.jar`: A Minecraft: Java Edition client/server file.

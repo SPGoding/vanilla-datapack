@@ -1,7 +1,7 @@
 name: Tick
 on:
   schedule:
-    - '*/10 * * * *'
+    - cron: '*/10 * * * *'
 jobs:
   tick:
     name: Tick

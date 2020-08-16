@@ -6,6 +6,9 @@ A repository with scripts to generate the vanilla data pack from Minecraft: Java
 [vanilla worldgen files](https://github.com/slicedlime/examples).
 
 - [Vanilla Data Pack](#vanilla-data-pack)
+- [Branches and Tags](#branches-and-tags)
+  - [Branches](#branches)
+  - [Tags](#tags)
 - [Quick Start](#quick-start)
 - [Respository Structure](#respository-structure)
 - [Scripts](#scripts)
@@ -16,9 +19,26 @@ A repository with scripts to generate the vanilla data pack from Minecraft: Java
 - [Summary Format](#summary-format)
   - [Flattened Summary](#flattened-summary)
   - [Tree Summary](#tree-summary)
-- [Versioning](#versioning)
 - [Disclaimer](#disclaimer)
 - [License](#license)
+
+# Branches and Tags
+
+All version identifiers used in this repository can be found from 
+[version_manifest.json](https://launchermeta.mojang.com/mc/game/version_manifest.json).
+
+Only the data for versions released after `1.16.2` (inclusive) can be found in this repository.
+
+## Branches
+
+- `master`: Stores the scripts.
+- `data`: Stores the auto-generated vanilla data pack.
+- `summary`: Stores the auto-generated vanilla data pack content summaries.
+
+## Tags
+
+- `${version}-data`: Stores the corresponding vanilla data pack for the specific version.
+- `${version}-summary`: Stores the corresponding summaries for the specific version.
 
 # Quick Start
 
@@ -145,13 +165,6 @@ For example, the ID `minecraft:foo` can be represented with
   }
 }
 ```
-
-# Versioning
-
-All version identifiers used in this repository can be found from 
-[version_manifest.json](https://launchermeta.mojang.com/mc/game/version_manifest.json).
-
-Only the data for versions released after `1.16.2` (inclusive) can be found in this repository.
 
 # Disclaimer
 

@@ -15,12 +15,18 @@ import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, Root
         }
         const latestResult = await getLatestVersion()
         if (latestResult.version === lastVersion) {
-            console.log("The latest version isn't changed since last execution.")
+            console.log(`The latest version ("${latestResult.version}") isn't changed since last execution.`)
             return
         }
-        await downloadInputs(latestResult)
-        await generate()
-        await deploy(latestResult.version)
+        const git = simpleGit()
+        const { all: allTags } = await git.tags()
+        if (allTags.includes(`${latestResult.version}-summary`)) {
+            console.log(`The latest version ("${latestResult.version}") already exists in git tags.`)
+        } else {
+            await downloadInputs(latestResult)
+            await generate()
+            await deploy(git, latestResult.version)
+        }
         fs.writeFileSync(VersionPath, `${latestResult.version}\n`, 'utf-8')
     } catch (e) {
         console.error(e)
@@ -28,9 +34,8 @@ import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, Root
     }
 })()
 
-async function deploy(version: string) {
+async function deploy(git: SimpleGit, version: string) {
     console.time('deploy')
-    const git = simpleGit()
     await git.addConfig('user.name', 'actions-user')
     await git.addConfig('user.email', 'action@github.com')
     console.time('deployTo data')
@@ -43,12 +48,12 @@ async function deploy(version: string) {
 }
 
 async function deployTo(git: SimpleGit, version: string, type: 'data' | 'summary', generatedPath: string, rootStorePath: string) {
-    await git.checkoutLocalBranch(type)
+    await git.checkout(type)
     await fs.ensureDir(rootStorePath)
     await fs.copy(generatedPath, rootStorePath)
     await git.add('.')
     await git.commit(`🚀 Update ${type} for ${version}`)
     await git.addTag(`${version}-${type}`)
-    await git.push('origin', type)
-    await git.pushTags('origin')
+    await git.push()
+    await git.pushTags()
 }

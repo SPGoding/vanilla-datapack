@@ -10,7 +10,7 @@ A repository with scripts to generate the vanilla data pack from Minecraft: Java
   - [Get Latest Version](#get-latest-version)
   - [Download Inputs](#download-inputs)
   - [Generate](#generate)
-  - [github_action_tick](#github_action_tick)
+  - [GitHub Action Tick](#github-action-tick)
 - [Summary Format](#summary-format)
   - [Flattened Summary](#flattened-summary)
   - [Tree Summary](#tree-summary)
@@ -50,6 +50,7 @@ A repository with scripts to generate the vanilla data pack from Minecraft: Java
     - `dimension`/`dimension_type`/`worldgen`...
 - `scripts`: All the scripts you're inrested in.
   - `download_inputs.ts`: Downloads the input files for the passed-in JSON parameter.
+  - `generate.ts`: Generates the data pack and summaries from the input.
   - `get_latest_version.ts`: Prints a JSON with `version`, `download`, and `sha1` to the stdout.
   - `github_action_tick.ts`: Executes the things that the GitHub Action likes.
   - `utils.ts`: Some common functions used by other scripts.
@@ -74,7 +75,7 @@ Execution: `npm run generate` or `npm run gen`
 
 Generates the vanilla data pack and summary from the input files.
 
-## github_action_tick
+## GitHub Action Tick
 
 Execution: `npm run github_action_tick`
 
@@ -148,7 +149,7 @@ For example, the ID `minecraft:foo` can be represented with
 All version identifiers used in this repository can be found from 
 [version_manifest.json](https://launchermeta.mojang.com/mc/game/version_manifest.json).
 
-Only the data for versions released after `1.15.2` (inclusive) can be found in this repository.
+Only the data for versions released after `1.16.2` (inclusive) can be found in this repository.
 
 # Disclaimer
 

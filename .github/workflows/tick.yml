@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
         with:
           ref: data
       - uses: actions/checkout@v2
         with:
           ref: summary
+      - uses: actions/checkout@v2
 
       - name: Cache Node Modules
         uses: actions/cache@v1

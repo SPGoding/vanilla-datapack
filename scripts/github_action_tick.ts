@@ -46,7 +46,7 @@ async function deployTo(git: SimpleGit, version: string, type: 'data' | 'summary
     await fs.ensureDir(rootStorePath)
     await fs.copy(generatedPath, rootStorePath)
     await git.add('.')
-    await git.commit(`🚀 Deploy ${type}`)
+    await git.commit(`🚀 Update ${type} for ${version}`)
     await git.addTag(`${version}-${type}`)
     await git.push()
     await git.pushTags()

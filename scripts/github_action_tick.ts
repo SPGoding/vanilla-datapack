@@ -31,8 +31,8 @@ import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, Root
 async function deploy(version: string) {
     console.time('deploy')
     const git = simpleGit()
-    await git.addConfig('user.name', 'github-actions')
-    await git.addConfig('user.email', 'github-actions@github.com')
+    await git.addConfig('user.name', 'actions-user')
+    await git.addConfig('user.email', 'action@github.com')
     console.time('deployTo data')
     await deployTo(git, version, 'data', GeneratedDataPath, RootDataPath)
     console.timeEnd('deployTo data')

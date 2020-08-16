@@ -24,6 +24,7 @@ import { createDirs, GeneratedDataPath, GeneratedSummaryPath, RootDataPath, Root
         fs.writeFileSync(VersionPath, `${latestResult.version}\n`, 'utf-8')
     } catch (e) {
         console.error(e)
+        process.exit(42)
     }
 })()
 

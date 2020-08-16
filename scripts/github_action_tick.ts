@@ -48,6 +48,6 @@ async function deployTo(git: SimpleGit, version: string, type: 'data' | 'summary
     await git.add('.')
     await git.commit(`🚀 Update ${type} for ${version}`)
     await git.addTag(`${version}-${type}`)
-    await git.push()
-    await git.pushTags()
+    await git.push('origin', type)
+    await git.pushTags('origin', type)
 }

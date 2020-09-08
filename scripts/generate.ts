@@ -70,9 +70,11 @@ async function generateSummary() {
                 const arr = [result.id.getNamespace(), ...result.id.path]
                 let object = tree[result.category]
                 for (const [i, seg] of arr.entries()) {
-                    object = (object.$children = object.$children ?? {})[seg] = object.$children[seg] ?? {}
+                    object[seg] = object[seg] ?? {}
                     if (i === arr.length - 1) {
-                        object.$end = true
+                        object[seg].$end = true
+                    } else {
+                        object = (object[seg].$children = object[seg].$children ?? {})
                     }
                 }
             }

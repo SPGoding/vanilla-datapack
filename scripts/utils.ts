@@ -3,9 +3,11 @@ import fs from 'fs'
 import https from 'https'
 import path from 'path'
 
-export type TreeSummary = {
+export interface TreeSummary extends Record<string, TreeSummaryNode> {}
+
+export type TreeSummaryNode = {
     $end?: true,
-    $children?: Record<string, TreeSummary>
+    $children?: TreeSummary
 }
 
 export async function download(uri: string, path: string, sha1?: string): Promise<void> {

@@ -19,10 +19,10 @@
             "honey_block_slide": {
               "$end": true
             },
-            "kill_all_mobs": {
+            "kill_a_mob": {
               "$end": true
             },
-            "kill_a_mob": {
+            "kill_all_mobs": {
               "$end": true
             },
             "ol_betsy": {
@@ -284,18 +284,6 @@
                 "birch_wood": {
                   "$end": true
                 },
-                "blackstone_slab": {
-                  "$end": true
-                },
-                "blackstone_slab_from_blackstone_stonecutting": {
-                  "$end": true
-                },
-                "blackstone_stairs": {
-                  "$end": true
-                },
-                "blackstone_stairs_from_blackstone_stonecutting": {
-                  "$end": true
-                },
                 "black_concrete_powder": {
                   "$end": true
                 },
@@ -306,6 +294,18 @@
                   "$end": true
                 },
                 "black_wool": {
+                  "$end": true
+                },
+                "blackstone_slab": {
+                  "$end": true
+                },
+                "blackstone_slab_from_blackstone_stonecutting": {
+                  "$end": true
+                },
+                "blackstone_stairs": {
+                  "$end": true
+                },
+                "blackstone_stairs_from_blackstone_stonecutting": {
                   "$end": true
                 },
                 "blue_concrete_powder": {
@@ -329,9 +329,6 @@
                 "bookshelf": {
                   "$end": true
                 },
-                "bricks": {
-                  "$end": true
-                },
                 "brick_slab": {
                   "$end": true
                 },
@@ -342,6 +339,9 @@
                   "$end": true
                 },
                 "brick_stairs_from_bricks_stonecutting": {
+                  "$end": true
+                },
+                "bricks": {
                   "$end": true
                 },
                 "brown_concrete_powder": {
@@ -545,12 +545,6 @@
                 "emerald_block": {
                   "$end": true
                 },
-                "end_stone_bricks": {
-                  "$end": true
-                },
-                "end_stone_bricks_from_end_stone_stonecutting": {
-                  "$end": true
-                },
                 "end_stone_brick_slab": {
                   "$end": true
                 },
@@ -567,6 +561,12 @@
                   "$end": true
                 },
                 "end_stone_brick_stairs_from_end_stone_stonecutting": {
+                  "$end": true
+                },
+                "end_stone_bricks": {
+                  "$end": true
+                },
+                "end_stone_bricks_from_end_stone_stonecutting": {
                   "$end": true
                 },
                 "glass": {
@@ -641,15 +641,6 @@
                 "lapis_block": {
                   "$end": true
                 },
-                "lightly_weathered_cut_copper": {
-                  "$end": true
-                },
-                "lightly_weathered_cut_copper_slab": {
-                  "$end": true
-                },
-                "lightly_weathered_cut_copper_stairs": {
-                  "$end": true
-                },
                 "light_blue_concrete_powder": {
                   "$end": true
                 },
@@ -672,6 +663,15 @@
                   "$end": true
                 },
                 "light_gray_wool": {
+                  "$end": true
+                },
+                "lightly_weathered_cut_copper": {
+                  "$end": true
+                },
+                "lightly_weathered_cut_copper_slab": {
+                  "$end": true
+                },
+                "lightly_weathered_cut_copper_stairs": {
                   "$end": true
                 },
                 "lime_concrete_powder": {
@@ -719,9 +719,6 @@
                 "mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
                   "$end": true
                 },
-                "mossy_stone_bricks": {
-                  "$end": true
-                },
                 "mossy_stone_brick_slab": {
                   "$end": true
                 },
@@ -734,10 +731,7 @@
                 "mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
                   "$end": true
                 },
-                "netherite_block": {
-                  "$end": true
-                },
-                "nether_bricks": {
+                "mossy_stone_bricks": {
                   "$end": true
                 },
                 "nether_brick_slab": {
@@ -752,7 +746,13 @@
                 "nether_brick_stairs_from_nether_bricks_stonecutting": {
                   "$end": true
                 },
+                "nether_bricks": {
+                  "$end": true
+                },
                 "nether_wart_block": {
+                  "$end": true
+                },
+                "netherite_block": {
                   "$end": true
                 },
                 "oak_planks": {
@@ -827,15 +827,6 @@
                 "polished_blackstone": {
                   "$end": true
                 },
-                "polished_blackstone_bricks": {
-                  "$end": true
-                },
-                "polished_blackstone_bricks_from_blackstone_stonecutting": {
-                  "$end": true
-                },
-                "polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
-                  "$end": true
-                },
                 "polished_blackstone_brick_slab": {
                   "$end": true
                 },
@@ -858,6 +849,15 @@
                   "$end": true
                 },
                 "polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+                  "$end": true
+                },
+                "polished_blackstone_bricks": {
+                  "$end": true
+                },
+                "polished_blackstone_bricks_from_blackstone_stonecutting": {
+                  "$end": true
+                },
+                "polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
                   "$end": true
                 },
                 "polished_blackstone_from_blackstone_stonecutting": {
@@ -932,9 +932,6 @@
                 "prismarine": {
                   "$end": true
                 },
-                "prismarine_bricks": {
-                  "$end": true
-                },
                 "prismarine_brick_slab": {
                   "$end": true
                 },
@@ -945,6 +942,9 @@
                   "$end": true
                 },
                 "prismarine_brick_stairs_from_prismarine_stonecutting": {
+                  "$end": true
+                },
+                "prismarine_bricks": {
                   "$end": true
                 },
                 "prismarine_slab": {
@@ -1022,9 +1022,6 @@
                 "red_concrete_powder": {
                   "$end": true
                 },
-                "red_nether_bricks": {
-                  "$end": true
-                },
                 "red_nether_brick_slab": {
                   "$end": true
                 },
@@ -1035,6 +1032,9 @@
                   "$end": true
                 },
                 "red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+                  "$end": true
+                },
+                "red_nether_bricks": {
                   "$end": true
                 },
                 "red_sandstone": {
@@ -1163,12 +1163,6 @@
                 "stone": {
                   "$end": true
                 },
-                "stone_bricks": {
-                  "$end": true
-                },
-                "stone_bricks_from_stone_stonecutting": {
-                  "$end": true
-                },
                 "stone_brick_slab": {
                   "$end": true
                 },
@@ -1185,6 +1179,12 @@
                   "$end": true
                 },
                 "stone_brick_stairs_from_stone_stonecutting": {
+                  "$end": true
+                },
+                "stone_bricks": {
+                  "$end": true
+                },
+                "stone_bricks_from_stone_stonecutting": {
                   "$end": true
                 },
                 "stone_slab": {
@@ -1471,12 +1471,6 @@
                 "birch_sign": {
                   "$end": true
                 },
-                "blackstone_wall": {
-                  "$end": true
-                },
-                "blackstone_wall_from_blackstone_stonecutting": {
-                  "$end": true
-                },
                 "black_banner": {
                   "$end": true
                 },
@@ -1502,6 +1496,12 @@
                   "$end": true
                 },
                 "black_stained_glass_pane_from_glass_pane": {
+                  "$end": true
+                },
+                "blackstone_wall": {
+                  "$end": true
+                },
+                "blackstone_wall_from_blackstone_stonecutting": {
                   "$end": true
                 },
                 "blast_furnace": {
@@ -1642,9 +1642,6 @@
                 "enchanting_table": {
                   "$end": true
                 },
-                "ender_chest": {
-                  "$end": true
-                },
                 "end_crystal": {
                   "$end": true
                 },
@@ -1658,6 +1655,9 @@
                   "$end": true
                 },
                 "end_stone_brick_wall_from_end_stone_stonecutting": {
+                  "$end": true
+                },
+                "ender_chest": {
                   "$end": true
                 },
                 "fletching_table": {
@@ -1735,10 +1735,10 @@
                 "grindstone": {
                   "$end": true
                 },
-                "honeycomb_block": {
+                "honey_block": {
                   "$end": true
                 },
-                "honey_block": {
+                "honeycomb_block": {
                   "$end": true
                 },
                 "iron_bars": {
@@ -2095,16 +2095,16 @@
                 "spruce_sign": {
                   "$end": true
                 },
-                "stonecutter": {
+                "stone_brick_wall": {
                   "$end": true
                 },
-                "stone_brick_wall": {
+                "stone_brick_wall_from_stone_bricks_stonecutting": {
                   "$end": true
                 },
                 "stone_brick_walls_from_stone_stonecutting": {
                   "$end": true
                 },
-                "stone_brick_wall_from_stone_bricks_stonecutting": {
+                "stonecutter": {
                   "$end": true
                 },
                 "torch": {
@@ -2373,10 +2373,10 @@
                 "ender_eye": {
                   "$end": true
                 },
-                "firework_rocket_simple": {
+                "fire_charge": {
                   "$end": true
                 },
-                "fire_charge": {
+                "firework_rocket_simple": {
                   "$end": true
                 },
                 "flower_banner_pattern": {
@@ -2496,6 +2496,9 @@
                 "mojang_banner_pattern": {
                   "$end": true
                 },
+                "nether_brick": {
+                  "$end": true
+                },
                 "netherite_ingot": {
                   "$end": true
                 },
@@ -2506,9 +2509,6 @@
                   "$end": true
                 },
                 "netherite_scrap_from_blasting": {
-                  "$end": true
-                },
-                "nether_brick": {
                   "$end": true
                 },
                 "orange_dye_from_orange_tulip": {
@@ -2701,10 +2701,10 @@
                 "lever": {
                   "$end": true
                 },
-                "lightning_rod": {
+                "light_weighted_pressure_plate": {
                   "$end": true
                 },
-                "light_weighted_pressure_plate": {
+                "lightning_rod": {
                   "$end": true
                 },
                 "note_block": {
@@ -3161,13 +3161,13 @@
             "beacon": {
               "$end": true
             },
+            "bee_nest": {
+              "$end": true
+            },
             "beehive": {
               "$end": true
             },
             "beetroots": {
-              "$end": true
-            },
-            "bee_nest": {
               "$end": true
             },
             "bell": {
@@ -3215,18 +3215,6 @@
             "birch_wood": {
               "$end": true
             },
-            "blackstone": {
-              "$end": true
-            },
-            "blackstone_slab": {
-              "$end": true
-            },
-            "blackstone_stairs": {
-              "$end": true
-            },
-            "blackstone_wall": {
-              "$end": true
-            },
             "black_banner": {
               "$end": true
             },
@@ -3264,6 +3252,18 @@
               "$end": true
             },
             "black_wool": {
+              "$end": true
+            },
+            "blackstone": {
+              "$end": true
+            },
+            "blackstone_slab": {
+              "$end": true
+            },
+            "blackstone_stairs": {
+              "$end": true
+            },
+            "blackstone_wall": {
               "$end": true
             },
             "blast_furnace": {
@@ -3332,9 +3332,6 @@
             "brewing_stand": {
               "$end": true
             },
-            "bricks": {
-              "$end": true
-            },
             "brick_slab": {
               "$end": true
             },
@@ -3342,6 +3339,9 @@
               "$end": true
             },
             "brick_wall": {
+              "$end": true
+            },
+            "bricks": {
               "$end": true
             },
             "brown_banner": {
@@ -3794,16 +3794,10 @@
             "enchanting_table": {
               "$end": true
             },
-            "ender_chest": {
-              "$end": true
-            },
             "end_rod": {
               "$end": true
             },
             "end_stone": {
-              "$end": true
-            },
-            "end_stone_bricks": {
               "$end": true
             },
             "end_stone_brick_slab": {
@@ -3813,6 +3807,12 @@
               "$end": true
             },
             "end_stone_brick_wall": {
+              "$end": true
+            },
+            "end_stone_bricks": {
+              "$end": true
+            },
+            "ender_chest": {
               "$end": true
             },
             "farmland": {
@@ -3971,10 +3971,10 @@
             "heavy_weighted_pressure_plate": {
               "$end": true
             },
-            "honeycomb_block": {
+            "honey_block": {
               "$end": true
             },
-            "honey_block": {
+            "honeycomb_block": {
               "$end": true
             },
             "hopper": {
@@ -4106,21 +4106,6 @@
             "lever": {
               "$end": true
             },
-            "lightly_weathered_copper_block": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper_slab": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper_stairs": {
-              "$end": true
-            },
-            "lightning_rod": {
-              "$end": true
-            },
             "light_blue_banner": {
               "$end": true
             },
@@ -4200,6 +4185,21 @@
               "$end": true
             },
             "light_weighted_pressure_plate": {
+              "$end": true
+            },
+            "lightly_weathered_copper_block": {
+              "$end": true
+            },
+            "lightly_weathered_cut_copper": {
+              "$end": true
+            },
+            "lightly_weathered_cut_copper_slab": {
+              "$end": true
+            },
+            "lightly_weathered_cut_copper_stairs": {
+              "$end": true
+            },
+            "lightning_rod": {
               "$end": true
             },
             "lilac": {
@@ -4319,9 +4319,6 @@
             "mossy_cobblestone_wall": {
               "$end": true
             },
-            "mossy_stone_bricks": {
-              "$end": true
-            },
             "mossy_stone_brick_slab": {
               "$end": true
             },
@@ -4331,19 +4328,13 @@
             "mossy_stone_brick_wall": {
               "$end": true
             },
+            "mossy_stone_bricks": {
+              "$end": true
+            },
             "mushroom_stem": {
               "$end": true
             },
             "mycelium": {
-              "$end": true
-            },
-            "netherite_block": {
-              "$end": true
-            },
-            "netherrack": {
-              "$end": true
-            },
-            "nether_bricks": {
               "$end": true
             },
             "nether_brick_fence": {
@@ -4356,6 +4347,9 @@
               "$end": true
             },
             "nether_brick_wall": {
+              "$end": true
+            },
+            "nether_bricks": {
               "$end": true
             },
             "nether_gold_ore": {
@@ -4374,6 +4368,12 @@
               "$end": true
             },
             "nether_wart_block": {
+              "$end": true
+            },
+            "netherite_block": {
+              "$end": true
+            },
+            "netherrack": {
               "$end": true
             },
             "note_block": {
@@ -4547,9 +4547,6 @@
             "polished_blackstone": {
               "$end": true
             },
-            "polished_blackstone_bricks": {
-              "$end": true
-            },
             "polished_blackstone_brick_slab": {
               "$end": true
             },
@@ -4557,6 +4554,9 @@
               "$end": true
             },
             "polished_blackstone_brick_wall": {
+              "$end": true
+            },
+            "polished_blackstone_bricks": {
               "$end": true
             },
             "polished_blackstone_button": {
@@ -4685,19 +4685,25 @@
             "potted_wither_rose": {
               "$end": true
             },
+            "powder_snow": {
+              "$end": true
+            },
+            "powder_snow_cauldron": {
+              "$end": true
+            },
             "powered_rail": {
               "$end": true
             },
             "prismarine": {
               "$end": true
             },
-            "prismarine_bricks": {
-              "$end": true
-            },
             "prismarine_brick_slab": {
               "$end": true
             },
             "prismarine_brick_stairs": {
+              "$end": true
+            },
+            "prismarine_bricks": {
               "$end": true
             },
             "prismarine_slab": {
@@ -4784,21 +4790,6 @@
             "rail": {
               "$end": true
             },
-            "redstone_block": {
-              "$end": true
-            },
-            "redstone_lamp": {
-              "$end": true
-            },
-            "redstone_ore": {
-              "$end": true
-            },
-            "redstone_torch": {
-              "$end": true
-            },
-            "redstone_wire": {
-              "$end": true
-            },
             "red_banner": {
               "$end": true
             },
@@ -4829,9 +4820,6 @@
             "red_mushroom_block": {
               "$end": true
             },
-            "red_nether_bricks": {
-              "$end": true
-            },
             "red_nether_brick_slab": {
               "$end": true
             },
@@ -4839,6 +4827,9 @@
               "$end": true
             },
             "red_nether_brick_wall": {
+              "$end": true
+            },
+            "red_nether_bricks": {
               "$end": true
             },
             "red_sand": {
@@ -4874,6 +4865,21 @@
             "red_wool": {
               "$end": true
             },
+            "redstone_block": {
+              "$end": true
+            },
+            "redstone_lamp": {
+              "$end": true
+            },
+            "redstone_ore": {
+              "$end": true
+            },
+            "redstone_torch": {
+              "$end": true
+            },
+            "redstone_wire": {
+              "$end": true
+            },
             "repeater": {
               "$end": true
             },
@@ -4901,13 +4907,13 @@
             "scaffolding": {
               "$end": true
             },
-            "seagrass": {
-              "$end": true
-            },
             "sea_lantern": {
               "$end": true
             },
             "sea_pickle": {
+              "$end": true
+            },
+            "seagrass": {
               "$end": true
             },
             "semi_weathered_copper_block": {
@@ -5054,12 +5060,6 @@
             "stone": {
               "$end": true
             },
-            "stonecutter": {
-              "$end": true
-            },
-            "stone_bricks": {
-              "$end": true
-            },
             "stone_brick_slab": {
               "$end": true
             },
@@ -5067,6 +5067,9 @@
               "$end": true
             },
             "stone_brick_wall": {
+              "$end": true
+            },
+            "stone_bricks": {
               "$end": true
             },
             "stone_button": {
@@ -5079,6 +5082,9 @@
               "$end": true
             },
             "stone_stairs": {
+              "$end": true
+            },
+            "stonecutter": {
               "$end": true
             },
             "stripped_acacia_log": {
@@ -5573,13 +5579,13 @@
             "elder_guardian": {
               "$end": true
             },
+            "ender_dragon": {
+              "$end": true
+            },
             "enderman": {
               "$end": true
             },
             "endermite": {
-              "$end": true
-            },
-            "ender_dragon": {
               "$end": true
             },
             "evoker": {
@@ -6008,24 +6014,6 @@
         "birch_wood": {
           "$end": true
         },
-        "blackstone_slab": {
-          "$end": true
-        },
-        "blackstone_slab_from_blackstone_stonecutting": {
-          "$end": true
-        },
-        "blackstone_stairs": {
-          "$end": true
-        },
-        "blackstone_stairs_from_blackstone_stonecutting": {
-          "$end": true
-        },
-        "blackstone_wall": {
-          "$end": true
-        },
-        "blackstone_wall_from_blackstone_stonecutting": {
-          "$end": true
-        },
         "black_banner": {
           "$end": true
         },
@@ -6069,6 +6057,24 @@
           "$end": true
         },
         "black_wool": {
+          "$end": true
+        },
+        "blackstone_slab": {
+          "$end": true
+        },
+        "blackstone_slab_from_blackstone_stonecutting": {
+          "$end": true
+        },
+        "blackstone_stairs": {
+          "$end": true
+        },
+        "blackstone_stairs_from_blackstone_stonecutting": {
+          "$end": true
+        },
+        "blackstone_wall": {
+          "$end": true
+        },
+        "blackstone_wall_from_blackstone_stonecutting": {
           "$end": true
         },
         "blast_furnace": {
@@ -6137,10 +6143,10 @@
         "book": {
           "$end": true
         },
-        "bookshelf": {
+        "book_cloning": {
           "$end": true
         },
-        "book_cloning": {
+        "bookshelf": {
           "$end": true
         },
         "bow": {
@@ -6156,9 +6162,6 @@
           "$end": true
         },
         "brick": {
-          "$end": true
-        },
-        "bricks": {
           "$end": true
         },
         "brick_slab": {
@@ -6177,6 +6180,9 @@
           "$end": true
         },
         "brick_wall_from_bricks_stonecutting": {
+          "$end": true
+        },
+        "bricks": {
           "$end": true
         },
         "brown_banner": {
@@ -6713,22 +6719,10 @@
         "enchanting_table": {
           "$end": true
         },
-        "ender_chest": {
-          "$end": true
-        },
-        "ender_eye": {
-          "$end": true
-        },
         "end_crystal": {
           "$end": true
         },
         "end_rod": {
-          "$end": true
-        },
-        "end_stone_bricks": {
-          "$end": true
-        },
-        "end_stone_bricks_from_end_stone_stonecutting": {
           "$end": true
         },
         "end_stone_brick_slab": {
@@ -6758,7 +6752,22 @@
         "end_stone_brick_wall_from_end_stone_stonecutting": {
           "$end": true
         },
+        "end_stone_bricks": {
+          "$end": true
+        },
+        "end_stone_bricks_from_end_stone_stonecutting": {
+          "$end": true
+        },
+        "ender_chest": {
+          "$end": true
+        },
+        "ender_eye": {
+          "$end": true
+        },
         "fermented_spider_eye": {
+          "$end": true
+        },
+        "fire_charge": {
           "$end": true
         },
         "firework_rocket": {
@@ -6771,9 +6780,6 @@
           "$end": true
         },
         "firework_star_fade": {
-          "$end": true
-        },
-        "fire_charge": {
           "$end": true
         },
         "fishing_rod": {
@@ -6812,6 +6818,30 @@
         "glowstone": {
           "$end": true
         },
+        "gold_block": {
+          "$end": true
+        },
+        "gold_ingot": {
+          "$end": true
+        },
+        "gold_ingot_from_blasting": {
+          "$end": true
+        },
+        "gold_ingot_from_gold_block": {
+          "$end": true
+        },
+        "gold_ingot_from_nuggets": {
+          "$end": true
+        },
+        "gold_nugget": {
+          "$end": true
+        },
+        "gold_nugget_from_blasting": {
+          "$end": true
+        },
+        "gold_nugget_from_smelting": {
+          "$end": true
+        },
         "golden_apple": {
           "$end": true
         },
@@ -6843,30 +6873,6 @@
           "$end": true
         },
         "golden_sword": {
-          "$end": true
-        },
-        "gold_block": {
-          "$end": true
-        },
-        "gold_ingot": {
-          "$end": true
-        },
-        "gold_ingot_from_blasting": {
-          "$end": true
-        },
-        "gold_ingot_from_gold_block": {
-          "$end": true
-        },
-        "gold_ingot_from_nuggets": {
-          "$end": true
-        },
-        "gold_nugget": {
-          "$end": true
-        },
-        "gold_nugget_from_blasting": {
-          "$end": true
-        },
-        "gold_nugget_from_smelting": {
           "$end": true
         },
         "granite": {
@@ -6983,13 +6989,13 @@
         "heavy_weighted_pressure_plate": {
           "$end": true
         },
-        "honeycomb_block": {
-          "$end": true
-        },
         "honey_block": {
           "$end": true
         },
         "honey_bottle": {
+          "$end": true
+        },
+        "honeycomb_block": {
           "$end": true
         },
         "hopper": {
@@ -7148,18 +7154,6 @@
         "lever": {
           "$end": true
         },
-        "lightly_weathered_cut_copper": {
-          "$end": true
-        },
-        "lightly_weathered_cut_copper_slab": {
-          "$end": true
-        },
-        "lightly_weathered_cut_copper_stairs": {
-          "$end": true
-        },
-        "lightning_rod": {
-          "$end": true
-        },
         "light_blue_banner": {
           "$end": true
         },
@@ -7260,6 +7254,18 @@
           "$end": true
         },
         "light_weighted_pressure_plate": {
+          "$end": true
+        },
+        "lightly_weathered_cut_copper": {
+          "$end": true
+        },
+        "lightly_weathered_cut_copper_slab": {
+          "$end": true
+        },
+        "lightly_weathered_cut_copper_stairs": {
+          "$end": true
+        },
+        "lightning_rod": {
           "$end": true
         },
         "lime_banner": {
@@ -7415,9 +7421,6 @@
         "mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
           "$end": true
         },
-        "mossy_stone_bricks": {
-          "$end": true
-        },
         "mossy_stone_brick_slab": {
           "$end": true
         },
@@ -7436,7 +7439,40 @@
         "mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
           "$end": true
         },
+        "mossy_stone_bricks": {
+          "$end": true
+        },
         "mushroom_stew": {
+          "$end": true
+        },
+        "nether_brick": {
+          "$end": true
+        },
+        "nether_brick_fence": {
+          "$end": true
+        },
+        "nether_brick_slab": {
+          "$end": true
+        },
+        "nether_brick_slab_from_nether_bricks_stonecutting": {
+          "$end": true
+        },
+        "nether_brick_stairs": {
+          "$end": true
+        },
+        "nether_brick_stairs_from_nether_bricks_stonecutting": {
+          "$end": true
+        },
+        "nether_brick_wall": {
+          "$end": true
+        },
+        "nether_brick_wall_from_nether_bricks_stonecutting": {
+          "$end": true
+        },
+        "nether_bricks": {
+          "$end": true
+        },
+        "nether_wart_block": {
           "$end": true
         },
         "netherite_axe_smithing": {
@@ -7479,36 +7515,6 @@
           "$end": true
         },
         "netherite_sword_smithing": {
-          "$end": true
-        },
-        "nether_brick": {
-          "$end": true
-        },
-        "nether_bricks": {
-          "$end": true
-        },
-        "nether_brick_fence": {
-          "$end": true
-        },
-        "nether_brick_slab": {
-          "$end": true
-        },
-        "nether_brick_slab_from_nether_bricks_stonecutting": {
-          "$end": true
-        },
-        "nether_brick_stairs": {
-          "$end": true
-        },
-        "nether_brick_stairs_from_nether_bricks_stonecutting": {
-          "$end": true
-        },
-        "nether_brick_wall": {
-          "$end": true
-        },
-        "nether_brick_wall_from_nether_bricks_stonecutting": {
-          "$end": true
-        },
-        "nether_wart_block": {
           "$end": true
         },
         "note_block": {
@@ -7691,15 +7697,6 @@
         "polished_blackstone": {
           "$end": true
         },
-        "polished_blackstone_bricks": {
-          "$end": true
-        },
-        "polished_blackstone_bricks_from_blackstone_stonecutting": {
-          "$end": true
-        },
-        "polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
-          "$end": true
-        },
         "polished_blackstone_brick_slab": {
           "$end": true
         },
@@ -7734,6 +7731,15 @@
           "$end": true
         },
         "polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+          "$end": true
+        },
+        "polished_blackstone_bricks": {
+          "$end": true
+        },
+        "polished_blackstone_bricks_from_blackstone_stonecutting": {
+          "$end": true
+        },
+        "polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
           "$end": true
         },
         "polished_blackstone_button": {
@@ -7829,9 +7835,6 @@
         "prismarine": {
           "$end": true
         },
-        "prismarine_bricks": {
-          "$end": true
-        },
         "prismarine_brick_slab": {
           "$end": true
         },
@@ -7842,6 +7845,9 @@
           "$end": true
         },
         "prismarine_brick_stairs_from_prismarine_stonecutting": {
+          "$end": true
+        },
+        "prismarine_bricks": {
           "$end": true
         },
         "prismarine_slab": {
@@ -7973,24 +7979,6 @@
         "rail": {
           "$end": true
         },
-        "redstone": {
-          "$end": true
-        },
-        "redstone_block": {
-          "$end": true
-        },
-        "redstone_from_blasting": {
-          "$end": true
-        },
-        "redstone_from_smelting": {
-          "$end": true
-        },
-        "redstone_lamp": {
-          "$end": true
-        },
-        "redstone_torch": {
-          "$end": true
-        },
         "red_banner": {
           "$end": true
         },
@@ -8027,9 +8015,6 @@
         "red_glazed_terracotta": {
           "$end": true
         },
-        "red_nether_bricks": {
-          "$end": true
-        },
         "red_nether_brick_slab": {
           "$end": true
         },
@@ -8046,6 +8031,9 @@
           "$end": true
         },
         "red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+          "$end": true
+        },
+        "red_nether_bricks": {
           "$end": true
         },
         "red_sandstone": {
@@ -8082,6 +8070,24 @@
           "$end": true
         },
         "red_wool": {
+          "$end": true
+        },
+        "redstone": {
+          "$end": true
+        },
+        "redstone_block": {
+          "$end": true
+        },
+        "redstone_from_blasting": {
+          "$end": true
+        },
+        "redstone_from_smelting": {
+          "$end": true
+        },
+        "redstone_lamp": {
+          "$end": true
+        },
+        "redstone_torch": {
           "$end": true
         },
         "repair_item": {
@@ -8276,25 +8282,16 @@
         "stick": {
           "$end": true
         },
-        "sticky_piston": {
+        "stick_from_bamboo_item": {
           "$end": true
         },
-        "stick_from_bamboo_item": {
+        "sticky_piston": {
           "$end": true
         },
         "stone": {
           "$end": true
         },
-        "stonecutter": {
-          "$end": true
-        },
         "stone_axe": {
-          "$end": true
-        },
-        "stone_bricks": {
-          "$end": true
-        },
-        "stone_bricks_from_stone_stonecutting": {
           "$end": true
         },
         "stone_brick_slab": {
@@ -8318,10 +8315,16 @@
         "stone_brick_wall": {
           "$end": true
         },
+        "stone_brick_wall_from_stone_bricks_stonecutting": {
+          "$end": true
+        },
         "stone_brick_walls_from_stone_stonecutting": {
           "$end": true
         },
-        "stone_brick_wall_from_stone_bricks_stonecutting": {
+        "stone_bricks": {
+          "$end": true
+        },
+        "stone_bricks_from_stone_stonecutting": {
           "$end": true
         },
         "stone_button": {
@@ -8352,6 +8355,9 @@
           "$end": true
         },
         "stone_sword": {
+          "$end": true
+        },
+        "stonecutter": {
           "$end": true
         },
         "stripped_acacia_wood": {
@@ -8677,19 +8683,19 @@
                     }
                   }
                 },
+                "rampart_plates": {
+                  "$children": {
+                    "plate_0": {
+                      "$end": true
+                    }
+                  }
+                },
                 "ramparts": {
                   "$children": {
                     "rampart_0": {
                       "$end": true
                     },
                     "rampart_1": {
-                      "$end": true
-                    }
-                  }
-                },
-                "rampart_plates": {
-                  "$children": {
-                    "plate_0": {
                       "$end": true
                     }
                   }
@@ -8775,6 +8781,13 @@
                     }
                   }
                 },
+                "rampart_plates": {
+                  "$children": {
+                    "rampart_plate_1": {
+                      "$end": true
+                    }
+                  }
+                },
                 "ramparts": {
                   "$children": {
                     "ramparts_1": {
@@ -8784,13 +8797,6 @@
                       "$end": true
                     },
                     "ramparts_3": {
-                      "$end": true
-                    }
-                  }
-                },
-                "rampart_plates": {
-                  "$children": {
-                    "rampart_plate_1": {
                       "$end": true
                     }
                   }
@@ -9248,6 +9254,13 @@
                     }
                   }
                 },
+                "rampart_plates": {
+                  "$children": {
+                    "plate_0": {
+                      "$end": true
+                    }
+                  }
+                },
                 "ramparts": {
                   "$children": {
                     "ramparts_0": {
@@ -9257,13 +9270,6 @@
                       "$end": true
                     },
                     "ramparts_2": {
-                      "$end": true
-                    }
-                  }
-                },
-                "rampart_plates": {
-                  "$children": {
-                    "plate_0": {
                       "$end": true
                     }
                   }
@@ -9321,22 +9327,22 @@
                     }
                   }
                 },
-                "walls": {
-                  "$children": {
-                    "connected_wall": {
-                      "$end": true
-                    },
-                    "wall_base": {
-                      "$end": true
-                    }
-                  }
-                },
                 "wall_units": {
                   "$children": {
                     "edge_0_large": {
                       "$end": true
                     },
                     "unit_0": {
+                      "$end": true
+                    }
+                  }
+                },
+                "walls": {
+                  "$children": {
+                    "connected_wall": {
+                      "$end": true
+                    },
+                    "wall_base": {
                       "$end": true
                     }
                   }
@@ -11744,10 +11750,10 @@
         "beds": {
           "$end": true
         },
-        "beehives": {
+        "bee_growables": {
           "$end": true
         },
-        "bee_growables": {
+        "beehives": {
           "$end": true
         },
         "birch_logs": {
@@ -11759,10 +11765,10 @@
         "campfires": {
           "$end": true
         },
-        "candles": {
+        "candle_cakes": {
           "$end": true
         },
-        "candle_cakes": {
+        "candles": {
           "$end": true
         },
         "carpets": {
@@ -11774,13 +11780,13 @@
         "climbable": {
           "$end": true
         },
-        "corals": {
-          "$end": true
-        },
         "coral_blocks": {
           "$end": true
         },
         "coral_plants": {
+          "$end": true
+        },
+        "corals": {
           "$end": true
         },
         "crimson_stems": {
@@ -11804,19 +11810,19 @@
         "enderman_holdable": {
           "$end": true
         },
-        "fences": {
+        "fence_gates": {
           "$end": true
         },
-        "fence_gates": {
+        "fences": {
           "$end": true
         },
         "fire": {
           "$end": true
         },
-        "flowers": {
+        "flower_pots": {
           "$end": true
         },
-        "flower_pots": {
+        "flowers": {
           "$end": true
         },
         "gold_ores": {
@@ -11903,6 +11909,9 @@
         "small_flowers": {
           "$end": true
         },
+        "snow_step_sound_blocks": {
+          "$end": true
+        },
         "soul_fire_base_blocks": {
           "$end": true
         },
@@ -11942,9 +11951,6 @@
         "valid_spawn": {
           "$end": true
         },
-        "walls": {
-          "$end": true
-        },
         "wall_corals": {
           "$end": true
         },
@@ -11952,6 +11958,9 @@
           "$end": true
         },
         "wall_signs": {
+          "$end": true
+        },
+        "walls": {
           "$end": true
         },
         "warped_stems": {
@@ -12003,6 +12012,9 @@
           "$end": true
         },
         "impact_projectiles": {
+          "$end": true
+        },
+        "powder_snow_walkable_mobs": {
           "$end": true
         },
         "raiders": {
@@ -12336,16 +12348,16 @@
         "modified_wooded_badlands_plateau": {
           "$end": true
         },
-        "mountains": {
-          "$end": true
-        },
         "mountain_edge": {
           "$end": true
         },
-        "mushroom_fields": {
+        "mountains": {
           "$end": true
         },
         "mushroom_field_shore": {
+          "$end": true
+        },
+        "mushroom_fields": {
           "$end": true
         },
         "nether_wastes": {
@@ -12649,16 +12661,16 @@
         "huge_red_mushroom": {
           "$end": true
         },
-        "iceberg_blue": {
-          "$end": true
-        },
-        "iceberg_packed": {
-          "$end": true
-        },
         "ice_patch": {
           "$end": true
         },
         "ice_spike": {
+          "$end": true
+        },
+        "iceberg_blue": {
+          "$end": true
+        },
+        "iceberg_packed": {
           "$end": true
         },
         "jungle_bush": {
@@ -12931,6 +12943,9 @@
         "red_mushroom_taiga": {
           "$end": true
         },
+        "sea_pickle": {
+          "$end": true
+        },
         "seagrass_cold": {
           "$end": true
         },
@@ -12956,9 +12971,6 @@
           "$end": true
         },
         "seagrass_warm": {
-          "$end": true
-        },
-        "sea_pickle": {
           "$end": true
         },
         "small_basalt_columns": {
@@ -13374,10 +13386,10 @@
                 "legs": {
                   "$end": true
                 },
-                "ramparts": {
+                "rampart_plates": {
                   "$end": true
                 },
-                "rampart_plates": {
+                "ramparts": {
                   "$end": true
                 },
                 "starting_pieces": {
@@ -13409,10 +13421,10 @@
                 "posts": {
                   "$end": true
                 },
-                "ramparts": {
+                "rampart_plates": {
                   "$end": true
                 },
-                "rampart_plates": {
+                "ramparts": {
                   "$end": true
                 },
                 "small_stables": {
@@ -13431,10 +13443,10 @@
                 "starting_pieces": {
                   "$end": true
                 },
-                "walls": {
+                "wall_bases": {
                   "$end": true
                 },
-                "wall_bases": {
+                "walls": {
                   "$end": true
                 }
               }
@@ -13536,10 +13548,10 @@
                 "center_pieces": {
                   "$end": true
                 },
-                "edges": {
+                "edge_wall_units": {
                   "$end": true
                 },
-                "edge_wall_units": {
+                "edges": {
                   "$end": true
                 },
                 "fillers": {
@@ -13555,10 +13567,10 @@
                 "pathways": {
                   "$end": true
                 },
-                "ramparts": {
+                "rampart_plates": {
                   "$end": true
                 },
-                "rampart_plates": {
+                "ramparts": {
                   "$end": true
                 },
                 "stages": {
@@ -13584,15 +13596,15 @@
                     }
                   }
                 },
+                "wall_units": {
+                  "$end": true
+                },
                 "walls": {
                   "$children": {
                     "wall_bases": {
                       "$end": true
                     }
                   }
-                },
-                "wall_units": {
-                  "$end": true
                 }
               }
             }
@@ -13606,10 +13618,10 @@
             "base_plates": {
               "$end": true
             },
-            "features": {
+            "feature_plates": {
               "$end": true
             },
-            "feature_plates": {
+            "features": {
               "$end": true
             },
             "towers": {

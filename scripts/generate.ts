@@ -56,6 +56,7 @@ async function generateWorldgenData() {
 async function generateSummary() {
     const tree: Record<FileType, TreeSummary> = {} as any
     const flattened: Record<FileType, string[]> = {} as any
+    const rels: string[] = []
     for (const type of FileTypes) {
         tree[type] = {}
         flattened[type] = []
@@ -63,23 +64,26 @@ async function generateSummary() {
     await walkFile(
         GeneratedPath,
         GeneratedDataPath,
-        (_, rel) => {
-            const result = IdentityNode.fromRel(rel)
-            if (result) {
-                flattened[result.category].push(result.id.toString())
-                const arr = [result.id.getNamespace(), ...result.id.path]
-                let object = tree[result.category]
-                for (const [i, seg] of arr.entries()) {
-                    object[seg] = object[seg] ?? {}
-                    if (i === arr.length - 1) {
-                        object[seg].$end = true
-                    } else {
-                        object = (object[seg].$children = object[seg].$children ?? {})
-                    }
+        (_, rel) => rels.push(rel)
+    )
+
+    for (const rel of rels.sort()) {
+        const result = IdentityNode.fromRel(rel)
+        if (result) {
+            flattened[result.category].push(result.id.toString())
+            const arr = [result.id.getNamespace(), ...result.id.path]
+            let object = tree[result.category]
+            for (const [i, seg] of arr.entries()) {
+                object[seg] = object[seg] ?? {}
+                if (i === arr.length - 1) {
+                    object[seg].$end = true
+                } else {
+                    object = (object[seg].$children = object[seg].$children ?? {})
                 }
             }
         }
-    )
+    }
+
     fs.writeFileSync(GeneratedTreeSummaryPath, JSON.stringify(tree, undefined, 2) + '\n', { encoding: 'utf-8' })
     fs.writeFileSync(GeneratedMinTreeSummaryPath, JSON.stringify(tree), { encoding: 'utf-8' })
     fs.writeFileSync(GeneratedFlattenedSummaryPath, JSON.stringify(flattened, undefined, 2) + '\n', { encoding: 'utf-8' })

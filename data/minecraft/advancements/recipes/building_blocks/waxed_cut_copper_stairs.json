@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:polished_granite"
+      "minecraft:waxed_cut_copper_stairs"
     ]
   },
   "criteria": {
-    "has_granite": {
+    "has_waxed_cut_copper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:granite"
+            "item": "minecraft:waxed_cut_copper"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:polished_granite"
+        "recipe": "minecraft:waxed_cut_copper_stairs"
       }
     }
   },
   "requirements": [
     [
-      "has_granite",
+      "has_waxed_cut_copper",
       "has_the_recipe"
     ]
   ]

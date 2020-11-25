@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:semi_weathered_cut_copper"
+      "item": "minecraft:waxed_lightly_weathered_cut_copper"
     }
   },
   "result": {
-    "item": "minecraft:semi_weathered_cut_copper_slab",
+    "item": "minecraft:waxed_lightly_weathered_cut_copper_slab",
     "count": 6
   }
 }

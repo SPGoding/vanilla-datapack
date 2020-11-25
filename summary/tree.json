@@ -1256,10 +1256,10 @@
                 "waxed_cut_copper_from_waxed_block": {
                   "$end": true
                 },
-                "waxed_cut_copper_slab_from_waxed_block": {
+                "waxed_cut_copper_slab": {
                   "$end": true
                 },
-                "waxed_cut_copper_stairs_from_waxed_block": {
+                "waxed_cut_copper_stairs": {
                   "$end": true
                 },
                 "waxed_lightly_weathered_copper": {
@@ -1271,16 +1271,16 @@
                 "waxed_lightly_weathered_cut_copper_from_waxed_block": {
                   "$end": true
                 },
+                "waxed_lightly_weathered_cut_copper_slab": {
+                  "$end": true
+                },
                 "waxed_lightly_weathered_cut_copper_slab_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_slab_from_waxed_block": {
+                "waxed_lightly_weathered_cut_copper_stairs": {
                   "$end": true
                 },
                 "waxed_lightly_weathered_cut_copper_stairs_from_honeycomb": {
-                  "$end": true
-                },
-                "waxed_lightly_weathered_cut_copper_stairs_from_waxed_block": {
                   "$end": true
                 },
                 "waxed_semi_weathered_copper": {
@@ -1292,16 +1292,16 @@
                 "waxed_semi_weathered_cut_copper_from_waxed_block": {
                   "$end": true
                 },
+                "waxed_semi_weathered_cut_copper_slab": {
+                  "$end": true
+                },
                 "waxed_semi_weathered_cut_copper_slab_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_slab_from_waxed_block": {
+                "waxed_semi_weathered_cut_copper_stairs": {
                   "$end": true
                 },
                 "waxed_semi_weathered_cut_copper_stairs_from_honeycomb": {
-                  "$end": true
-                },
-                "waxed_semi_weathered_cut_copper_stairs_from_waxed_block": {
                   "$end": true
                 },
                 "weathered_cut_copper": {
@@ -3782,6 +3782,9 @@
             "dried_kelp_block": {
               "$end": true
             },
+            "dripstone_block": {
+              "$end": true
+            },
             "dropper": {
               "$end": true
             },
@@ -4530,6 +4533,9 @@
               "$end": true
             },
             "podzol": {
+              "$end": true
+            },
+            "pointed_dripstone": {
               "$end": true
             },
             "polished_andesite": {
@@ -5673,6 +5679,7 @@
               "$end": true
             },
             "sheep": {
+              "$end": true,
               "$children": {
                 "black": {
                   "$end": true
@@ -5722,8 +5729,7 @@
                 "yellow": {
                   "$end": true
                 }
-              },
-              "$end": true
+              }
             },
             "shulker": {
               "$end": true
@@ -5811,6 +5817,7 @@
               "$end": true
             },
             "fishing": {
+              "$end": true,
               "$children": {
                 "fish": {
                   "$end": true
@@ -5821,8 +5828,7 @@
                 "treasure": {
                   "$end": true
                 }
-              },
-              "$end": true
+              }
             },
             "hero_of_the_village": {
               "$children": {
@@ -8474,10 +8480,10 @@
         "waxed_cut_copper_from_waxed_block": {
           "$end": true
         },
-        "waxed_cut_copper_slab_from_waxed_block": {
+        "waxed_cut_copper_slab": {
           "$end": true
         },
-        "waxed_cut_copper_stairs_from_waxed_block": {
+        "waxed_cut_copper_stairs": {
           "$end": true
         },
         "waxed_lightly_weathered_copper": {
@@ -8489,16 +8495,16 @@
         "waxed_lightly_weathered_cut_copper_from_waxed_block": {
           "$end": true
         },
+        "waxed_lightly_weathered_cut_copper_slab": {
+          "$end": true
+        },
         "waxed_lightly_weathered_cut_copper_slab_from_honeycomb": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_slab_from_waxed_block": {
+        "waxed_lightly_weathered_cut_copper_stairs": {
           "$end": true
         },
         "waxed_lightly_weathered_cut_copper_stairs_from_honeycomb": {
-          "$end": true
-        },
-        "waxed_lightly_weathered_cut_copper_stairs_from_waxed_block": {
           "$end": true
         },
         "waxed_semi_weathered_copper": {
@@ -8510,16 +8516,16 @@
         "waxed_semi_weathered_cut_copper_from_waxed_block": {
           "$end": true
         },
+        "waxed_semi_weathered_cut_copper_slab": {
+          "$end": true
+        },
         "waxed_semi_weathered_cut_copper_slab_from_honeycomb": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_slab_from_waxed_block": {
+        "waxed_semi_weathered_cut_copper_stairs": {
           "$end": true
         },
         "waxed_semi_weathered_cut_copper_stairs_from_honeycomb": {
-          "$end": true
-        },
-        "waxed_semi_weathered_cut_copper_stairs_from_waxed_block": {
           "$end": true
         },
         "weathered_cut_copper": {
@@ -11849,6 +11855,9 @@
         "infiniburn_overworld": {
           "$end": true
         },
+        "inside_step_sound_blocks": {
+          "$end": true
+        },
         "jungle_logs": {
           "$end": true
         },
@@ -11907,9 +11916,6 @@
           "$end": true
         },
         "small_flowers": {
-          "$end": true
-        },
-        "snow_step_sound_blocks": {
           "$end": true
         },
         "soul_fire_base_blocks": {
@@ -12097,6 +12103,9 @@
           "$end": true
         },
         "flowers": {
+          "$end": true
+        },
+        "freeze_immune_wearables": {
           "$end": true
         },
         "gold_ores": {
@@ -13470,12 +13479,12 @@
             "treasure": {
               "$children": {
                 "bases": {
+                  "$end": true,
                   "$children": {
                     "centers": {
                       "$end": true
                     }
-                  },
-                  "$end": true
+                  }
                 },
                 "brains": {
                   "$end": true
@@ -13525,6 +13534,7 @@
                   "$end": true
                 },
                 "walls": {
+                  "$end": true,
                   "$children": {
                     "bottom": {
                       "$end": true
@@ -13538,8 +13548,7 @@
                     "top": {
                       "$end": true
                     }
-                  },
-                  "$end": true
+                  }
                 }
               }
             },

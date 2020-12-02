@@ -4913,6 +4913,9 @@
             "scaffolding": {
               "$end": true
             },
+            "sculk_sensor": {
+              "$end": true
+            },
             "sea_lantern": {
               "$end": true
             },
@@ -11813,6 +11816,9 @@
         "dragon_immune": {
           "$end": true
         },
+        "dripstone_replaceable_blocks": {
+          "$end": true
+        },
         "enderman_holdable": {
           "$end": true
         },
@@ -11880,6 +11886,9 @@
           "$end": true
         },
         "oak_logs": {
+          "$end": true
+        },
+        "occludes_vibration_signals": {
           "$end": true
         },
         "piglin_repellents": {
@@ -12288,6 +12297,9 @@
         "desert_lakes": {
           "$end": true
         },
+        "dripstone_caves": {
+          "$end": true
+        },
         "end_barrens": {
           "$end": true
         },
@@ -12595,6 +12607,9 @@
         "disk_sand": {
           "$end": true
         },
+        "dripstone_cluster": {
+          "$end": true
+        },
         "end_gateway": {
           "$end": true
         },
@@ -12704,6 +12719,9 @@
           "$end": true
         },
         "large_basalt_columns": {
+          "$end": true
+        },
+        "large_dripstone": {
           "$end": true
         },
         "mega_jungle_tree": {
@@ -12983,6 +13001,9 @@
           "$end": true
         },
         "small_basalt_columns": {
+          "$end": true
+        },
+        "small_dripstone": {
           "$end": true
         },
         "spring_closed": {

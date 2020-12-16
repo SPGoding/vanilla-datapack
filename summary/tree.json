@@ -5549,6 +5549,9 @@
             "armor_stand": {
               "$end": true
             },
+            "axolotl": {
+              "$end": true
+            },
             "bat": {
               "$end": true
             },
@@ -12023,6 +12026,12 @@
         "arrows": {
           "$end": true
         },
+        "axolotl_always_hostiles": {
+          "$end": true
+        },
+        "axolotl_tempted_hostiles": {
+          "$end": true
+        },
         "beehive_inhabitors": {
           "$end": true
         },
@@ -12064,6 +12073,9 @@
           "$end": true
         },
         "arrows": {
+          "$end": true
+        },
+        "axolotl_tempt_items": {
           "$end": true
         },
         "banners": {
@@ -12145,6 +12157,9 @@
           "$end": true
         },
         "oak_logs": {
+          "$end": true
+        },
+        "occludes_vibration_signals": {
           "$end": true
         },
         "piglin_food": {

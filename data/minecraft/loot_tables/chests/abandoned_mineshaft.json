@@ -2,8 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -42,11 +41,10 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 2.0,
-        "max": 4.0
+        "max": 4.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -55,11 +53,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:iron_ingot"
@@ -71,11 +68,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:gold_ingot"
@@ -87,11 +83,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 9.0
-              },
-              "add": false
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:redstone"
@@ -103,11 +98,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 9.0
-              },
-              "add": false
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:lapis_lazuli"
@@ -119,11 +113,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:diamond"
@@ -135,11 +128,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:coal"
@@ -151,11 +143,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bread"
@@ -167,11 +158,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:melon_seeds"
@@ -183,11 +173,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds"
@@ -199,11 +188,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:beetroot_seeds"
@@ -211,8 +199,7 @@
       ]
     },
     {
-      "rolls": 3.0,
-      "bonus_rolls": 0.0,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -221,11 +208,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:rail"
@@ -237,11 +223,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:powered_rail"
@@ -253,11 +238,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:detector_rail"
@@ -269,11 +253,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:activator_rail"
@@ -285,11 +268,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 16.0
-              },
-              "add": false
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:torch"

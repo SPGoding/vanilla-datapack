@@ -2,8 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -20,11 +19,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.06666667
-              },
-              "add": false
+                "n": 3,
+                "p": 0.06666667,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -38,11 +36,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.13333334
-              },
-              "add": false
+                "n": 3,
+                "p": 0.13333334,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -56,11 +53,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.2
-              },
-              "add": false
+                "n": 3,
+                "p": 0.2,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -74,11 +70,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.26666668
-              },
-              "add": false
+                "n": 3,
+                "p": 0.26666668,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -92,11 +87,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.33333334
-              },
-              "add": false
+                "n": 3,
+                "p": 0.33333334,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -110,11 +104,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.4
-              },
-              "add": false
+                "n": 3,
+                "p": 0.4,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -128,11 +121,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.46666667
-              },
-              "add": false
+                "n": 3,
+                "p": 0.46666667,
+                "type": "minecraft:binomial"
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -146,11 +138,10 @@
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.53333336
-              },
-              "add": false
+                "n": 3,
+                "p": 0.53333336,
+                "type": "minecraft:binomial"
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds"

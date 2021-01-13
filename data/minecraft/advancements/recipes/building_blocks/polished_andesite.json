@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_andesite": {
+    "has_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_andesite",
+      "has_stone",
       "has_the_recipe"
     ]
   ]

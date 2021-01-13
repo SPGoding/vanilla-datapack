@@ -3,11 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 1.0,
-        "max": 3.0
+        "max": 3.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -68,11 +67,10 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 1.0,
-        "max": 4.0
+        "max": 4.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -81,11 +79,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:iron_ingot"
@@ -97,11 +94,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:gold_ingot"
@@ -118,11 +114,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:wheat"
@@ -139,11 +134,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:redstone"
@@ -155,11 +149,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:coal"
@@ -171,11 +164,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:melon_seeds"
@@ -187,11 +179,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds"
@@ -203,11 +194,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:beetroot_seeds"
@@ -215,8 +205,7 @@
       ]
     },
     {
-      "rolls": 3.0,
-      "bonus_rolls": 0.0,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -225,11 +214,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bone"
@@ -241,11 +229,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:gunpowder"
@@ -257,11 +244,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:rotten_flesh"
@@ -273,11 +259,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:string"

@@ -2,8 +2,7 @@
   "type": "minecraft:barter",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -71,11 +70,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 10.0,
-                "max": 36.0
-              },
-              "add": false
+                "max": 36.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:iron_nugget"
@@ -87,11 +85,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:ender_pearl"
@@ -103,11 +100,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 9.0
-              },
-              "add": false
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:string"
@@ -119,11 +115,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 5.0,
-                "max": 12.0
-              },
-              "add": false
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:quartz"
@@ -140,11 +135,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:crying_obsidian"
@@ -161,11 +155,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:leather"
@@ -177,11 +170,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:soul_sand"
@@ -193,11 +185,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 8.0
-              },
-              "add": false
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:nether_brick"
@@ -209,11 +200,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 6.0,
-                "max": 12.0
-              },
-              "add": false
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:spectral_arrow"
@@ -225,11 +215,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 8.0,
-                "max": 16.0
-              },
-              "add": false
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:gravel"
@@ -241,11 +230,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 8.0,
-                "max": 16.0
-              },
-              "add": false
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:blackstone"

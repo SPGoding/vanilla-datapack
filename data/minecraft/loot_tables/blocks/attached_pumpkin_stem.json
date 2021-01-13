@@ -2,8 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,11 +10,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:binomial",
-                "n": 3.0,
-                "p": 0.53333336
-              },
-              "add": false
+                "n": 3,
+                "p": 0.53333336,
+                "type": "minecraft:binomial"
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds"

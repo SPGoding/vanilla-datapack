@@ -3,15 +3,13 @@
   "pools": [
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2.0,
-              "add": false
+              "count": 2
             }
           ],
           "name": "minecraft:seagrass"

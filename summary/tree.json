@@ -12706,6 +12706,9 @@
         "freeze_top_layer": {
           "$end": true
         },
+        "glow_lichen": {
+          "$end": true
+        },
         "glowstone": {
           "$end": true
         },

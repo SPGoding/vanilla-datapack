@@ -446,10 +446,25 @@
                 "cut_copper": {
                   "$end": true
                 },
+                "cut_copper_from_copper_block_stonecutting": {
+                  "$end": true
+                },
                 "cut_copper_slab": {
                   "$end": true
                 },
+                "cut_copper_slab_from_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "cut_copper_slab_from_cut_copper_stonecutting": {
+                  "$end": true
+                },
                 "cut_copper_stairs": {
+                  "$end": true
+                },
+                "cut_copper_stairs_from_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "cut_copper_stairs_from_cut_copper_stonecutting": {
                   "$end": true
                 },
                 "cut_red_sandstone": {
@@ -572,6 +587,30 @@
                 "end_stone_bricks_from_end_stone_stonecutting": {
                   "$end": true
                 },
+                "exposed_cut_copper": {
+                  "$end": true
+                },
+                "exposed_cut_copper_from_exposed_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "exposed_cut_copper_slab": {
+                  "$end": true
+                },
+                "exposed_cut_copper_slab_from_exposed_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
+                  "$end": true
+                },
+                "exposed_cut_copper_stairs": {
+                  "$end": true
+                },
+                "exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
+                  "$end": true
+                },
                 "glass": {
                   "$end": true
                 },
@@ -666,15 +705,6 @@
                   "$end": true
                 },
                 "light_gray_wool": {
-                  "$end": true
-                },
-                "lightly_weathered_cut_copper": {
-                  "$end": true
-                },
-                "lightly_weathered_cut_copper_slab": {
-                  "$end": true
-                },
-                "lightly_weathered_cut_copper_stairs": {
                   "$end": true
                 },
                 "lime_concrete_powder": {
@@ -780,6 +810,30 @@
                   "$end": true
                 },
                 "orange_wool": {
+                  "$end": true
+                },
+                "oxidized_cut_copper": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_from_oxidized_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_slab": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_stairs": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
                   "$end": true
                 },
                 "packed_ice": {
@@ -1082,15 +1136,6 @@
                 "sea_lantern": {
                   "$end": true
                 },
-                "semi_weathered_cut_copper": {
-                  "$end": true
-                },
-                "semi_weathered_cut_copper_slab": {
-                  "$end": true
-                },
-                "semi_weathered_cut_copper_stairs": {
-                  "$end": true
-                },
                 "smooth_quartz": {
                   "$end": true
                 },
@@ -1259,61 +1304,121 @@
                 "waxed_cut_copper_from_honeycomb": {
                   "$end": true
                 },
+                "waxed_cut_copper_from_waxed_copper_stonecutting": {
+                  "$end": true
+                },
                 "waxed_cut_copper_slab": {
+                  "$end": true
+                },
+                "waxed_cut_copper_slab_from_waxed_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
                   "$end": true
                 },
                 "waxed_cut_copper_stairs": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_copper": {
+                "waxed_cut_copper_stairs_from_waxed_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper": {
+                "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_from_honeycomb": {
+                "waxed_exposed_copper": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_slab": {
+                "waxed_exposed_cut_copper": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_slab_from_honeycomb": {
+                "waxed_exposed_cut_copper_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_stairs": {
+                "waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_lightly_weathered_cut_copper_stairs_from_honeycomb": {
+                "waxed_exposed_cut_copper_slab": {
                   "$end": true
                 },
-                "waxed_semi_weathered_copper": {
+                "waxed_exposed_cut_copper_slab_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper": {
+                "waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_from_honeycomb": {
+                "waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_slab": {
+                "waxed_exposed_cut_copper_stairs": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_slab_from_honeycomb": {
+                "waxed_exposed_cut_copper_stairs_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_stairs": {
+                "waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_semi_weathered_cut_copper_stairs_from_honeycomb": {
+                "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_weathered_copper": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_slab": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_slab_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_stairs": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_stairs_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting": {
                   "$end": true
                 },
                 "weathered_cut_copper": {
                   "$end": true
                 },
+                "weathered_cut_copper_from_weathered_copper_block_stonecutting": {
+                  "$end": true
+                },
                 "weathered_cut_copper_slab": {
                   "$end": true
                 },
+                "weathered_cut_copper_slab_from_weathered_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
+                  "$end": true
+                },
                 "weathered_cut_copper_stairs": {
+                  "$end": true
+                },
+                "weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting": {
+                  "$end": true
+                },
+                "weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting": {
                   "$end": true
                 },
                 "white_concrete_powder": {
@@ -1880,6 +1985,9 @@
                   "$end": true
                 },
                 "magenta_stained_glass_pane_from_glass_pane": {
+                  "$end": true
+                },
+                "moss_carpet": {
                   "$end": true
                 },
                 "mossy_cobblestone_wall": {
@@ -3149,6 +3257,15 @@
             "attached_pumpkin_stem": {
               "$end": true
             },
+            "azalea": {
+              "$end": true
+            },
+            "azalea_leaves": {
+              "$end": true
+            },
+            "azalea_leaves_flowers": {
+              "$end": true
+            },
             "azure_bluet": {
               "$end": true
             },
@@ -3177,6 +3294,12 @@
               "$end": true
             },
             "bell": {
+              "$end": true
+            },
+            "big_dripleaf": {
+              "$end": true
+            },
+            "big_dripleaf_stem": {
               "$end": true
             },
             "birch_button": {
@@ -3435,6 +3558,12 @@
               "$end": true
             },
             "cauldron": {
+              "$end": true
+            },
+            "cave_vines_body": {
+              "$end": true
+            },
+            "cave_vines_head": {
               "$end": true
             },
             "chain": {
@@ -3824,6 +3953,18 @@
             "ender_chest": {
               "$end": true
             },
+            "exposed_copper_block": {
+              "$end": true
+            },
+            "exposed_cut_copper": {
+              "$end": true
+            },
+            "exposed_cut_copper_slab": {
+              "$end": true
+            },
+            "exposed_cut_copper_stairs": {
+              "$end": true
+            },
             "farmland": {
               "$end": true
             },
@@ -3846,6 +3987,9 @@
               "$end": true
             },
             "flower_pot": {
+              "$end": true
+            },
+            "flowering_azalea": {
               "$end": true
             },
             "frosted_ice": {
@@ -3975,6 +4119,9 @@
               "$end": true
             },
             "grindstone": {
+              "$end": true
+            },
+            "hanging_roots": {
               "$end": true
             },
             "hay_block": {
@@ -4199,18 +4346,6 @@
             "light_weighted_pressure_plate": {
               "$end": true
             },
-            "lightly_weathered_copper_block": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper_slab": {
-              "$end": true
-            },
-            "lightly_weathered_cut_copper_stairs": {
-              "$end": true
-            },
             "lightning_rod": {
               "$end": true
             },
@@ -4317,6 +4452,12 @@
               "$end": true
             },
             "melon_stem": {
+              "$end": true
+            },
+            "moss_block": {
+              "$end": true
+            },
+            "moss_carpet": {
               "$end": true
             },
             "mossy_cobblestone": {
@@ -4482,6 +4623,18 @@
               "$end": true
             },
             "oxeye_daisy": {
+              "$end": true
+            },
+            "oxidized_copper_block": {
+              "$end": true
+            },
+            "oxidized_cut_copper": {
+              "$end": true
+            },
+            "oxidized_cut_copper_slab": {
+              "$end": true
+            },
+            "oxidized_cut_copper_stairs": {
               "$end": true
             },
             "packed_ice": {
@@ -4901,6 +5054,9 @@
             "respawn_anchor": {
               "$end": true
             },
+            "rooted_dirt": {
+              "$end": true
+            },
             "rose_bush": {
               "$end": true
             },
@@ -4934,18 +5090,6 @@
             "seagrass": {
               "$end": true
             },
-            "semi_weathered_copper_block": {
-              "$end": true
-            },
-            "semi_weathered_cut_copper": {
-              "$end": true
-            },
-            "semi_weathered_cut_copper_slab": {
-              "$end": true
-            },
-            "semi_weathered_cut_copper_stairs": {
-              "$end": true
-            },
             "shroomlight": {
               "$end": true
             },
@@ -4959,6 +5103,9 @@
               "$end": true
             },
             "small_amethyst_bud": {
+              "$end": true
+            },
+            "small_dripleaf": {
               "$end": true
             },
             "smithing_table": {
@@ -5028,6 +5175,9 @@
               "$end": true
             },
             "sponge": {
+              "$end": true
+            },
+            "spore_blossom": {
               "$end": true
             },
             "spruce_button": {
@@ -5279,28 +5429,28 @@
             "waxed_cut_copper_stairs": {
               "$end": true
             },
-            "waxed_lightly_weathered_copper": {
+            "waxed_exposed_copper": {
               "$end": true
             },
-            "waxed_lightly_weathered_cut_copper": {
+            "waxed_exposed_cut_copper": {
               "$end": true
             },
-            "waxed_lightly_weathered_cut_copper_slab": {
+            "waxed_exposed_cut_copper_slab": {
               "$end": true
             },
-            "waxed_lightly_weathered_cut_copper_stairs": {
+            "waxed_exposed_cut_copper_stairs": {
               "$end": true
             },
-            "waxed_semi_weathered_copper": {
+            "waxed_weathered_copper": {
               "$end": true
             },
-            "waxed_semi_weathered_cut_copper": {
+            "waxed_weathered_cut_copper": {
               "$end": true
             },
-            "waxed_semi_weathered_cut_copper_slab": {
+            "waxed_weathered_cut_copper_slab": {
               "$end": true
             },
-            "waxed_semi_weathered_cut_copper_stairs": {
+            "waxed_weathered_cut_copper_stairs": {
               "$end": true
             },
             "weathered_copper_block": {
@@ -6512,10 +6662,25 @@
         "cut_copper": {
           "$end": true
         },
+        "cut_copper_from_copper_block_stonecutting": {
+          "$end": true
+        },
         "cut_copper_slab": {
           "$end": true
         },
+        "cut_copper_slab_from_copper_block_stonecutting": {
+          "$end": true
+        },
+        "cut_copper_slab_from_cut_copper_stonecutting": {
+          "$end": true
+        },
         "cut_copper_stairs": {
+          "$end": true
+        },
+        "cut_copper_stairs_from_copper_block_stonecutting": {
+          "$end": true
+        },
+        "cut_copper_stairs_from_cut_copper_stonecutting": {
           "$end": true
         },
         "cut_red_sandstone": {
@@ -6789,6 +6954,30 @@
           "$end": true
         },
         "ender_eye": {
+          "$end": true
+        },
+        "exposed_cut_copper": {
+          "$end": true
+        },
+        "exposed_cut_copper_from_exposed_copper_block_stonecutting": {
+          "$end": true
+        },
+        "exposed_cut_copper_slab": {
+          "$end": true
+        },
+        "exposed_cut_copper_slab_from_exposed_copper_block_stonecutting": {
+          "$end": true
+        },
+        "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "exposed_cut_copper_stairs": {
+          "$end": true
+        },
+        "exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting": {
+          "$end": true
+        },
+        "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
           "$end": true
         },
         "fermented_spider_eye": {
@@ -7286,15 +7475,6 @@
         "light_weighted_pressure_plate": {
           "$end": true
         },
-        "lightly_weathered_cut_copper": {
-          "$end": true
-        },
-        "lightly_weathered_cut_copper_slab": {
-          "$end": true
-        },
-        "lightly_weathered_cut_copper_stairs": {
-          "$end": true
-        },
         "lightning_rod": {
           "$end": true
         },
@@ -7428,6 +7608,9 @@
           "$end": true
         },
         "mojang_banner_pattern": {
+          "$end": true
+        },
+        "moss_carpet": {
           "$end": true
         },
         "mossy_cobblestone": {
@@ -7632,6 +7815,30 @@
           "$end": true
         },
         "orange_wool": {
+          "$end": true
+        },
+        "oxidized_cut_copper": {
+          "$end": true
+        },
+        "oxidized_cut_copper_from_oxidized_copper_block_stonecutting": {
+          "$end": true
+        },
+        "oxidized_cut_copper_slab": {
+          "$end": true
+        },
+        "oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting": {
+          "$end": true
+        },
+        "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "oxidized_cut_copper_stairs": {
+          "$end": true
+        },
+        "oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting": {
+          "$end": true
+        },
+        "oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
           "$end": true
         },
         "packed_ice": {
@@ -8156,15 +8363,6 @@
         "sea_lantern": {
           "$end": true
         },
-        "semi_weathered_cut_copper": {
-          "$end": true
-        },
-        "semi_weathered_cut_copper_slab": {
-          "$end": true
-        },
-        "semi_weathered_cut_copper_stairs": {
-          "$end": true
-        },
         "shears": {
           "$end": true
         },
@@ -8504,61 +8702,121 @@
         "waxed_cut_copper_from_honeycomb": {
           "$end": true
         },
+        "waxed_cut_copper_from_waxed_copper_stonecutting": {
+          "$end": true
+        },
         "waxed_cut_copper_slab": {
+          "$end": true
+        },
+        "waxed_cut_copper_slab_from_waxed_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
           "$end": true
         },
         "waxed_cut_copper_stairs": {
           "$end": true
         },
-        "waxed_lightly_weathered_copper": {
+        "waxed_cut_copper_stairs_from_waxed_copper_stonecutting": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper": {
+        "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_from_honeycomb": {
+        "waxed_exposed_copper": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_slab": {
+        "waxed_exposed_cut_copper": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_slab_from_honeycomb": {
+        "waxed_exposed_cut_copper_from_honeycomb": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_stairs": {
+        "waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting": {
           "$end": true
         },
-        "waxed_lightly_weathered_cut_copper_stairs_from_honeycomb": {
+        "waxed_exposed_cut_copper_slab": {
           "$end": true
         },
-        "waxed_semi_weathered_copper": {
+        "waxed_exposed_cut_copper_slab_from_honeycomb": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper": {
+        "waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_from_honeycomb": {
+        "waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_slab": {
+        "waxed_exposed_cut_copper_stairs": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_slab_from_honeycomb": {
+        "waxed_exposed_cut_copper_stairs_from_honeycomb": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_stairs": {
+        "waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting": {
           "$end": true
         },
-        "waxed_semi_weathered_cut_copper_stairs_from_honeycomb": {
+        "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_weathered_copper": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_slab": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_slab_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_stairs": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_stairs_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting": {
           "$end": true
         },
         "weathered_cut_copper": {
           "$end": true
         },
+        "weathered_cut_copper_from_weathered_copper_block_stonecutting": {
+          "$end": true
+        },
         "weathered_cut_copper_slab": {
           "$end": true
         },
+        "weathered_cut_copper_slab_from_weathered_copper_block_stonecutting": {
+          "$end": true
+        },
+        "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
+          "$end": true
+        },
         "weathered_cut_copper_stairs": {
+          "$end": true
+        },
+        "weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting": {
+          "$end": true
+        },
+        "weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting": {
           "$end": true
         },
         "wheat": {
@@ -11762,6 +12020,9 @@
         "anvil": {
           "$end": true
         },
+        "azalea_log_replaceable": {
+          "$end": true
+        },
         "bamboo_plantable_on": {
           "$end": true
         },
@@ -11805,6 +12066,9 @@
           "$end": true
         },
         "cauldrons": {
+          "$end": true
+        },
+        "cave_vines": {
           "$end": true
         },
         "climbable": {
@@ -11895,6 +12159,9 @@
           "$end": true
         },
         "logs_that_burn": {
+          "$end": true
+        },
+        "lush_plants_replaceable": {
           "$end": true
         },
         "mushroom_grow_block": {
@@ -12142,6 +12409,9 @@
           "$end": true
         },
         "flowers": {
+          "$end": true
+        },
+        "fox_food": {
           "$end": true
         },
         "freeze_immune_wearables": {

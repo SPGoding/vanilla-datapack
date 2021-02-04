@@ -590,13 +590,13 @@
                 "exposed_cut_copper": {
                   "$end": true
                 },
-                "exposed_cut_copper_from_exposed_copper_block_stonecutting": {
+                "exposed_cut_copper_from_exposed_copper_stonecutting": {
                   "$end": true
                 },
                 "exposed_cut_copper_slab": {
                   "$end": true
                 },
-                "exposed_cut_copper_slab_from_exposed_copper_block_stonecutting": {
+                "exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
                   "$end": true
                 },
                 "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
@@ -605,7 +605,7 @@
                 "exposed_cut_copper_stairs": {
                   "$end": true
                 },
-                "exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting": {
+                "exposed_cut_copper_stairs_from_exposed_copper_stonecutting": {
                   "$end": true
                 },
                 "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
@@ -815,13 +815,13 @@
                 "oxidized_cut_copper": {
                   "$end": true
                 },
-                "oxidized_cut_copper_from_oxidized_copper_block_stonecutting": {
+                "oxidized_cut_copper_from_oxidized_copper_stonecutting": {
                   "$end": true
                 },
                 "oxidized_cut_copper_slab": {
                   "$end": true
                 },
-                "oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting": {
+                "oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
                   "$end": true
                 },
                 "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
@@ -830,7 +830,7 @@
                 "oxidized_cut_copper_stairs": {
                   "$end": true
                 },
-                "oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting": {
+                "oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
                   "$end": true
                 },
                 "oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
@@ -1289,7 +1289,7 @@
                 "warped_stairs": {
                   "$end": true
                 },
-                "waxed_copper": {
+                "waxed_copper_block": {
                   "$end": true
                 },
                 "waxed_copper_cut_slab_from_honeycomb": {
@@ -1304,13 +1304,13 @@
                 "waxed_cut_copper_from_honeycomb": {
                   "$end": true
                 },
-                "waxed_cut_copper_from_waxed_copper_stonecutting": {
+                "waxed_cut_copper_from_waxed_copper_block_stonecutting": {
                   "$end": true
                 },
                 "waxed_cut_copper_slab": {
                   "$end": true
                 },
-                "waxed_cut_copper_slab_from_waxed_copper_stonecutting": {
+                "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
                   "$end": true
                 },
                 "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
@@ -1319,7 +1319,7 @@
                 "waxed_cut_copper_stairs": {
                   "$end": true
                 },
-                "waxed_cut_copper_stairs_from_waxed_copper_stonecutting": {
+                "waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
                   "$end": true
                 },
                 "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
@@ -1400,13 +1400,13 @@
                 "weathered_cut_copper": {
                   "$end": true
                 },
-                "weathered_cut_copper_from_weathered_copper_block_stonecutting": {
+                "weathered_cut_copper_from_weathered_copper_stonecutting": {
                   "$end": true
                 },
                 "weathered_cut_copper_slab": {
                   "$end": true
                 },
-                "weathered_cut_copper_slab_from_weathered_copper_block_stonecutting": {
+                "weathered_cut_copper_slab_from_weathered_copper_stonecutting": {
                   "$end": true
                 },
                 "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
@@ -1415,7 +1415,7 @@
                 "weathered_cut_copper_stairs": {
                   "$end": true
                 },
-                "weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting": {
+                "weathered_cut_copper_stairs_from_weathered_copper_stonecutting": {
                   "$end": true
                 },
                 "weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting": {
@@ -3953,7 +3953,7 @@
             "ender_chest": {
               "$end": true
             },
-            "exposed_copper_block": {
+            "exposed_copper": {
               "$end": true
             },
             "exposed_cut_copper": {
@@ -4625,7 +4625,7 @@
             "oxeye_daisy": {
               "$end": true
             },
-            "oxidized_copper_block": {
+            "oxidized_copper": {
               "$end": true
             },
             "oxidized_cut_copper": {
@@ -5417,7 +5417,7 @@
             "water_cauldron": {
               "$end": true
             },
-            "waxed_copper": {
+            "waxed_copper_block": {
               "$end": true
             },
             "waxed_cut_copper": {
@@ -5453,7 +5453,7 @@
             "waxed_weathered_cut_copper_stairs": {
               "$end": true
             },
-            "weathered_copper_block": {
+            "weathered_copper": {
               "$end": true
             },
             "weathered_cut_copper": {
@@ -6959,13 +6959,13 @@
         "exposed_cut_copper": {
           "$end": true
         },
-        "exposed_cut_copper_from_exposed_copper_block_stonecutting": {
+        "exposed_cut_copper_from_exposed_copper_stonecutting": {
           "$end": true
         },
         "exposed_cut_copper_slab": {
           "$end": true
         },
-        "exposed_cut_copper_slab_from_exposed_copper_block_stonecutting": {
+        "exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
           "$end": true
         },
         "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
@@ -6974,7 +6974,7 @@
         "exposed_cut_copper_stairs": {
           "$end": true
         },
-        "exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting": {
+        "exposed_cut_copper_stairs_from_exposed_copper_stonecutting": {
           "$end": true
         },
         "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
@@ -7820,13 +7820,13 @@
         "oxidized_cut_copper": {
           "$end": true
         },
-        "oxidized_cut_copper_from_oxidized_copper_block_stonecutting": {
+        "oxidized_cut_copper_from_oxidized_copper_stonecutting": {
           "$end": true
         },
         "oxidized_cut_copper_slab": {
           "$end": true
         },
-        "oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting": {
+        "oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
           "$end": true
         },
         "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
@@ -7835,7 +7835,7 @@
         "oxidized_cut_copper_stairs": {
           "$end": true
         },
-        "oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting": {
+        "oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
           "$end": true
         },
         "oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
@@ -8687,7 +8687,7 @@
         "warped_trapdoor": {
           "$end": true
         },
-        "waxed_copper": {
+        "waxed_copper_block": {
           "$end": true
         },
         "waxed_copper_cut_slab_from_honeycomb": {
@@ -8702,13 +8702,13 @@
         "waxed_cut_copper_from_honeycomb": {
           "$end": true
         },
-        "waxed_cut_copper_from_waxed_copper_stonecutting": {
+        "waxed_cut_copper_from_waxed_copper_block_stonecutting": {
           "$end": true
         },
         "waxed_cut_copper_slab": {
           "$end": true
         },
-        "waxed_cut_copper_slab_from_waxed_copper_stonecutting": {
+        "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
           "$end": true
         },
         "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
@@ -8717,7 +8717,7 @@
         "waxed_cut_copper_stairs": {
           "$end": true
         },
-        "waxed_cut_copper_stairs_from_waxed_copper_stonecutting": {
+        "waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
           "$end": true
         },
         "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
@@ -8798,13 +8798,13 @@
         "weathered_cut_copper": {
           "$end": true
         },
-        "weathered_cut_copper_from_weathered_copper_block_stonecutting": {
+        "weathered_cut_copper_from_weathered_copper_stonecutting": {
           "$end": true
         },
         "weathered_cut_copper_slab": {
           "$end": true
         },
-        "weathered_cut_copper_slab_from_weathered_copper_block_stonecutting": {
+        "weathered_cut_copper_slab_from_weathered_copper_stonecutting": {
           "$end": true
         },
         "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
@@ -8813,7 +8813,7 @@
         "weathered_cut_copper_stairs": {
           "$end": true
         },
-        "weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting": {
+        "weathered_cut_copper_stairs_from_weathered_copper_stonecutting": {
           "$end": true
         },
         "weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting": {

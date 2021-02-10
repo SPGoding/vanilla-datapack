@@ -12797,12 +12797,6 @@
         },
         "ocean_cave": {
           "$end": true
-        },
-        "underwater_canyon": {
-          "$end": true
-        },
-        "underwater_cave": {
-          "$end": true
         }
       }
     }
@@ -13379,6 +13373,9 @@
           "$end": true
         },
         "twisting_vines": {
+          "$end": true
+        },
+        "underwater_magma": {
           "$end": true
         },
         "vines": {

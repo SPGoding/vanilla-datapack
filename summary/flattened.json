@@ -4077,9 +4077,7 @@
     "minecraft:canyon",
     "minecraft:cave",
     "minecraft:nether_cave",
-    "minecraft:ocean_cave",
-    "minecraft:underwater_canyon",
-    "minecraft:underwater_cave"
+    "minecraft:ocean_cave"
   ],
   "worldgen/configured_decorator": [],
   "worldgen/configured_feature": [
@@ -4273,6 +4271,7 @@
     "minecraft:trees_shattered_savanna",
     "minecraft:trees_water",
     "minecraft:twisting_vines",
+    "minecraft:underwater_magma",
     "minecraft:vines",
     "minecraft:void_start_platform",
     "minecraft:warm_ocean_vegetation",

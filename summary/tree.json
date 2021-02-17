@@ -356,6 +356,12 @@
                 "brown_wool": {
                   "$end": true
                 },
+                "chiseled_grimstone": {
+                  "$end": true
+                },
+                "chiseled_grimstone_from_grimstone_stonecutting": {
+                  "$end": true
+                },
                 "chiseled_nether_bricks": {
                   "$end": true
                 },
@@ -657,6 +663,42 @@
                   "$end": true
                 },
                 "green_wool": {
+                  "$end": true
+                },
+                "grimstone_brick_slab": {
+                  "$end": true
+                },
+                "grimstone_brick_slab_from_grimstone_bricks_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_brick_stairs": {
+                  "$end": true
+                },
+                "grimstone_brick_stairs_from_grimstone_bricks_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_slab": {
+                  "$end": true
+                },
+                "grimstone_slab_from_grimstone_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_stairs": {
+                  "$end": true
+                },
+                "grimstone_stairs_from_grimstone_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_tile_slab": {
+                  "$end": true
+                },
+                "grimstone_tile_slab_from_grimstone_tiles_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_tile_stairs": {
+                  "$end": true
+                },
+                "grimstone_tile_stairs_from_grimstone_tiles_stonecutting": {
                   "$end": true
                 },
                 "hay_block": {
@@ -984,6 +1026,21 @@
                   "$end": true
                 },
                 "polished_granite_stairs_from_polished_granite_stonecutting": {
+                  "$end": true
+                },
+                "polished_grimstone": {
+                  "$end": true
+                },
+                "polished_grimstone_slab": {
+                  "$end": true
+                },
+                "polished_grimstone_slab_from_polished_grimstone_stonecutting": {
+                  "$end": true
+                },
+                "polished_grimstone_stairs": {
+                  "$end": true
+                },
+                "polished_grimstone_stairs_from_polished_grimstone_stonecutting": {
                   "$end": true
                 },
                 "prismarine": {
@@ -1843,6 +1900,24 @@
                 "green_stained_glass_pane_from_glass_pane": {
                   "$end": true
                 },
+                "grimstone_brick_wall": {
+                  "$end": true
+                },
+                "grimstone_brick_wall_from_grimstone_bricks_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_tile_wall": {
+                  "$end": true
+                },
+                "grimstone_tile_wall_from_grimstone_tiles_stonecutting": {
+                  "$end": true
+                },
+                "grimstone_wall": {
+                  "$end": true
+                },
+                "grimstone_wall_from_grimstone_stonecutting": {
+                  "$end": true
+                },
                 "grindstone": {
                   "$end": true
                 },
@@ -2093,6 +2168,12 @@
                   "$end": true
                 },
                 "polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+                  "$end": true
+                },
+                "polished_grimstone_wall": {
+                  "$end": true
+                },
+                "polished_grimstone_wall_from_polished_grimstone_stonecutting": {
                   "$end": true
                 },
                 "prismarine_wall": {
@@ -3575,6 +3656,9 @@
             "chipped_anvil": {
               "$end": true
             },
+            "chiseled_grimstone": {
+              "$end": true
+            },
             "chiseled_nether_bricks": {
               "$end": true
             },
@@ -4116,6 +4200,42 @@
               "$end": true
             },
             "green_wool": {
+              "$end": true
+            },
+            "grimstone": {
+              "$end": true
+            },
+            "grimstone_brick_slab": {
+              "$end": true
+            },
+            "grimstone_brick_stairs": {
+              "$end": true
+            },
+            "grimstone_brick_wall": {
+              "$end": true
+            },
+            "grimstone_bricks": {
+              "$end": true
+            },
+            "grimstone_slab": {
+              "$end": true
+            },
+            "grimstone_stairs": {
+              "$end": true
+            },
+            "grimstone_tile_slab": {
+              "$end": true
+            },
+            "grimstone_tile_stairs": {
+              "$end": true
+            },
+            "grimstone_tile_wall": {
+              "$end": true
+            },
+            "grimstone_tiles": {
+              "$end": true
+            },
+            "grimstone_wall": {
               "$end": true
             },
             "grindstone": {
@@ -4758,6 +4878,18 @@
               "$end": true
             },
             "polished_granite_stairs": {
+              "$end": true
+            },
+            "polished_grimstone": {
+              "$end": true
+            },
+            "polished_grimstone_slab": {
+              "$end": true
+            },
+            "polished_grimstone_stairs": {
+              "$end": true
+            },
+            "polished_grimstone_wall": {
               "$end": true
             },
             "poppy": {
@@ -6437,6 +6569,12 @@
         "chest_minecart": {
           "$end": true
         },
+        "chiseled_grimstone": {
+          "$end": true
+        },
+        "chiseled_grimstone_from_grimstone_stonecutting": {
+          "$end": true
+        },
         "chiseled_nether_bricks": {
           "$end": true
         },
@@ -7197,6 +7335,60 @@
           "$end": true
         },
         "green_wool": {
+          "$end": true
+        },
+        "grimstone_brick_slab": {
+          "$end": true
+        },
+        "grimstone_brick_slab_from_grimstone_bricks_stonecutting": {
+          "$end": true
+        },
+        "grimstone_brick_stairs": {
+          "$end": true
+        },
+        "grimstone_brick_stairs_from_grimstone_bricks_stonecutting": {
+          "$end": true
+        },
+        "grimstone_brick_wall": {
+          "$end": true
+        },
+        "grimstone_brick_wall_from_grimstone_bricks_stonecutting": {
+          "$end": true
+        },
+        "grimstone_slab": {
+          "$end": true
+        },
+        "grimstone_slab_from_grimstone_stonecutting": {
+          "$end": true
+        },
+        "grimstone_stairs": {
+          "$end": true
+        },
+        "grimstone_stairs_from_grimstone_stonecutting": {
+          "$end": true
+        },
+        "grimstone_tile_slab": {
+          "$end": true
+        },
+        "grimstone_tile_slab_from_grimstone_tiles_stonecutting": {
+          "$end": true
+        },
+        "grimstone_tile_stairs": {
+          "$end": true
+        },
+        "grimstone_tile_stairs_from_grimstone_tiles_stonecutting": {
+          "$end": true
+        },
+        "grimstone_tile_wall": {
+          "$end": true
+        },
+        "grimstone_tile_wall_from_grimstone_tiles_stonecutting": {
+          "$end": true
+        },
+        "grimstone_wall": {
+          "$end": true
+        },
+        "grimstone_wall_from_grimstone_stonecutting": {
           "$end": true
         },
         "grindstone": {
@@ -8061,6 +8253,27 @@
           "$end": true
         },
         "polished_granite_stairs_from_polished_granite_stonecutting": {
+          "$end": true
+        },
+        "polished_grimstone": {
+          "$end": true
+        },
+        "polished_grimstone_slab": {
+          "$end": true
+        },
+        "polished_grimstone_slab_from_polished_grimstone_stonecutting": {
+          "$end": true
+        },
+        "polished_grimstone_stairs": {
+          "$end": true
+        },
+        "polished_grimstone_stairs_from_polished_grimstone_stonecutting": {
+          "$end": true
+        },
+        "polished_grimstone_wall": {
+          "$end": true
+        },
+        "polished_grimstone_wall_from_polished_grimstone_stonecutting": {
           "$end": true
         },
         "popped_chorus_fruit": {
@@ -13063,7 +13276,10 @@
         "ore_blackstone": {
           "$end": true
         },
-        "ore_coal": {
+        "ore_coal_lower": {
+          "$end": true
+        },
+        "ore_coal_upper": {
           "$end": true
         },
         "ore_copper": {
@@ -13111,10 +13327,16 @@
         "ore_infested": {
           "$end": true
         },
-        "ore_iron": {
+        "ore_iron_lower": {
+          "$end": true
+        },
+        "ore_iron_upper": {
           "$end": true
         },
         "ore_lapis": {
+          "$end": true
+        },
+        "ore_lapis_buried": {
           "$end": true
         },
         "ore_magma": {
@@ -13127,6 +13349,9 @@
           "$end": true
         },
         "ore_redstone": {
+          "$end": true
+        },
+        "ore_redstone_lower": {
           "$end": true
         },
         "ore_soul_sand": {

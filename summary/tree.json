@@ -440,6 +440,12 @@
                 "copper_block": {
                   "$end": true
                 },
+                "cracked_deepslate_bricks": {
+                  "$end": true
+                },
+                "cracked_deepslate_tiles": {
+                  "$end": true
+                },
                 "cracked_nether_bricks": {
                   "$end": true
                 },
@@ -554,28 +560,82 @@
                 "dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
                   "$end": true
                 },
+                "deepslate": {
+                  "$end": true
+                },
                 "deepslate_brick_slab": {
+                  "$end": true
+                },
+                "deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
                   "$end": true
                 },
                 "deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
                   "$end": true
                 },
+                "deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_brick_stairs": {
+                  "$end": true
+                },
+                "deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
                   "$end": true
                 },
                 "deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
                   "$end": true
                 },
+                "deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_bricks": {
+                  "$end": true
+                },
+                "deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_bricks_from_polished_deepslate_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_tile_slab": {
+                  "$end": true
+                },
+                "deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
                   "$end": true
                 },
                 "deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
                   "$end": true
                 },
+                "deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_tile_stairs": {
                   "$end": true
                 },
+                "deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tiles": {
+                  "$end": true
+                },
+                "deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tiles_from_deepslate_bricks_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tiles_from_polished_deepslate_stonecutting": {
                   "$end": true
                 },
                 "diamond_block": {
@@ -983,13 +1043,22 @@
                 "polished_deepslate": {
                   "$end": true
                 },
+                "polished_deepslate_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
                 "polished_deepslate_slab": {
+                  "$end": true
+                },
+                "polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
                   "$end": true
                 },
                 "polished_deepslate_slab_from_polished_deepslate_stonecutting": {
                   "$end": true
                 },
                 "polished_deepslate_stairs": {
+                  "$end": true
+                },
+                "polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
                   "$end": true
                 },
                 "polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
@@ -1810,13 +1879,28 @@
                 "deepslate_brick_wall": {
                   "$end": true
                 },
+                "deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_brick_wall_from_polished_deepslate_stonecutting": {
                   "$end": true
                 },
                 "deepslate_tile_wall": {
                   "$end": true
                 },
+                "deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+                  "$end": true
+                },
                 "deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+                  "$end": true
+                },
+                "deepslate_tile_wall_from_polished_deepslate_stonecutting": {
                   "$end": true
                 },
                 "diorite_wall": {
@@ -2171,6 +2255,9 @@
                   "$end": true
                 },
                 "polished_deepslate_wall": {
+                  "$end": true
+                },
+                "polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
                   "$end": true
                 },
                 "polished_deepslate_wall_from_polished_deepslate_stonecutting": {
@@ -3746,6 +3833,12 @@
             "cornflower": {
               "$end": true
             },
+            "cracked_deepslate_bricks": {
+              "$end": true
+            },
+            "cracked_deepslate_tiles": {
+              "$end": true
+            },
             "cracked_nether_bricks": {
               "$end": true
             },
@@ -3992,7 +4085,16 @@
             "deepslate_bricks": {
               "$end": true
             },
+            "deepslate_coal_ore": {
+              "$end": true
+            },
+            "deepslate_copper_ore": {
+              "$end": true
+            },
             "deepslate_diamond_ore": {
+              "$end": true
+            },
+            "deepslate_emerald_ore": {
               "$end": true
             },
             "deepslate_gold_ore": {
@@ -4299,6 +4401,9 @@
               "$end": true
             },
             "infested_cracked_stone_bricks": {
+              "$end": true
+            },
+            "infested_deepslate": {
               "$end": true
             },
             "infested_mossy_stone_bricks": {
@@ -6788,6 +6893,12 @@
         "copper_ingot_from_copper_block": {
           "$end": true
         },
+        "cracked_deepslate_bricks": {
+          "$end": true
+        },
+        "cracked_deepslate_tiles": {
+          "$end": true
+        },
         "cracked_nether_bricks": {
           "$end": true
         },
@@ -6989,40 +7100,109 @@
         "daylight_detector": {
           "$end": true
         },
+        "deepslate": {
+          "$end": true
+        },
         "deepslate_brick_slab": {
+          "$end": true
+        },
+        "deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
           "$end": true
         },
         "deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
           "$end": true
         },
+        "deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
         "deepslate_brick_stairs": {
+          "$end": true
+        },
+        "deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
           "$end": true
         },
         "deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
           "$end": true
         },
+        "deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
         "deepslate_brick_wall": {
+          "$end": true
+        },
+        "deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
           "$end": true
         },
         "deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
           "$end": true
         },
+        "deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_bricks": {
+          "$end": true
+        },
+        "deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_bricks_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
         "deepslate_tile_slab": {
+          "$end": true
+        },
+        "deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
           "$end": true
         },
         "deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
           "$end": true
         },
+        "deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
         "deepslate_tile_stairs": {
+          "$end": true
+        },
+        "deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
           "$end": true
         },
         "deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
           "$end": true
         },
+        "deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
         "deepslate_tile_wall": {
           "$end": true
         },
+        "deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+          "$end": true
+        },
         "deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tiles": {
+          "$end": true
+        },
+        "deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tiles_from_deepslate_bricks_stonecutting": {
+          "$end": true
+        },
+        "deepslate_tiles_from_polished_deepslate_stonecutting": {
           "$end": true
         },
         "detector_rail": {
@@ -8234,7 +8414,13 @@
         "polished_deepslate": {
           "$end": true
         },
+        "polished_deepslate_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
         "polished_deepslate_slab": {
+          "$end": true
+        },
+        "polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
           "$end": true
         },
         "polished_deepslate_slab_from_polished_deepslate_stonecutting": {
@@ -8243,10 +8429,16 @@
         "polished_deepslate_stairs": {
           "$end": true
         },
+        "polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+          "$end": true
+        },
         "polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
           "$end": true
         },
         "polished_deepslate_wall": {
+          "$end": true
+        },
+        "polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
           "$end": true
         },
         "polished_deepslate_wall_from_polished_deepslate_stonecutting": {
@@ -12260,9 +12452,6 @@
         "anvil": {
           "$end": true
         },
-        "azalea_log_replaceable": {
-          "$end": true
-        },
         "bamboo_plantable_on": {
           "$end": true
         },
@@ -12314,6 +12503,12 @@
         "climbable": {
           "$end": true
         },
+        "coal_ores": {
+          "$end": true
+        },
+        "copper_ores": {
+          "$end": true
+        },
         "coral_blocks": {
           "$end": true
         },
@@ -12348,6 +12543,9 @@
           "$end": true
         },
         "dripstone_replaceable_blocks": {
+          "$end": true
+        },
+        "emerald_ores": {
           "$end": true
         },
         "enderman_holdable": {
@@ -12411,6 +12609,9 @@
           "$end": true
         },
         "logs_that_burn": {
+          "$end": true
+        },
+        "lush_ground_replaceable": {
           "$end": true
         },
         "lush_plants_replaceable": {
@@ -12645,7 +12846,13 @@
         "carpets": {
           "$end": true
         },
+        "coal_ores": {
+          "$end": true
+        },
         "coals": {
+          "$end": true
+        },
+        "copper_ores": {
           "$end": true
         },
         "creeper_drop_music_discs": {
@@ -12661,6 +12868,9 @@
           "$end": true
         },
         "doors": {
+          "$end": true
+        },
+        "emerald_ores": {
           "$end": true
         },
         "fences": {

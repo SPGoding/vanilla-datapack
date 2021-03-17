@@ -31,14 +31,14 @@
       "base": 6,
       "spread": 2
     },
-    "distanceFactor": {
+    "distance_factor": {
       "type": "minecraft:uniform",
       "value": {
         "base": 0.5,
         "spread": 0.5
       }
     },
-    "probability": 0.005,
+    "probability": 0.00125,
     "debug_settings": {
       "air_state": {
         "Properties": {

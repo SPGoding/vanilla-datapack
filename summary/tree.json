@@ -839,7 +839,10 @@
                 "melon": {
                   "$end": true
                 },
-                "mossy_cobblestone": {
+                "mossy_cobblestone_from_moss_block": {
+                  "$end": true
+                },
+                "mossy_cobblestone_from_vine": {
                   "$end": true
                 },
                 "mossy_cobblestone_slab": {
@@ -866,7 +869,10 @@
                 "mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
                   "$end": true
                 },
-                "mossy_stone_bricks": {
+                "mossy_stone_bricks_from_moss_block": {
+                  "$end": true
+                },
+                "mossy_stone_bricks_from_vine": {
                   "$end": true
                 },
                 "nether_brick_slab": {
@@ -1418,13 +1424,7 @@
                 "warped_stairs": {
                   "$end": true
                 },
-                "waxed_copper_block": {
-                  "$end": true
-                },
-                "waxed_copper_cut_slab_from_honeycomb": {
-                  "$end": true
-                },
-                "waxed_copper_cut_stairs_from_honeycomb": {
+                "waxed_copper_block_from_honeycomb": {
                   "$end": true
                 },
                 "waxed_cut_copper": {
@@ -1439,6 +1439,9 @@
                 "waxed_cut_copper_slab": {
                   "$end": true
                 },
+                "waxed_cut_copper_slab_from_honeycomb": {
+                  "$end": true
+                },
                 "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
                   "$end": true
                 },
@@ -1448,13 +1451,16 @@
                 "waxed_cut_copper_stairs": {
                   "$end": true
                 },
+                "waxed_cut_copper_stairs_from_honeycomb": {
+                  "$end": true
+                },
                 "waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
                   "$end": true
                 },
                 "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_exposed_copper": {
+                "waxed_exposed_copper_from_honeycomb": {
                   "$end": true
                 },
                 "waxed_exposed_cut_copper": {
@@ -1490,7 +1496,7 @@
                 "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
                   "$end": true
                 },
-                "waxed_weathered_copper": {
+                "waxed_weathered_copper_from_honeycomb": {
                   "$end": true
                 },
                 "waxed_weathered_cut_copper": {
@@ -2625,6 +2631,9 @@
                 "copper_ingot_from_copper_block": {
                   "$end": true
                 },
+                "copper_ingot_from_waxed_copper_block": {
+                  "$end": true
+                },
                 "creeper_banner_pattern": {
                   "$end": true
                 },
@@ -3731,10 +3740,10 @@
             "cauldron": {
               "$end": true
             },
-            "cave_vines_body": {
+            "cave_vines": {
               "$end": true
             },
-            "cave_vines_head": {
+            "cave_vines_plant": {
               "$end": true
             },
             "chain": {
@@ -6893,6 +6902,9 @@
         "copper_ingot_from_copper_block": {
           "$end": true
         },
+        "copper_ingot_from_waxed_copper_block": {
+          "$end": true
+        },
         "cracked_deepslate_bricks": {
           "$end": true
         },
@@ -8009,7 +8021,10 @@
         "moss_carpet": {
           "$end": true
         },
-        "mossy_cobblestone": {
+        "mossy_cobblestone_from_moss_block": {
+          "$end": true
+        },
+        "mossy_cobblestone_from_vine": {
           "$end": true
         },
         "mossy_cobblestone_slab": {
@@ -8048,7 +8063,10 @@
         "mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
           "$end": true
         },
-        "mossy_stone_bricks": {
+        "mossy_stone_bricks_from_moss_block": {
+          "$end": true
+        },
+        "mossy_stone_bricks_from_vine": {
           "$end": true
         },
         "mushroom_stew": {
@@ -9119,13 +9137,7 @@
         "warped_trapdoor": {
           "$end": true
         },
-        "waxed_copper_block": {
-          "$end": true
-        },
-        "waxed_copper_cut_slab_from_honeycomb": {
-          "$end": true
-        },
-        "waxed_copper_cut_stairs_from_honeycomb": {
+        "waxed_copper_block_from_honeycomb": {
           "$end": true
         },
         "waxed_cut_copper": {
@@ -9140,6 +9152,9 @@
         "waxed_cut_copper_slab": {
           "$end": true
         },
+        "waxed_cut_copper_slab_from_honeycomb": {
+          "$end": true
+        },
         "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
           "$end": true
         },
@@ -9149,13 +9164,16 @@
         "waxed_cut_copper_stairs": {
           "$end": true
         },
+        "waxed_cut_copper_stairs_from_honeycomb": {
+          "$end": true
+        },
         "waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
           "$end": true
         },
         "waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
           "$end": true
         },
-        "waxed_exposed_copper": {
+        "waxed_exposed_copper_from_honeycomb": {
           "$end": true
         },
         "waxed_exposed_cut_copper": {
@@ -9191,7 +9209,7 @@
         "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
           "$end": true
         },
-        "waxed_weathered_copper": {
+        "waxed_weathered_copper_from_honeycomb": {
           "$end": true
         },
         "waxed_weathered_cut_copper": {
@@ -12846,6 +12864,9 @@
         "carpets": {
           "$end": true
         },
+        "cluster_max_harvestables": {
+          "$end": true
+        },
         "coal_ores": {
           "$end": true
         },
@@ -13137,6 +13158,9 @@
         "lukewarm_ocean": {
           "$end": true
         },
+        "lush_caves": {
+          "$end": true
+        },
         "modified_badlands_plateau": {
           "$end": true
         },
@@ -13294,6 +13318,9 @@
         "amethyst_geode": {
           "$end": true
         },
+        "azalea_tree": {
+          "$end": true
+        },
         "bamboo": {
           "$end": true
         },
@@ -13351,7 +13378,25 @@
         "brown_mushroom_taiga": {
           "$end": true
         },
+        "cave_vine": {
+          "$end": true
+        },
+        "cave_vine_in_moss": {
+          "$end": true
+        },
+        "cave_vines": {
+          "$end": true
+        },
         "chorus_plant": {
+          "$end": true
+        },
+        "classic_vines_cave_feature": {
+          "$end": true
+        },
+        "clay_pool_with_dripleaves": {
+          "$end": true
+        },
+        "clay_with_dripleaves": {
           "$end": true
         },
         "crimson_forest_vegetation": {
@@ -13385,6 +13430,9 @@
           "$end": true
         },
         "disk_sand": {
+          "$end": true
+        },
+        "dripleaf": {
           "$end": true
         },
         "dripstone_cluster": {
@@ -13447,7 +13495,10 @@
         "forest_rock": {
           "$end": true
         },
-        "fossil": {
+        "fossil_lower": {
+          "$end": true
+        },
+        "fossil_upper": {
           "$end": true
         },
         "freeze_top_layer": {
@@ -13507,6 +13558,15 @@
         "large_dripstone": {
           "$end": true
         },
+        "lush_caves_ceiling_vegetation": {
+          "$end": true
+        },
+        "lush_caves_clay": {
+          "$end": true
+        },
+        "lush_caves_vegetation": {
+          "$end": true
+        },
         "mega_jungle_tree": {
           "$end": true
         },
@@ -13519,6 +13579,18 @@
         "monster_room": {
           "$end": true
         },
+        "moss_patch": {
+          "$end": true
+        },
+        "moss_patch_bonemeal": {
+          "$end": true
+        },
+        "moss_patch_ceiling": {
+          "$end": true
+        },
+        "moss_vegetation": {
+          "$end": true
+        },
         "mushroom_field_vegetation": {
           "$end": true
         },
@@ -13526,9 +13598,6 @@
           "$end": true
         },
         "oak": {
-          "$end": true
-        },
-        "oak_badlands": {
           "$end": true
         },
         "oak_bees_0002": {
@@ -13544,6 +13613,9 @@
           "$end": true
         },
         "ore_blackstone": {
+          "$end": true
+        },
+        "ore_clay": {
           "$end": true
         },
         "ore_coal_lower": {
@@ -13771,6 +13843,9 @@
         "red_mushroom_taiga": {
           "$end": true
         },
+        "rooted_azalea_trees": {
+          "$end": true
+        },
         "sea_pickle": {
           "$end": true
         },
@@ -13807,6 +13882,9 @@
         "small_dripstone": {
           "$end": true
         },
+        "spore_blossom": {
+          "$end": true
+        },
         "spring_closed": {
           "$end": true
         },
@@ -13831,16 +13909,16 @@
         "spruce": {
           "$end": true
         },
-        "spruce_snowy": {
-          "$end": true
-        },
         "super_birch_bees_0002": {
           "$end": true
         },
-        "swamp_tree": {
+        "swamp_oak": {
           "$end": true
         },
         "taiga_vegetation": {
+          "$end": true
+        },
+        "trees_badlands": {
           "$end": true
         },
         "trees_birch": {
@@ -13868,6 +13946,12 @@
           "$end": true
         },
         "trees_shattered_savanna": {
+          "$end": true
+        },
+        "trees_snowy": {
+          "$end": true
+        },
+        "trees_swamp": {
           "$end": true
         },
         "trees_water": {
@@ -14132,6 +14216,15 @@
           "$end": true
         },
         "farm_taiga": {
+          "$end": true
+        },
+        "fossil_coal": {
+          "$end": true
+        },
+        "fossil_diamonds": {
+          "$end": true
+        },
+        "fossil_rot": {
           "$end": true
         },
         "high_rampart": {

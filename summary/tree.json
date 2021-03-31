@@ -6044,6 +6044,9 @@
             "glow_squid": {
               "$end": true
             },
+            "goat": {
+              "$end": true
+            },
             "guardian": {
               "$end": true
             },
@@ -12554,6 +12557,9 @@
         "diamond_ores": {
           "$end": true
         },
+        "dirt": {
+          "$end": true
+        },
         "doors": {
           "$end": true
         },
@@ -12689,6 +12695,9 @@
         "small_flowers": {
           "$end": true
         },
+        "snow": {
+          "$end": true
+        },
         "soul_fire_base_blocks": {
           "$end": true
         },
@@ -12791,10 +12800,16 @@
         "axolotl_always_hostiles": {
           "$end": true
         },
-        "axolotl_tempted_hostiles": {
+        "axolotl_hunt_targets": {
           "$end": true
         },
         "beehive_inhabitors": {
+          "$end": true
+        },
+        "freeze_hurts_extra_types": {
+          "$end": true
+        },
+        "freeze_immune_entity_types": {
           "$end": true
         },
         "impact_projectiles": {
@@ -13633,7 +13648,13 @@
         "ore_debris_small": {
           "$end": true
         },
+        "ore_deepslate": {
+          "$end": true
+        },
         "ore_diamond": {
+          "$end": true
+        },
+        "ore_diamond_large": {
           "$end": true
         },
         "ore_diorite": {
@@ -13826,6 +13847,12 @@
           "$end": true
         },
         "plain_vegetation": {
+          "$end": true
+        },
+        "rare_dripstone_cluster": {
+          "$end": true
+        },
+        "rare_small_dripstone": {
           "$end": true
         },
         "red_mushroom_giant": {

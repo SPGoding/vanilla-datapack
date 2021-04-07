@@ -1496,6 +1496,42 @@
                 "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
                   "$end": true
                 },
+                "waxed_oxidized_copper_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_slab": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_slab_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_stairs": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+                  "$end": true
+                },
+                "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+                  "$end": true
+                },
                 "waxed_weathered_copper_from_honeycomb": {
                   "$end": true
                 },
@@ -2613,22 +2649,40 @@
                 "coal": {
                   "$end": true
                 },
-                "coal_from_blasting": {
+                "coal_from_blasting_coal_ore": {
                   "$end": true
                 },
-                "coal_from_smelting": {
+                "coal_from_blasting_deepslate_coal_ore": {
+                  "$end": true
+                },
+                "coal_from_smelting_coal_ore": {
+                  "$end": true
+                },
+                "coal_from_smelting_deepslate_coal_ore": {
                   "$end": true
                 },
                 "conduit": {
                   "$end": true
                 },
-                "copper_ingot": {
+                "copper_ingot_from_blasting_copper_ore": {
                   "$end": true
                 },
-                "copper_ingot_from_blasting": {
+                "copper_ingot_from_blasting_deepslate_copper_ore": {
+                  "$end": true
+                },
+                "copper_ingot_from_blasting_raw_copper": {
                   "$end": true
                 },
                 "copper_ingot_from_copper_block": {
+                  "$end": true
+                },
+                "copper_ingot_from_smelting_copper_ore": {
+                  "$end": true
+                },
+                "copper_ingot_from_smelting_deepslate_copper_ore": {
+                  "$end": true
+                },
+                "copper_ingot_from_smelting_raw_copper": {
                   "$end": true
                 },
                 "copper_ingot_from_waxed_copper_block": {
@@ -2643,19 +2697,31 @@
                 "diamond": {
                   "$end": true
                 },
-                "diamond_from_blasting": {
+                "diamond_from_blasting_deepslate_diamond_ore": {
                   "$end": true
                 },
-                "diamond_from_smelting": {
+                "diamond_from_blasting_diamond_ore": {
+                  "$end": true
+                },
+                "diamond_from_smelting_deepslate_diamond_ore": {
+                  "$end": true
+                },
+                "diamond_from_smelting_diamond_ore": {
                   "$end": true
                 },
                 "emerald": {
                   "$end": true
                 },
-                "emerald_from_blasting": {
+                "emerald_from_blasting_deepslate_emerald_ore": {
                   "$end": true
                 },
-                "emerald_from_smelting": {
+                "emerald_from_blasting_emerald_ore": {
+                  "$end": true
+                },
+                "emerald_from_smelting_deepslate_emerald_ore": {
+                  "$end": true
+                },
+                "emerald_from_smelting_emerald_ore": {
                   "$end": true
                 },
                 "ender_eye": {
@@ -2670,16 +2736,28 @@
                 "flower_banner_pattern": {
                   "$end": true
                 },
-                "gold_ingot": {
+                "gold_ingot_from_blasting_deepslate_gold_ore": {
                   "$end": true
                 },
-                "gold_ingot_from_blasting": {
+                "gold_ingot_from_blasting_gold_ore": {
+                  "$end": true
+                },
+                "gold_ingot_from_blasting_raw_gold": {
                   "$end": true
                 },
                 "gold_ingot_from_gold_block": {
                   "$end": true
                 },
                 "gold_ingot_from_nuggets": {
+                  "$end": true
+                },
+                "gold_ingot_from_smelting_deepslate_gold_ore": {
+                  "$end": true
+                },
+                "gold_ingot_from_smelting_gold_ore": {
+                  "$end": true
+                },
+                "gold_ingot_from_smelting_raw_gold": {
                   "$end": true
                 },
                 "gold_nugget": {
@@ -2697,16 +2775,28 @@
                 "green_dye": {
                   "$end": true
                 },
-                "iron_ingot": {
+                "iron_ingot_from_blasting_deepslate_iron_ore": {
                   "$end": true
                 },
-                "iron_ingot_from_blasting": {
+                "iron_ingot_from_blasting_iron_ore": {
+                  "$end": true
+                },
+                "iron_ingot_from_blasting_raw_iron": {
                   "$end": true
                 },
                 "iron_ingot_from_iron_block": {
                   "$end": true
                 },
                 "iron_ingot_from_nuggets": {
+                  "$end": true
+                },
+                "iron_ingot_from_smelting_deepslate_iron_ore": {
+                  "$end": true
+                },
+                "iron_ingot_from_smelting_iron_ore": {
+                  "$end": true
+                },
+                "iron_ingot_from_smelting_raw_iron": {
                   "$end": true
                 },
                 "iron_nugget": {
@@ -2718,13 +2808,19 @@
                 "iron_nugget_from_smelting": {
                   "$end": true
                 },
-                "lapis_from_blasting": {
-                  "$end": true
-                },
-                "lapis_from_smelting": {
-                  "$end": true
-                },
                 "lapis_lazuli": {
+                  "$end": true
+                },
+                "lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+                  "$end": true
+                },
+                "lapis_lazuli_from_blasting_lapis_ore": {
+                  "$end": true
+                },
+                "lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+                  "$end": true
+                },
+                "lapis_lazuli_from_smelting_lapis_ore": {
                   "$end": true
                 },
                 "leather": {
@@ -3034,10 +3130,16 @@
                 "redstone_block": {
                   "$end": true
                 },
-                "redstone_from_blasting": {
+                "redstone_from_blasting_deepslate_redstone_ore": {
                   "$end": true
                 },
-                "redstone_from_smelting": {
+                "redstone_from_blasting_redstone_ore": {
+                  "$end": true
+                },
+                "redstone_from_smelting_deepslate_redstone_ore": {
+                  "$end": true
+                },
+                "redstone_from_smelting_redstone_ore": {
                   "$end": true
                 },
                 "redstone_lamp": {
@@ -5711,6 +5813,18 @@
             "waxed_exposed_cut_copper_stairs": {
               "$end": true
             },
+            "waxed_oxidized_copper": {
+              "$end": true
+            },
+            "waxed_oxidized_cut_copper": {
+              "$end": true
+            },
+            "waxed_oxidized_cut_copper_slab": {
+              "$end": true
+            },
+            "waxed_oxidized_cut_copper_stairs": {
+              "$end": true
+            },
             "waxed_weathered_copper": {
               "$end": true
             },
@@ -6770,10 +6884,16 @@
         "coal_block": {
           "$end": true
         },
-        "coal_from_blasting": {
+        "coal_from_blasting_coal_ore": {
           "$end": true
         },
-        "coal_from_smelting": {
+        "coal_from_blasting_deepslate_coal_ore": {
+          "$end": true
+        },
+        "coal_from_smelting_coal_ore": {
+          "$end": true
+        },
+        "coal_from_smelting_deepslate_coal_ore": {
           "$end": true
         },
         "coarse_dirt": {
@@ -6896,13 +7016,25 @@
         "copper_block": {
           "$end": true
         },
-        "copper_ingot": {
+        "copper_ingot_from_blasting_copper_ore": {
           "$end": true
         },
-        "copper_ingot_from_blasting": {
+        "copper_ingot_from_blasting_deepslate_copper_ore": {
+          "$end": true
+        },
+        "copper_ingot_from_blasting_raw_copper": {
           "$end": true
         },
         "copper_ingot_from_copper_block": {
+          "$end": true
+        },
+        "copper_ingot_from_smelting_copper_ore": {
+          "$end": true
+        },
+        "copper_ingot_from_smelting_deepslate_copper_ore": {
+          "$end": true
+        },
+        "copper_ingot_from_smelting_raw_copper": {
           "$end": true
         },
         "copper_ingot_from_waxed_copper_block": {
@@ -7238,10 +7370,16 @@
         "diamond_chestplate": {
           "$end": true
         },
-        "diamond_from_blasting": {
+        "diamond_from_blasting_deepslate_diamond_ore": {
           "$end": true
         },
-        "diamond_from_smelting": {
+        "diamond_from_blasting_diamond_ore": {
+          "$end": true
+        },
+        "diamond_from_smelting_deepslate_diamond_ore": {
+          "$end": true
+        },
+        "diamond_from_smelting_diamond_ore": {
           "$end": true
         },
         "diamond_helmet": {
@@ -7313,10 +7451,16 @@
         "emerald_block": {
           "$end": true
         },
-        "emerald_from_blasting": {
+        "emerald_from_blasting_deepslate_emerald_ore": {
           "$end": true
         },
-        "emerald_from_smelting": {
+        "emerald_from_blasting_emerald_ore": {
+          "$end": true
+        },
+        "emerald_from_smelting_deepslate_emerald_ore": {
+          "$end": true
+        },
+        "emerald_from_smelting_emerald_ore": {
           "$end": true
         },
         "enchanting_table": {
@@ -7451,16 +7595,28 @@
         "gold_block": {
           "$end": true
         },
-        "gold_ingot": {
+        "gold_ingot_from_blasting_deepslate_gold_ore": {
           "$end": true
         },
-        "gold_ingot_from_blasting": {
+        "gold_ingot_from_blasting_gold_ore": {
+          "$end": true
+        },
+        "gold_ingot_from_blasting_raw_gold": {
           "$end": true
         },
         "gold_ingot_from_gold_block": {
           "$end": true
         },
         "gold_ingot_from_nuggets": {
+          "$end": true
+        },
+        "gold_ingot_from_smelting_deepslate_gold_ore": {
+          "$end": true
+        },
+        "gold_ingot_from_smelting_gold_ore": {
+          "$end": true
+        },
+        "gold_ingot_from_smelting_raw_gold": {
           "$end": true
         },
         "gold_nugget": {
@@ -7658,16 +7814,28 @@
         "iron_hoe": {
           "$end": true
         },
-        "iron_ingot": {
+        "iron_ingot_from_blasting_deepslate_iron_ore": {
           "$end": true
         },
-        "iron_ingot_from_blasting": {
+        "iron_ingot_from_blasting_iron_ore": {
+          "$end": true
+        },
+        "iron_ingot_from_blasting_raw_iron": {
           "$end": true
         },
         "iron_ingot_from_iron_block": {
           "$end": true
         },
         "iron_ingot_from_nuggets": {
+          "$end": true
+        },
+        "iron_ingot_from_smelting_deepslate_iron_ore": {
+          "$end": true
+        },
+        "iron_ingot_from_smelting_iron_ore": {
+          "$end": true
+        },
+        "iron_ingot_from_smelting_raw_iron": {
           "$end": true
         },
         "iron_leggings": {
@@ -7748,13 +7916,19 @@
         "lapis_block": {
           "$end": true
         },
-        "lapis_from_blasting": {
-          "$end": true
-        },
-        "lapis_from_smelting": {
-          "$end": true
-        },
         "lapis_lazuli": {
+          "$end": true
+        },
+        "lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+          "$end": true
+        },
+        "lapis_lazuli_from_blasting_lapis_ore": {
+          "$end": true
+        },
+        "lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+          "$end": true
+        },
+        "lapis_lazuli_from_smelting_lapis_ore": {
           "$end": true
         },
         "lead": {
@@ -8765,10 +8939,16 @@
         "redstone_block": {
           "$end": true
         },
-        "redstone_from_blasting": {
+        "redstone_from_blasting_deepslate_redstone_ore": {
           "$end": true
         },
-        "redstone_from_smelting": {
+        "redstone_from_blasting_redstone_ore": {
+          "$end": true
+        },
+        "redstone_from_smelting_deepslate_redstone_ore": {
+          "$end": true
+        },
+        "redstone_from_smelting_redstone_ore": {
           "$end": true
         },
         "redstone_lamp": {
@@ -9210,6 +9390,42 @@
           "$end": true
         },
         "waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_oxidized_copper_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_slab": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_slab_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_stairs": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+          "$end": true
+        },
+        "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
           "$end": true
         },
         "waxed_weathered_copper_from_honeycomb": {

@@ -1208,6 +1208,15 @@
                 "quartz_stairs_from_quartz_block_stonecutting": {
                   "$end": true
                 },
+                "raw_copper_block": {
+                  "$end": true
+                },
+                "raw_gold_block": {
+                  "$end": true
+                },
+                "raw_iron_block": {
+                  "$end": true
+                },
                 "red_concrete_powder": {
                   "$end": true
                 },
@@ -2742,6 +2751,9 @@
                 "gold_ingot_from_blasting_gold_ore": {
                   "$end": true
                 },
+                "gold_ingot_from_blasting_nether_gold_ore": {
+                  "$end": true
+                },
                 "gold_ingot_from_blasting_raw_gold": {
                   "$end": true
                 },
@@ -2755,6 +2767,9 @@
                   "$end": true
                 },
                 "gold_ingot_from_smelting_gold_ore": {
+                  "$end": true
+                },
+                "gold_ingot_from_smelting_nether_gold_ore": {
                   "$end": true
                 },
                 "gold_ingot_from_smelting_raw_gold": {
@@ -2926,6 +2941,15 @@
                   "$end": true
                 },
                 "quartz_from_blasting": {
+                  "$end": true
+                },
+                "raw_copper": {
+                  "$end": true
+                },
+                "raw_gold": {
+                  "$end": true
+                },
+                "raw_iron": {
                   "$end": true
                 },
                 "red_dye_from_beetroot": {
@@ -5327,6 +5351,15 @@
             "rail": {
               "$end": true
             },
+            "raw_copper_block": {
+              "$end": true
+            },
+            "raw_gold_block": {
+              "$end": true
+            },
+            "raw_iron_block": {
+              "$end": true
+            },
             "red_banner": {
               "$end": true
             },
@@ -7601,6 +7634,9 @@
         "gold_ingot_from_blasting_gold_ore": {
           "$end": true
         },
+        "gold_ingot_from_blasting_nether_gold_ore": {
+          "$end": true
+        },
         "gold_ingot_from_blasting_raw_gold": {
           "$end": true
         },
@@ -7614,6 +7650,9 @@
           "$end": true
         },
         "gold_ingot_from_smelting_gold_ore": {
+          "$end": true
+        },
+        "gold_ingot_from_smelting_nether_gold_ore": {
           "$end": true
         },
         "gold_ingot_from_smelting_raw_gold": {
@@ -8838,6 +8877,24 @@
           "$end": true
         },
         "rail": {
+          "$end": true
+        },
+        "raw_copper": {
+          "$end": true
+        },
+        "raw_copper_block": {
+          "$end": true
+        },
+        "raw_gold": {
+          "$end": true
+        },
+        "raw_gold_block": {
+          "$end": true
+        },
+        "raw_iron": {
+          "$end": true
+        },
+        "raw_iron_block": {
           "$end": true
         },
         "red_banner": {
@@ -13527,13 +13584,28 @@
         "cave": {
           "$end": true
         },
-        "crack": {
-          "$end": true
-        },
         "nether_cave": {
           "$end": true
         },
         "ocean_cave": {
+          "$end": true
+        },
+        "prototype_canyon": {
+          "$end": true
+        },
+        "prototype_cave": {
+          "$end": true
+        },
+        "prototype_crack": {
+          "$end": true
+        },
+        "prototype_ocean_cave": {
+          "$end": true
+        },
+        "underwater_canyon": {
+          "$end": true
+        },
+        "underwater_cave": {
           "$end": true
         }
       }
@@ -13726,10 +13798,7 @@
         "forest_rock": {
           "$end": true
         },
-        "fossil_lower": {
-          "$end": true
-        },
-        "fossil_upper": {
+        "fossil": {
           "$end": true
         },
         "freeze_top_layer": {
@@ -13849,10 +13918,7 @@
         "ore_clay": {
           "$end": true
         },
-        "ore_coal_lower": {
-          "$end": true
-        },
-        "ore_coal_upper": {
+        "ore_coal": {
           "$end": true
         },
         "ore_copper": {
@@ -13868,9 +13934,6 @@
           "$end": true
         },
         "ore_diamond": {
-          "$end": true
-        },
-        "ore_diamond_large": {
           "$end": true
         },
         "ore_diorite": {
@@ -13906,19 +13969,10 @@
         "ore_infested": {
           "$end": true
         },
-        "ore_iron_lower": {
-          "$end": true
-        },
-        "ore_iron_middle": {
-          "$end": true
-        },
-        "ore_iron_upper": {
+        "ore_iron": {
           "$end": true
         },
         "ore_lapis": {
-          "$end": true
-        },
-        "ore_lapis_buried": {
           "$end": true
         },
         "ore_magma": {
@@ -13931,9 +13985,6 @@
           "$end": true
         },
         "ore_redstone": {
-          "$end": true
-        },
-        "ore_redstone_lower": {
           "$end": true
         },
         "ore_soul_sand": {
@@ -14063,6 +14114,87 @@
           "$end": true
         },
         "plain_vegetation": {
+          "$end": true
+        },
+        "prototype_fossil_lower": {
+          "$end": true
+        },
+        "prototype_fossil_upper": {
+          "$end": true
+        },
+        "prototype_glow_lichen": {
+          "$end": true
+        },
+        "prototype_ore_andesite": {
+          "$end": true
+        },
+        "prototype_ore_coal_lower": {
+          "$end": true
+        },
+        "prototype_ore_coal_upper": {
+          "$end": true
+        },
+        "prototype_ore_copper": {
+          "$end": true
+        },
+        "prototype_ore_diamond": {
+          "$end": true
+        },
+        "prototype_ore_diamond_large": {
+          "$end": true
+        },
+        "prototype_ore_diorite": {
+          "$end": true
+        },
+        "prototype_ore_dirt": {
+          "$end": true
+        },
+        "prototype_ore_emerald": {
+          "$end": true
+        },
+        "prototype_ore_gold": {
+          "$end": true
+        },
+        "prototype_ore_granite": {
+          "$end": true
+        },
+        "prototype_ore_gravel": {
+          "$end": true
+        },
+        "prototype_ore_infested": {
+          "$end": true
+        },
+        "prototype_ore_iron_lower": {
+          "$end": true
+        },
+        "prototype_ore_iron_middle": {
+          "$end": true
+        },
+        "prototype_ore_iron_upper": {
+          "$end": true
+        },
+        "prototype_ore_lapis": {
+          "$end": true
+        },
+        "prototype_ore_lapis_buried": {
+          "$end": true
+        },
+        "prototype_ore_redstone": {
+          "$end": true
+        },
+        "prototype_ore_redstone_lower": {
+          "$end": true
+        },
+        "prototype_ore_tuff": {
+          "$end": true
+        },
+        "prototype_spring_water": {
+          "$end": true
+        },
+        "prototype_underwater_magma": {
+          "$end": true
+        },
+        "prototype_vines": {
           "$end": true
         },
         "rare_dripstone_cluster": {
@@ -14201,9 +14333,6 @@
           "$end": true
         },
         "twisting_vines": {
-          "$end": true
-        },
-        "underwater_magma": {
           "$end": true
         },
         "vines": {

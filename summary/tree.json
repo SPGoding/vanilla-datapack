@@ -12911,7 +12911,7 @@
         "lush_ground_replaceable": {
           "$end": true
         },
-        "lush_plants_replaceable": {
+        "moss_replaceable": {
           "$end": true
         },
         "mushroom_grow_block": {
@@ -13596,7 +13596,7 @@
         "prototype_cave": {
           "$end": true
         },
-        "prototype_crack": {
+        "prototype_crevice": {
           "$end": true
         },
         "prototype_ocean_cave": {

@@ -2673,6 +2673,9 @@
                 "conduit": {
                   "$end": true
                 },
+                "copper_ingot": {
+                  "$end": true
+                },
                 "copper_ingot_from_blasting_copper_ore": {
                   "$end": true
                 },
@@ -2680,9 +2683,6 @@
                   "$end": true
                 },
                 "copper_ingot_from_blasting_raw_copper": {
-                  "$end": true
-                },
-                "copper_ingot_from_copper_block": {
                   "$end": true
                 },
                 "copper_ingot_from_smelting_copper_ore": {
@@ -7049,6 +7049,9 @@
         "copper_block": {
           "$end": true
         },
+        "copper_ingot": {
+          "$end": true
+        },
         "copper_ingot_from_blasting_copper_ore": {
           "$end": true
         },
@@ -7056,9 +7059,6 @@
           "$end": true
         },
         "copper_ingot_from_blasting_raw_copper": {
-          "$end": true
-        },
-        "copper_ingot_from_copper_block": {
           "$end": true
         },
         "copper_ingot_from_smelting_copper_ore": {
@@ -12963,6 +12963,9 @@
           "$end": true
         },
         "slabs": {
+          "$end": true
+        },
+        "small_dripleaf_placeable": {
           "$end": true
         },
         "small_flowers": {

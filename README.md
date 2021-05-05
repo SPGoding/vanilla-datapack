@@ -31,7 +31,7 @@ Only the data for versions released after `1.16.2` (inclusive) can be found in t
 
 ## Branches
 
-- `master`: Stores the scripts.
+- `main`: Stores the scripts.
 - `data`: Stores the auto-generated vanilla data pack.
 - `summary`: Stores the auto-generated vanilla data pack content summaries.
 
@@ -181,5 +181,5 @@ respositoy as soon as possible.
 
 # License
 
-The [LICENSE](https://github.com/SPGoding/vanilla-datapack/blob/master/LICENSE) only applies to the `master` git
+The [LICENSE](https://github.com/SPGoding/vanilla-datapack/blob/main/LICENSE) only applies to the `main` git
 branch and the `summary` git branch.

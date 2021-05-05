@@ -42,6 +42,9 @@ async function deploy(git: SimpleGit, version: string) {
 
 async function deployTo(git: SimpleGit, version: string, type: 'data' | 'summary', generatedPath: string, rootStorePath: string) {
     await git.checkout(type)
+    if (fs.existsSync(rootStorePath)) {
+        fs.rmdirSync(rootStorePath, { recursive: true })
+    }
     await fs.ensureDir(rootStorePath)
     await fs.copy(generatedPath, rootStorePath)
     await git.add('.')

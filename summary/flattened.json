@@ -4346,7 +4346,6 @@
     "minecraft:prototype_canyon",
     "minecraft:prototype_cave",
     "minecraft:prototype_crevice",
-    "minecraft:prototype_ocean_cave",
     "minecraft:underwater_canyon",
     "minecraft:underwater_cave"
   ],
@@ -4535,8 +4534,8 @@
     "minecraft:prototype_ore_granite",
     "minecraft:prototype_ore_gravel",
     "minecraft:prototype_ore_infested",
-    "minecraft:prototype_ore_iron_lower",
     "minecraft:prototype_ore_iron_middle",
+    "minecraft:prototype_ore_iron_small",
     "minecraft:prototype_ore_iron_upper",
     "minecraft:prototype_ore_lapis",
     "minecraft:prototype_ore_lapis_buried",

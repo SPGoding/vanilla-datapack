@@ -13602,9 +13602,6 @@
         "prototype_crevice": {
           "$end": true
         },
-        "prototype_ocean_cave": {
-          "$end": true
-        },
         "underwater_canyon": {
           "$end": true
         },
@@ -14167,10 +14164,10 @@
         "prototype_ore_infested": {
           "$end": true
         },
-        "prototype_ore_iron_lower": {
+        "prototype_ore_iron_middle": {
           "$end": true
         },
-        "prototype_ore_iron_middle": {
+        "prototype_ore_iron_small": {
           "$end": true
         },
         "prototype_ore_iron_upper": {

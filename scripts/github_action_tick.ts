@@ -1,5 +1,5 @@
 import fs from 'fs-extra'
-import simpleGit, { SimpleGit } from 'simple-git'
+import simpleGit, { ResetMode, SimpleGit } from 'simple-git'
 import { downloadInputs } from './download_inputs'
 import { generate } from './generate'
 import { getLatestVersion } from './get_latest_version'
@@ -41,6 +41,7 @@ async function deploy(git: SimpleGit, version: string) {
 }
 
 async function deployTo(git: SimpleGit, version: string, type: 'data' | 'summary', generatedPath: string, rootStorePath: string) {
+    await git.reset(ResetMode.HARD)
     await git.checkout(type)
     if (fs.existsSync(rootStorePath)) {
         fs.rmdirSync(rootStorePath, { recursive: true })

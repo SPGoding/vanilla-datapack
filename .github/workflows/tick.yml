@@ -22,7 +22,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install Dependencies
-        run: npm i
+        run: npm ci
 
       - name: Tick
         run: npm run github_action_tick

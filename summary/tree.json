@@ -1768,9 +1768,6 @@
                 "black_bed_from_white_bed": {
                   "$end": true
                 },
-                "black_candle": {
-                  "$end": true
-                },
                 "black_carpet": {
                   "$end": true
                 },
@@ -1804,9 +1801,6 @@
                 "blue_bed_from_white_bed": {
                   "$end": true
                 },
-                "blue_candle": {
-                  "$end": true
-                },
                 "blue_carpet": {
                   "$end": true
                 },
@@ -1837,9 +1831,6 @@
                 "brown_bed_from_white_bed": {
                   "$end": true
                 },
-                "brown_candle": {
-                  "$end": true
-                },
                 "brown_carpet": {
                   "$end": true
                 },
@@ -1856,9 +1847,6 @@
                   "$end": true
                 },
                 "campfire": {
-                  "$end": true
-                },
-                "candle": {
                   "$end": true
                 },
                 "cartography_table": {
@@ -1901,9 +1889,6 @@
                   "$end": true
                 },
                 "cyan_bed_from_white_bed": {
-                  "$end": true
-                },
-                "cyan_candle": {
                   "$end": true
                 },
                 "cyan_carpet": {
@@ -2011,9 +1996,6 @@
                 "gray_bed_from_white_bed": {
                   "$end": true
                 },
-                "gray_candle": {
-                  "$end": true
-                },
                 "gray_carpet": {
                   "$end": true
                 },
@@ -2036,9 +2018,6 @@
                   "$end": true
                 },
                 "green_bed_from_white_bed": {
-                  "$end": true
-                },
-                "green_candle": {
                   "$end": true
                 },
                 "green_carpet": {
@@ -2092,9 +2071,6 @@
                 "light_blue_bed_from_white_bed": {
                   "$end": true
                 },
-                "light_blue_candle": {
-                  "$end": true
-                },
                 "light_blue_carpet": {
                   "$end": true
                 },
@@ -2119,9 +2095,6 @@
                 "light_gray_bed_from_white_bed": {
                   "$end": true
                 },
-                "light_gray_candle": {
-                  "$end": true
-                },
                 "light_gray_carpet": {
                   "$end": true
                 },
@@ -2144,9 +2117,6 @@
                   "$end": true
                 },
                 "lime_bed_from_white_bed": {
-                  "$end": true
-                },
-                "lime_candle": {
                   "$end": true
                 },
                 "lime_carpet": {
@@ -2177,9 +2147,6 @@
                   "$end": true
                 },
                 "magenta_bed_from_white_bed": {
-                  "$end": true
-                },
-                "magenta_candle": {
                   "$end": true
                 },
                 "magenta_carpet": {
@@ -2236,9 +2203,6 @@
                 "orange_bed_from_white_bed": {
                   "$end": true
                 },
-                "orange_candle": {
-                  "$end": true
-                },
                 "orange_carpet": {
                   "$end": true
                 },
@@ -2264,9 +2228,6 @@
                   "$end": true
                 },
                 "pink_bed_from_white_bed": {
-                  "$end": true
-                },
-                "pink_candle": {
                   "$end": true
                 },
                 "pink_carpet": {
@@ -2329,9 +2290,6 @@
                 "purple_bed_from_white_bed": {
                   "$end": true
                 },
-                "purple_candle": {
-                  "$end": true
-                },
                 "purple_carpet": {
                   "$end": true
                 },
@@ -2354,9 +2312,6 @@
                   "$end": true
                 },
                 "red_bed_from_white_bed": {
-                  "$end": true
-                },
-                "red_candle": {
                   "$end": true
                 },
                 "red_carpet": {
@@ -2452,9 +2407,6 @@
                 "white_bed": {
                   "$end": true
                 },
-                "white_candle": {
-                  "$end": true
-                },
                 "white_carpet": {
                   "$end": true
                 },
@@ -2474,9 +2426,6 @@
                   "$end": true
                 },
                 "yellow_bed_from_white_bed": {
-                  "$end": true
-                },
-                "yellow_candle": {
                   "$end": true
                 },
                 "yellow_carpet": {
@@ -3236,9 +3185,6 @@
             },
             "tools": {
               "$children": {
-                "bundle": {
-                  "$end": true
-                },
                 "clock": {
                   "$end": true
                 },
@@ -6617,9 +6563,6 @@
         "black_bed_from_white_bed": {
           "$end": true
         },
-        "black_candle": {
-          "$end": true
-        },
         "black_carpet": {
           "$end": true
         },
@@ -6684,9 +6627,6 @@
           "$end": true
         },
         "blue_bed_from_white_bed": {
-          "$end": true
-        },
-        "blue_candle": {
           "$end": true
         },
         "blue_carpet": {
@@ -6788,9 +6728,6 @@
         "brown_bed_from_white_bed": {
           "$end": true
         },
-        "brown_candle": {
-          "$end": true
-        },
         "brown_carpet": {
           "$end": true
         },
@@ -6824,16 +6761,10 @@
         "bucket": {
           "$end": true
         },
-        "bundle": {
-          "$end": true
-        },
         "cake": {
           "$end": true
         },
         "campfire": {
-          "$end": true
-        },
-        "candle": {
           "$end": true
         },
         "carrot_on_a_stick": {
@@ -7191,9 +7122,6 @@
           "$end": true
         },
         "cyan_bed_from_white_bed": {
-          "$end": true
-        },
-        "cyan_candle": {
           "$end": true
         },
         "cyan_carpet": {
@@ -7730,9 +7658,6 @@
         "gray_bed_from_white_bed": {
           "$end": true
         },
-        "gray_candle": {
-          "$end": true
-        },
         "gray_carpet": {
           "$end": true
         },
@@ -7770,9 +7695,6 @@
           "$end": true
         },
         "green_bed_from_white_bed": {
-          "$end": true
-        },
-        "green_candle": {
           "$end": true
         },
         "green_carpet": {
@@ -8006,9 +7928,6 @@
         "light_blue_bed_from_white_bed": {
           "$end": true
         },
-        "light_blue_candle": {
-          "$end": true
-        },
         "light_blue_carpet": {
           "$end": true
         },
@@ -8049,9 +7968,6 @@
           "$end": true
         },
         "light_gray_bed_from_white_bed": {
-          "$end": true
-        },
-        "light_gray_candle": {
           "$end": true
         },
         "light_gray_carpet": {
@@ -8111,9 +8027,6 @@
         "lime_bed_from_white_bed": {
           "$end": true
         },
-        "lime_candle": {
-          "$end": true
-        },
         "lime_carpet": {
           "$end": true
         },
@@ -8160,9 +8073,6 @@
           "$end": true
         },
         "magenta_bed_from_white_bed": {
-          "$end": true
-        },
-        "magenta_candle": {
           "$end": true
         },
         "magenta_carpet": {
@@ -8411,9 +8321,6 @@
         "orange_bed_from_white_bed": {
           "$end": true
         },
-        "orange_candle": {
-          "$end": true
-        },
         "orange_carpet": {
           "$end": true
         },
@@ -8487,9 +8394,6 @@
           "$end": true
         },
         "pink_bed_from_white_bed": {
-          "$end": true
-        },
-        "pink_candle": {
           "$end": true
         },
         "pink_carpet": {
@@ -8783,9 +8687,6 @@
         "purple_bed_from_white_bed": {
           "$end": true
         },
-        "purple_candle": {
-          "$end": true
-        },
         "purple_carpet": {
           "$end": true
         },
@@ -8904,9 +8805,6 @@
           "$end": true
         },
         "red_bed_from_white_bed": {
-          "$end": true
-        },
-        "red_candle": {
           "$end": true
         },
         "red_carpet": {
@@ -9554,9 +9452,6 @@
         "white_bed": {
           "$end": true
         },
-        "white_candle": {
-          "$end": true
-        },
         "white_carpet": {
           "$end": true
         },
@@ -9612,9 +9507,6 @@
           "$end": true
         },
         "yellow_bed_from_white_bed": {
-          "$end": true
-        },
-        "yellow_candle": {
           "$end": true
         },
         "yellow_carpet": {
@@ -12911,10 +12803,35 @@
         "lush_ground_replaceable": {
           "$end": true
         },
+        "mineable": {
+          "$children": {
+            "axe": {
+              "$end": true
+            },
+            "hoe": {
+              "$end": true
+            },
+            "pickaxe": {
+              "$end": true
+            },
+            "shovel": {
+              "$end": true
+            }
+          }
+        },
         "moss_replaceable": {
           "$end": true
         },
         "mushroom_grow_block": {
+          "$end": true
+        },
+        "needs_diamond_tool": {
+          "$end": true
+        },
+        "needs_iron_tool": {
+          "$end": true
+        },
+        "needs_stone_tool": {
           "$end": true
         },
         "non_flammable_wood": {

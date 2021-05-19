@@ -12740,6 +12740,9 @@
         "enderman_holdable": {
           "$end": true
         },
+        "features_cannot_replace": {
+          "$end": true
+        },
         "fence_gates": {
           "$end": true
         },

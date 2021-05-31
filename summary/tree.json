@@ -3599,9 +3599,6 @@
             "azalea_leaves": {
               "$end": true
             },
-            "azalea_leaves_flowers": {
-              "$end": true
-            },
             "azure_bluet": {
               "$end": true
             },
@@ -4398,6 +4395,9 @@
               "$end": true
             },
             "flowering_azalea": {
+              "$end": true
+            },
+            "flowering_azalea_leaves": {
               "$end": true
             },
             "frosted_ice": {

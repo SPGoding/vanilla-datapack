@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_sunflower": {
+    "has_double_plant": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sunflower"
-            ]
+            "item": "minecraft:sunflower"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_sunflower",
+      "has_double_plant",
       "has_the_recipe"
     ]
   ]

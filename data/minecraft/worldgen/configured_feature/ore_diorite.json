@@ -6,33 +6,22 @@
           "config": {
             "feature": {
               "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:base_stone_overworld",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:diorite"
-                    }
-                  }
-                ],
-                "size": 33,
-                "discard_chance_on_air_exposure": 0.0
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:diorite"
+                },
+                "size": 33
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": 0
-                  },
-                  "max_inclusive": {
-                    "absolute": 79
-                  },
-                  "type": "minecraft:uniform"
-                }
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 80
               },
               "type": "minecraft:range"
             }

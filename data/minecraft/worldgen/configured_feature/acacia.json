@@ -1,21 +1,25 @@
 {
   "config": {
-    "decorators": [],
+    "max_water_depth": 0,
     "ignore_vines": true,
-    "force_dirt": false,
-    "dirt_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
+    "heightmap": "OCEAN_FLOOR",
     "minimum_size": {
       "limit": 1,
       "lower_size": 0,
       "upper_size": 2,
       "type": "minecraft:two_layers_feature_size"
     },
-    "foliage_provider": {
+    "decorators": [],
+    "trunk_provider": {
+      "state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:acacia_log"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "leaves_provider": {
       "state": {
         "Properties": {
           "persistent": "false",
@@ -25,28 +29,10 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "sapling_provider": {
-      "state": {
-        "Properties": {
-          "stage": "0"
-        },
-        "Name": "minecraft:acacia_sapling"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
     "foliage_placer": {
       "radius": 2,
       "offset": 0,
       "type": "minecraft:acacia_foliage_placer"
-    },
-    "trunk_provider": {
-      "state": {
-        "Properties": {
-          "axis": "y"
-        },
-        "Name": "minecraft:acacia_log"
-      },
-      "type": "minecraft:simple_state_provider"
     },
     "trunk_placer": {
       "base_height": 5,

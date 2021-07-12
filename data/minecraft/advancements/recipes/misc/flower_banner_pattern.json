@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oxeye_daisy"
-            ]
+            "item": "minecraft:oxeye_daisy"
           }
         ]
       }

@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:warped_fungus"
-            ]
+            "item": "minecraft:warped_fungus"
           }
         ]
       }

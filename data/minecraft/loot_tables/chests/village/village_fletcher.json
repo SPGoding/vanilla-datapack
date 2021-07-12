@@ -3,11 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 1.0,
-        "max": 5.0
+        "max": 5.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -20,11 +19,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:arrow"
@@ -36,11 +34,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:feather"
@@ -52,11 +49,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:egg"
@@ -68,11 +64,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:flint"
@@ -84,11 +79,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:stick"

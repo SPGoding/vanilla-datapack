@@ -3,7 +3,6 @@
   "pools": [
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -14,17 +13,14 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": [
-                      "minecraft:shears"
-                    ]
+                    "item": "minecraft:shears"
                   }
                 }
               ],
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": 2.0,
-                  "add": false
+                  "count": 2
                 }
               ],
               "name": "minecraft:fern"
@@ -57,9 +53,7 @@
           "condition": "minecraft:location_check",
           "predicate": {
             "block": {
-              "blocks": [
-                "minecraft:large_fern"
-              ],
+              "block": "minecraft:large_fern",
               "state": {
                 "half": "upper"
               }
@@ -71,7 +65,6 @@
     },
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -82,17 +75,14 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": [
-                      "minecraft:shears"
-                    ]
+                    "item": "minecraft:shears"
                   }
                 }
               ],
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": 2.0,
-                  "add": false
+                  "count": 2
                 }
               ],
               "name": "minecraft:fern"
@@ -125,9 +115,7 @@
           "condition": "minecraft:location_check",
           "predicate": {
             "block": {
-              "blocks": [
-                "minecraft:large_fern"
-              ],
+              "block": "minecraft:large_fern",
               "state": {
                 "half": "lower"
               }

@@ -3,11 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 2.0,
-        "max": 3.0
+        "max": 3.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -21,11 +20,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:diamond"
@@ -37,11 +35,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:iron_ingot"
@@ -53,11 +50,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:gold_ingot"
@@ -69,11 +65,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 9.0
-              },
-              "add": false
+                "max": 9.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:redstone"
@@ -85,11 +80,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bread"
@@ -101,11 +95,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:apple"
@@ -165,7 +158,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 30,
               "treasure": true
             }
           ],

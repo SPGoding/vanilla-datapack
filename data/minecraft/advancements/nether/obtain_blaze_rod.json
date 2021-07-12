@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:blaze_rod"
-            ]
+            "item": "minecraft:blaze_rod"
           }
         ]
       }

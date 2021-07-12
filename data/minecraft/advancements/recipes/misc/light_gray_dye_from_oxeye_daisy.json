@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_oxeye_daisy": {
+    "has_red_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oxeye_daisy"
-            ]
+            "item": "minecraft:oxeye_daisy"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_oxeye_daisy",
+      "has_red_flower",
       "has_the_recipe"
     ]
   ]

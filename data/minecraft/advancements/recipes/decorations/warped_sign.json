@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_planks": {
+    "has_warped_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:warped_planks"
-            ]
+            "item": "minecraft:warped_planks"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_planks",
+      "has_warped_planks",
       "has_the_recipe"
     ]
   ]

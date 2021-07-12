@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:ancient_debris"
-            ]
+            "item": "minecraft:ancient_debris"
           }
         ]
       }

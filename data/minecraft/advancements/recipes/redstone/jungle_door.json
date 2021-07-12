@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:jungle_planks"
-            ]
+            "item": "minecraft:jungle_planks"
           }
         ]
       }

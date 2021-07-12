@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_planks": {
+    "has_spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:spruce_planks"
-            ]
+            "item": "minecraft:spruce_planks"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_planks",
+      "has_spruce_planks",
       "has_the_recipe"
     ]
   ]

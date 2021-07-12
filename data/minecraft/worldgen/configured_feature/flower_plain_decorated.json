@@ -15,9 +15,7 @@
               "type": "minecraft:decorated"
             },
             "decorator": {
-              "config": {
-                "heightmap": "MOTION_BLOCKING"
-              },
+              "config": {},
               "type": "minecraft:heightmap"
             }
           },

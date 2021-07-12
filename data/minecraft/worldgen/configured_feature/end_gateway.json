@@ -2,49 +2,18 @@
   "config": {
     "feature": {
       "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "feature": {
-                  "config": {
-                    "exit": [
-                      100,
-                      50,
-                      0
-                    ],
-                    "exact": true
-                  },
-                  "type": "minecraft:end_gateway"
-                },
-                "decorator": {
-                  "config": {},
-                  "type": "minecraft:end_gateway"
-                }
-              },
-              "type": "minecraft:decorated"
-            },
-            "decorator": {
-              "config": {
-                "heightmap": "MOTION_BLOCKING"
-              },
-              "type": "minecraft:heightmap"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
+        "exit": [
+          100,
+          50,
+          0
+        ],
+        "exact": true
       },
-      "type": "minecraft:decorated"
+      "type": "minecraft:end_gateway"
     },
     "decorator": {
-      "config": {
-        "chance": 700
-      },
-      "type": "minecraft:chance"
+      "config": {},
+      "type": "minecraft:end_gateway"
     }
   },
   "type": "minecraft:decorated"

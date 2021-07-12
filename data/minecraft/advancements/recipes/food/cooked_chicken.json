@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:chicken"
-            ]
+            "item": "minecraft:chicken"
           }
         ]
       }

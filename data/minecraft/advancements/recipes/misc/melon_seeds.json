@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:melon_slice"
-            ]
+            "item": "minecraft:melon_slice"
           }
         ]
       }

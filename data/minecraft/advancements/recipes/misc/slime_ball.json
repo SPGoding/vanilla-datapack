@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_slime_block": {
+    "has_slime": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:slime_block"
-            ]
+            "item": "minecraft:slime_block"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_slime_block",
+      "has_slime",
       "has_the_recipe"
     ]
   ]

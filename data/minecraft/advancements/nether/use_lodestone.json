@@ -21,15 +21,11 @@
       "conditions": {
         "location": {
           "block": {
-            "blocks": [
-              "minecraft:lodestone"
-            ]
+            "block": "minecraft:lodestone"
           }
         },
         "item": {
-          "items": [
-            "minecraft:compass"
-          ]
+          "item": "minecraft:compass"
         }
       }
     }

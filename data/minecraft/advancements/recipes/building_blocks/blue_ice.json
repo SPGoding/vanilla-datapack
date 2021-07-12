@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:packed_ice"
-            ]
+            "item": "minecraft:packed_ice"
           }
         ]
       }

@@ -2,8 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -19,8 +18,7 @@
                   }
                 }
               ],
-              "count": 2.0,
-              "add": false
+              "count": 2
             },
             {
               "function": "minecraft:explosion_decay"

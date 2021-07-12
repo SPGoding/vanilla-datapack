@@ -2,8 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -17,8 +16,7 @@
       ]
     },
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -32,8 +30,7 @@
       ]
     },
     {
-      "rolls": 3.0,
-      "bonus_rolls": 0.0,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -42,11 +39,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:apple"
@@ -58,11 +54,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bread"
@@ -74,11 +69,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:salmon"
@@ -86,8 +80,7 @@
       ]
     },
     {
-      "rolls": 4.0,
-      "bonus_rolls": 0.0,
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:item",
@@ -96,11 +89,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 12.0
-              },
-              "add": false
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:stick"
@@ -112,11 +104,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 12.0
-              },
-              "add": false
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:oak_planks"
@@ -128,11 +119,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:oak_log"
@@ -144,11 +134,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:spruce_log"
@@ -160,11 +149,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:birch_log"
@@ -176,11 +164,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:jungle_log"
@@ -192,11 +179,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:acacia_log"
@@ -208,11 +194,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:dark_oak_log"

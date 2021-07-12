@@ -23,9 +23,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:apple"
-          ]
+          "item": "minecraft:apple"
         }
       }
     },
@@ -33,9 +31,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:mushroom_stew"
-          ]
+          "item": "minecraft:mushroom_stew"
         }
       }
     },
@@ -43,9 +39,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:bread"
-          ]
+          "item": "minecraft:bread"
         }
       }
     },
@@ -53,9 +47,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:porkchop"
-          ]
+          "item": "minecraft:porkchop"
         }
       }
     },
@@ -63,9 +55,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_porkchop"
-          ]
+          "item": "minecraft:cooked_porkchop"
         }
       }
     },
@@ -73,9 +63,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:golden_apple"
-          ]
+          "item": "minecraft:golden_apple"
         }
       }
     },
@@ -83,9 +71,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:enchanted_golden_apple"
-          ]
+          "item": "minecraft:enchanted_golden_apple"
         }
       }
     },
@@ -93,9 +79,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cod"
-          ]
+          "item": "minecraft:cod"
         }
       }
     },
@@ -103,9 +87,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:salmon"
-          ]
+          "item": "minecraft:salmon"
         }
       }
     },
@@ -113,9 +95,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:tropical_fish"
-          ]
+          "item": "minecraft:tropical_fish"
         }
       }
     },
@@ -123,9 +103,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:pufferfish"
-          ]
+          "item": "minecraft:pufferfish"
         }
       }
     },
@@ -133,9 +111,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_cod"
-          ]
+          "item": "minecraft:cooked_cod"
         }
       }
     },
@@ -143,9 +119,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_salmon"
-          ]
+          "item": "minecraft:cooked_salmon"
         }
       }
     },
@@ -153,9 +127,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cookie"
-          ]
+          "item": "minecraft:cookie"
         }
       }
     },
@@ -163,9 +135,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:melon_slice"
-          ]
+          "item": "minecraft:melon_slice"
         }
       }
     },
@@ -173,9 +143,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:beef"
-          ]
+          "item": "minecraft:beef"
         }
       }
     },
@@ -183,9 +151,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_beef"
-          ]
+          "item": "minecraft:cooked_beef"
         }
       }
     },
@@ -193,9 +159,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:chicken"
-          ]
+          "item": "minecraft:chicken"
         }
       }
     },
@@ -203,9 +167,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_chicken"
-          ]
+          "item": "minecraft:cooked_chicken"
         }
       }
     },
@@ -213,9 +175,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:rotten_flesh"
-          ]
+          "item": "minecraft:rotten_flesh"
         }
       }
     },
@@ -223,9 +183,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:spider_eye"
-          ]
+          "item": "minecraft:spider_eye"
         }
       }
     },
@@ -233,9 +191,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:carrot"
-          ]
+          "item": "minecraft:carrot"
         }
       }
     },
@@ -243,9 +199,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:potato"
-          ]
+          "item": "minecraft:potato"
         }
       }
     },
@@ -253,9 +207,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:baked_potato"
-          ]
+          "item": "minecraft:baked_potato"
         }
       }
     },
@@ -263,9 +215,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:poisonous_potato"
-          ]
+          "item": "minecraft:poisonous_potato"
         }
       }
     },
@@ -273,9 +223,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:golden_carrot"
-          ]
+          "item": "minecraft:golden_carrot"
         }
       }
     },
@@ -283,9 +231,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:pumpkin_pie"
-          ]
+          "item": "minecraft:pumpkin_pie"
         }
       }
     },
@@ -293,9 +239,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:rabbit"
-          ]
+          "item": "minecraft:rabbit"
         }
       }
     },
@@ -303,9 +247,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_rabbit"
-          ]
+          "item": "minecraft:cooked_rabbit"
         }
       }
     },
@@ -313,9 +255,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:rabbit_stew"
-          ]
+          "item": "minecraft:rabbit_stew"
         }
       }
     },
@@ -323,9 +263,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:mutton"
-          ]
+          "item": "minecraft:mutton"
         }
       }
     },
@@ -333,9 +271,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_mutton"
-          ]
+          "item": "minecraft:cooked_mutton"
         }
       }
     },
@@ -343,9 +279,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:chorus_fruit"
-          ]
+          "item": "minecraft:chorus_fruit"
         }
       }
     },
@@ -353,9 +287,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:beetroot"
-          ]
+          "item": "minecraft:beetroot"
         }
       }
     },
@@ -363,9 +295,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:beetroot_soup"
-          ]
+          "item": "minecraft:beetroot_soup"
         }
       }
     },
@@ -373,9 +303,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:dried_kelp"
-          ]
+          "item": "minecraft:dried_kelp"
         }
       }
     },
@@ -383,9 +311,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ]
+          "item": "minecraft:suspicious_stew"
         }
       }
     },
@@ -393,9 +319,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:sweet_berries"
-          ]
+          "item": "minecraft:sweet_berries"
         }
       }
     },
@@ -403,19 +327,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:honey_bottle"
-          ]
-        }
-      }
-    },
-    "glow_berries": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:glow_berries"
-          ]
+          "item": "minecraft:honey_bottle"
         }
       }
     }
@@ -537,9 +449,6 @@
     ],
     [
       "honey_bottle"
-    ],
-    [
-      "glow_berries"
     ]
   ]
 }

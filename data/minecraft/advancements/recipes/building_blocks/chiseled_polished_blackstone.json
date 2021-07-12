@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_polished_blackstone_slab": {
+    "has_polished_blackstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:polished_blackstone_slab"
-            ]
+            "item": "minecraft:polished_blackstone"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_polished_blackstone_slab",
+      "has_polished_blackstone",
       "has_the_recipe"
     ]
   ]

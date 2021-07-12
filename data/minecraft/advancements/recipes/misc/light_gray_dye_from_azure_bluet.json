@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_azure_bluet": {
+    "has_red_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:azure_bluet"
-            ]
+            "item": "minecraft:azure_bluet"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_azure_bluet",
+      "has_red_flower",
       "has_the_recipe"
     ]
   ]

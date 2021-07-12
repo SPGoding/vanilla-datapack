@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:brown_mushroom"
-            ]
+            "item": "minecraft:brown_mushroom"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:red_mushroom"
-            ]
+            "item": "minecraft:red_mushroom"
           }
         ]
       }
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:mushroom_stew"
-            ]
+            "item": "minecraft:mushroom_stew"
           }
         ]
       }

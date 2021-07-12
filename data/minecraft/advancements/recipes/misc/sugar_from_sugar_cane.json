@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_sugar_cane": {
+    "has_reeds": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sugar_cane"
-            ]
+            "item": "minecraft:sugar_cane"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_sugar_cane",
+      "has_reeds",
       "has_the_recipe"
     ]
   ]

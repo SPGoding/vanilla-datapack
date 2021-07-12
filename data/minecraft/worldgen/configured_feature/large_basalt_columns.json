@@ -3,18 +3,12 @@
     "feature": {
       "config": {
         "reach": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 2,
-            "max_inclusive": 3
-          }
+          "base": 2,
+          "spread": 1
         },
         "height": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 5,
-            "max_inclusive": 10
-          }
+          "base": 5,
+          "spread": 5
         }
       },
       "type": "minecraft:basalt_columns"

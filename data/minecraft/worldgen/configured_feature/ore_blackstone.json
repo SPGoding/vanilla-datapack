@@ -6,33 +6,22 @@
           "config": {
             "feature": {
               "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:netherrack",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:blackstone"
-                    }
-                  }
-                ],
-                "size": 33,
-                "discard_chance_on_air_exposure": 0.0
+                "target": {
+                  "block": "minecraft:netherrack",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:blackstone"
+                },
+                "size": 33
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": 5
-                  },
-                  "max_inclusive": {
-                    "absolute": 31
-                  },
-                  "type": "minecraft:uniform"
-                }
+                "bottom_offset": 5,
+                "top_offset": 10,
+                "maximum": 37
               },
               "type": "minecraft:range"
             }

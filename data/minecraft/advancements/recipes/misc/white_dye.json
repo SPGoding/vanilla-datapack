@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bone_meal"
-            ]
+            "item": "minecraft:bone_meal"
           }
         ]
       }

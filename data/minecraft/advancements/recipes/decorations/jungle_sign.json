@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_planks": {
+    "has_jungle_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:jungle_planks"
-            ]
+            "item": "minecraft:jungle_planks"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_planks",
+      "has_jungle_planks",
       "has_the_recipe"
     ]
   ]

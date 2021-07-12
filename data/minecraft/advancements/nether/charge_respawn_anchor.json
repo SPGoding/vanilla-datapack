@@ -21,18 +21,14 @@
       "conditions": {
         "location": {
           "block": {
-            "blocks": [
-              "minecraft:respawn_anchor"
-            ],
+            "block": "minecraft:respawn_anchor",
             "state": {
               "charges": "4"
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:glowstone"
-          ]
+          "item": "minecraft:glowstone"
         }
       }
     }

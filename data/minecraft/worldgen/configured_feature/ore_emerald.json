@@ -2,68 +2,18 @@
   "config": {
     "feature": {
       "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:stone_ore_replaceables",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:emerald_ore"
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:deepslate_ore_replaceables",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:deepslate_emerald_ore"
-                    }
-                  }
-                ]
-              },
-              "type": "minecraft:replace_single_block"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": 4
-                  },
-                  "max_inclusive": {
-                    "absolute": 31
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+        "target": {
+          "Name": "minecraft:stone"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "state": {
+          "Name": "minecraft:emerald_ore"
         }
       },
-      "type": "minecraft:decorated"
+      "type": "minecraft:emerald_ore"
     },
     "decorator": {
-      "config": {
-        "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 3,
-            "max_inclusive": 8
-          }
-        }
-      },
-      "type": "minecraft:count"
+      "config": {},
+      "type": "minecraft:emerald_ore"
     }
   },
   "type": "minecraft:decorated"

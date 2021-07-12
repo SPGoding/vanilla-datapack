@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sugar_cane"
-            ]
+            "item": "minecraft:sugar_cane"
           }
         ]
       }

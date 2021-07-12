@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_smooth_sandstone": {
+    "has_mossy_cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:smooth_sandstone"
-            ]
+            "item": "minecraft:smooth_sandstone"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_smooth_sandstone",
+      "has_mossy_cobblestone",
       "has_the_recipe"
     ]
   ]

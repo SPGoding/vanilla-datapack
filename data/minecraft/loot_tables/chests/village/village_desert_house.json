@@ -3,11 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 3.0,
-        "max": 8.0
+        "max": 8.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -24,11 +23,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:cactus"
@@ -40,11 +38,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:wheat"
@@ -56,11 +53,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bread"
@@ -76,11 +72,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:dead_bush"
@@ -91,11 +86,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:emerald"

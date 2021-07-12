@@ -11,10 +11,8 @@
               "type": "minecraft:bamboo"
             },
             "decorator": {
-              "config": {
-                "heightmap": "WORLD_SURFACE_WG"
-              },
-              "type": "minecraft:heightmap"
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
             }
           },
           "type": "minecraft:decorated"

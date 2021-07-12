@@ -2,8 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -37,8 +36,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": 1.0,
-                  "add": false
+                  "count": 1
                 }
               ],
               "name": "minecraft:soul_soil"

@@ -38,9 +38,7 @@
               "type": "minecraft:square"
             },
             "inner": {
-              "config": {
-                "heightmap": "MOTION_BLOCKING"
-              },
+              "config": {},
               "type": "minecraft:heightmap"
             }
           },

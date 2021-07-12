@@ -20,9 +20,7 @@
       "trigger": "minecraft:filled_bucket",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cod_bucket"
-          ]
+          "item": "minecraft:cod_bucket"
         }
       }
     },
@@ -30,9 +28,7 @@
       "trigger": "minecraft:filled_bucket",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:tropical_fish_bucket"
-          ]
+          "item": "minecraft:tropical_fish_bucket"
         }
       }
     },
@@ -40,9 +36,7 @@
       "trigger": "minecraft:filled_bucket",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:pufferfish_bucket"
-          ]
+          "item": "minecraft:pufferfish_bucket"
         }
       }
     },
@@ -50,9 +44,7 @@
       "trigger": "minecraft:filled_bucket",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:salmon_bucket"
-          ]
+          "item": "minecraft:salmon_bucket"
         }
       }
     }

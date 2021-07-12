@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_pickaxe"
-            ]
+            "item": "minecraft:golden_pickaxe"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_shovel"
-            ]
+            "item": "minecraft:golden_shovel"
           }
         ]
       }
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_axe"
-            ]
+            "item": "minecraft:golden_axe"
           }
         ]
       }
@@ -47,9 +41,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_hoe"
-            ]
+            "item": "minecraft:golden_hoe"
           }
         ]
       }
@@ -59,9 +51,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_sword"
-            ]
+            "item": "minecraft:golden_sword"
           }
         ]
       }
@@ -71,9 +61,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_helmet"
-            ]
+            "item": "minecraft:golden_helmet"
           }
         ]
       }
@@ -83,9 +71,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_chestplate"
-            ]
+            "item": "minecraft:golden_chestplate"
           }
         ]
       }
@@ -95,9 +81,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_leggings"
-            ]
+            "item": "minecraft:golden_leggings"
           }
         ]
       }
@@ -107,9 +91,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_boots"
-            ]
+            "item": "minecraft:golden_boots"
           }
         ]
       }
@@ -119,9 +101,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:golden_horse_armor"
-            ]
+            "item": "minecraft:golden_horse_armor"
           }
         ]
       }

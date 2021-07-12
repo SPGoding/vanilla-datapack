@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:gold_nugget"
-            ]
+            "item": "minecraft:gold_nugget"
           }
         ]
       }

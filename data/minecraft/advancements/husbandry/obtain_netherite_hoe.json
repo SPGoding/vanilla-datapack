@@ -25,9 +25,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_hoe"
-            ]
+            "item": "minecraft:netherite_hoe"
           }
         ]
       }

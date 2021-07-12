@@ -3,11 +3,10 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 3.0,
-        "max": 8.0
+        "max": 8.0,
+        "type": "minecraft:uniform"
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -15,11 +14,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:iron_nugget"
@@ -41,11 +39,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:potato"
@@ -57,11 +54,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:sweet_berries"
@@ -73,11 +69,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:bread"
@@ -89,11 +84,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:pumpkin_seeds"
@@ -109,11 +103,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:emerald"
@@ -125,11 +118,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:spruce_sapling"
@@ -145,11 +137,10 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:spruce_log"

@@ -23,13 +23,8 @@
               "type": "minecraft:simple_state_provider"
             },
             "block_placer": {
-              "size": {
-                "type": "minecraft:biased_to_bottom",
-                "value": {
-                  "min_inclusive": 2,
-                  "max_inclusive": 4
-                }
-              },
+              "min_size": 2,
+              "extra_size": 2,
               "type": "minecraft:column_placer"
             }
           },
@@ -42,9 +37,7 @@
               "type": "minecraft:square"
             },
             "inner": {
-              "config": {
-                "heightmap": "MOTION_BLOCKING"
-              },
+              "config": {},
               "type": "minecraft:heightmap_spread_double"
             }
           },

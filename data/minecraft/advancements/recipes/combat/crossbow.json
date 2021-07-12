@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:string"
-            ]
+            "item": "minecraft:string"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "item": "minecraft:stick"
           }
         ]
       }
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:iron_ingot"
-            ]
+            "item": "minecraft:iron_ingot"
           }
         ]
       }
@@ -47,9 +41,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:tripwire_hook"
-            ]
+            "item": "minecraft:tripwire_hook"
           }
         ]
       }

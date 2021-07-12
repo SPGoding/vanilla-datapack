@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:elytra"
-            ]
+            "item": "minecraft:elytra"
           }
         ]
       }

@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:red_sandstone"
-            ]
+            "item": "minecraft:red_sandstone"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:chiseled_red_sandstone"
-            ]
+            "item": "minecraft:chiseled_red_sandstone"
           }
         ]
       }

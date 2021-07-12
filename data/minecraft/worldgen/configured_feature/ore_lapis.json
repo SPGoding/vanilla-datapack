@@ -4,44 +4,23 @@
       "config": {
         "feature": {
           "config": {
-            "targets": [
-              {
-                "target": {
-                  "tag": "minecraft:stone_ore_replaceables",
-                  "predicate_type": "minecraft:tag_match"
-                },
-                "state": {
-                  "Name": "minecraft:lapis_ore"
-                }
-              },
-              {
-                "target": {
-                  "tag": "minecraft:deepslate_ore_replaceables",
-                  "predicate_type": "minecraft:tag_match"
-                },
-                "state": {
-                  "Name": "minecraft:deepslate_lapis_ore"
-                }
-              }
-            ],
-            "size": 7,
-            "discard_chance_on_air_exposure": 0.0
+            "target": {
+              "tag": "minecraft:base_stone_overworld",
+              "predicate_type": "minecraft:tag_match"
+            },
+            "state": {
+              "Name": "minecraft:lapis_ore"
+            },
+            "size": 7
           },
           "type": "minecraft:ore"
         },
         "decorator": {
           "config": {
-            "height": {
-              "min_inclusive": {
-                "absolute": 0
-              },
-              "max_inclusive": {
-                "absolute": 30
-              },
-              "type": "minecraft:trapezoid"
-            }
+            "baseline": 16,
+            "spread": 16
           },
-          "type": "minecraft:range"
+          "type": "minecraft:depth_average"
         }
       },
       "type": "minecraft:decorated"

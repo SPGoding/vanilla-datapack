@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_pink_tulip": {
+    "has_red_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:pink_tulip"
-            ]
+            "item": "minecraft:pink_tulip"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_pink_tulip",
+      "has_red_flower",
       "has_the_recipe"
     ]
   ]

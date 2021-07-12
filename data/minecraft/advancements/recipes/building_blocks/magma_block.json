@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:magma_cream"
-            ]
+            "item": "minecraft:magma_cream"
           }
         ]
       }

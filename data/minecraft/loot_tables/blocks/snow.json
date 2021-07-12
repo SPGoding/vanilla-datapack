@@ -3,7 +3,6 @@
   "pools": [
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -56,8 +55,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 2.0,
-                      "add": false
+                      "count": 2
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -76,8 +74,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 3.0,
-                      "add": false
+                      "count": 3
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -96,8 +93,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 4.0,
-                      "add": false
+                      "count": 4
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -116,8 +112,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 5.0,
-                      "add": false
+                      "count": 5
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -136,8 +131,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 6.0,
-                      "add": false
+                      "count": 6
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -156,8 +150,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 7.0,
-                      "add": false
+                      "count": 7
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -167,8 +160,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 8.0,
-                      "add": false
+                      "count": 8
                     }
                   ],
                   "name": "minecraft:snowball"
@@ -205,8 +197,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 2.0,
-                      "add": false
+                      "count": 2
                     }
                   ],
                   "name": "minecraft:snow"
@@ -225,8 +216,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 3.0,
-                      "add": false
+                      "count": 3
                     }
                   ],
                   "name": "minecraft:snow"
@@ -245,8 +235,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 4.0,
-                      "add": false
+                      "count": 4
                     }
                   ],
                   "name": "minecraft:snow"
@@ -265,8 +254,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 5.0,
-                      "add": false
+                      "count": 5
                     }
                   ],
                   "name": "minecraft:snow"
@@ -285,8 +273,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 6.0,
-                      "add": false
+                      "count": 6
                     }
                   ],
                   "name": "minecraft:snow"
@@ -305,8 +292,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_count",
-                      "count": 7.0,
-                      "add": false
+                      "count": 7
                     }
                   ],
                   "name": "minecraft:snow"

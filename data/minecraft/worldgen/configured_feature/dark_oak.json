@@ -1,14 +1,8 @@
 {
   "config": {
-    "decorators": [],
+    "max_water_depth": 2147483647,
     "ignore_vines": true,
-    "force_dirt": false,
-    "dirt_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
+    "heightmap": "MOTION_BLOCKING",
     "minimum_size": {
       "middle_size": 1,
       "upper_size": 2,
@@ -17,7 +11,17 @@
       "lower_size": 0,
       "type": "minecraft:three_layers_feature_size"
     },
-    "foliage_provider": {
+    "decorators": [],
+    "trunk_provider": {
+      "state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:dark_oak_log"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "leaves_provider": {
       "state": {
         "Properties": {
           "persistent": "false",
@@ -27,28 +31,10 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "sapling_provider": {
-      "state": {
-        "Properties": {
-          "stage": "0"
-        },
-        "Name": "minecraft:dark_oak_sapling"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
     "foliage_placer": {
       "radius": 0,
       "offset": 0,
       "type": "minecraft:dark_oak_foliage_placer"
-    },
-    "trunk_provider": {
-      "state": {
-        "Properties": {
-          "axis": "y"
-        },
-        "Name": "minecraft:dark_oak_log"
-      },
-      "type": "minecraft:simple_state_provider"
     },
     "trunk_placer": {
       "base_height": 6,

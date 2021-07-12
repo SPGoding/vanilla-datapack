@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:white_carpet"
-            ]
+            "item": "minecraft:white_carpet"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cyan_dye"
-            ]
+            "item": "minecraft:cyan_dye"
           }
         ]
       }

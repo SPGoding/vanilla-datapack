@@ -17,9 +17,7 @@
               "type": "minecraft:square"
             },
             "inner": {
-              "config": {
-                "heightmap": "MOTION_BLOCKING"
-              },
+              "config": {},
               "type": "minecraft:heightmap"
             }
           },
@@ -31,11 +29,8 @@
     "decorator": {
       "config": {
         "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 2
-          }
+          "base": 0,
+          "spread": 2
         }
       },
       "type": "minecraft:count"

@@ -1,5 +1,14 @@
 {
   "config": {
+    "max_water_depth": 0,
+    "ignore_vines": false,
+    "heightmap": "OCEAN_FLOOR",
+    "minimum_size": {
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2,
+      "type": "minecraft:two_layers_feature_size"
+    },
     "decorators": [
       {
         "type": "minecraft:trunk_vine"
@@ -8,21 +17,16 @@
         "type": "minecraft:leave_vine"
       }
     ],
-    "ignore_vines": false,
-    "force_dirt": false,
-    "dirt_provider": {
+    "trunk_provider": {
       "state": {
-        "Name": "minecraft:dirt"
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:jungle_log"
       },
       "type": "minecraft:simple_state_provider"
     },
-    "minimum_size": {
-      "limit": 1,
-      "lower_size": 1,
-      "upper_size": 2,
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "foliage_provider": {
+    "leaves_provider": {
       "state": {
         "Properties": {
           "persistent": "false",
@@ -32,29 +36,11 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "sapling_provider": {
-      "state": {
-        "Properties": {
-          "stage": "0"
-        },
-        "Name": "minecraft:jungle_sapling"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
     "foliage_placer": {
       "radius": 2,
       "offset": 0,
       "height": 2,
       "type": "minecraft:jungle_foliage_placer"
-    },
-    "trunk_provider": {
-      "state": {
-        "Properties": {
-          "axis": "y"
-        },
-        "Name": "minecraft:jungle_log"
-      },
-      "type": "minecraft:simple_state_provider"
     },
     "trunk_placer": {
       "base_height": 10,

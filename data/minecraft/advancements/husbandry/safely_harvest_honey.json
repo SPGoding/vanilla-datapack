@@ -26,9 +26,7 @@
           }
         },
         "item": {
-          "items": [
-            "minecraft:glass_bottle"
-          ]
+          "item": "minecraft:glass_bottle"
         }
       }
     }

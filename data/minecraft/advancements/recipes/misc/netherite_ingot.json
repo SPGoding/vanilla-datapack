@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_scrap"
-            ]
+            "item": "minecraft:netherite_scrap"
           }
         ]
       }

@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:lapis_lazuli"
-            ]
+            "item": "minecraft:lapis_lazuli"
           }
         ]
       }

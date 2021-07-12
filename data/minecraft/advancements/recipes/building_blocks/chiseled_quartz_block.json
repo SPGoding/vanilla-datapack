@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:chiseled_quartz_block"
-            ]
+            "item": "minecraft:chiseled_quartz_block"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:quartz_block"
-            ]
+            "item": "minecraft:quartz_block"
           }
         ]
       }
@@ -35,9 +31,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:quartz_pillar"
-            ]
+            "item": "minecraft:quartz_pillar"
           }
         ]
       }

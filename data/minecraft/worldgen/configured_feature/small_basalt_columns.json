@@ -4,11 +4,8 @@
       "config": {
         "reach": 1,
         "height": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 1,
-            "max_inclusive": 4
-          }
+          "base": 1,
+          "spread": 3
         }
       },
       "type": "minecraft:basalt_columns"

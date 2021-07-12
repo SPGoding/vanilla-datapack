@@ -1,48 +1,14 @@
 {
   "config": {
     "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {},
-              "type": "minecraft:glowstone_blob"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 4
-                  },
-                  "max_inclusive": {
-                    "below_top": 4
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+      "config": {},
+      "type": "minecraft:glowstone_blob"
     },
     "decorator": {
       "config": {
-        "count": {
-          "type": "minecraft:biased_to_bottom",
-          "value": {
-            "min_inclusive": 0,
-            "max_inclusive": 9
-          }
-        }
+        "count": 10
       },
-      "type": "minecraft:count"
+      "type": "minecraft:glowstone"
     }
   },
   "type": "minecraft:decorated"

@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_tag": {
+    "has_stone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_tag",
+      "has_stone_bricks",
       "has_the_recipe"
     ]
   ]

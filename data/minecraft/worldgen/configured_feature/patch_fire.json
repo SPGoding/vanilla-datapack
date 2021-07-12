@@ -37,9 +37,43 @@
     },
     "decorator": {
       "config": {
-        "count": 10
+        "outer": {
+          "config": {
+            "count": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 5
+              }
+            }
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 4
+                  },
+                  "max_inclusive": {
+                    "below_top": 4
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
       },
-      "type": "minecraft:fire"
+      "type": "minecraft:decorated"
     }
   },
   "type": "minecraft:decorated"

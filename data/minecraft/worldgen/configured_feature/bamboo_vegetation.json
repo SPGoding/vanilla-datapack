@@ -39,16 +39,16 @@
                 "state_provider": {
                   "entries": [
                     {
-                      "weight": 3,
                       "data": {
                         "Name": "minecraft:grass"
-                      }
+                      },
+                      "weight": 3
                     },
                     {
-                      "weight": 1,
                       "data": {
                         "Name": "minecraft:fern"
-                      }
+                      },
+                      "weight": 1
                     }
                   ],
                   "type": "minecraft:weighted_state_provider"
@@ -69,8 +69,21 @@
               "type": "minecraft:square"
             },
             "inner": {
-              "config": {},
-              "type": "minecraft:heightmap"
+              "config": {
+                "outer": {
+                  "config": {
+                    "max_water_depth": 0
+                  },
+                  "type": "minecraft:water_depth_threshold"
+                },
+                "inner": {
+                  "config": {
+                    "heightmap": "OCEAN_FLOOR"
+                  },
+                  "type": "minecraft:heightmap"
+                }
+              },
+              "type": "minecraft:decorated"
             }
           },
           "type": "minecraft:decorated"

@@ -1,0 +1,98 @@
+{
+  "config": {
+    "body_provider": {
+      "entries": [
+        {
+          "data": {
+            "Properties": {
+              "berries": "false"
+            },
+            "Name": "minecraft:cave_vines_plant"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Properties": {
+              "berries": "true"
+            },
+            "Name": "minecraft:cave_vines_plant"
+          },
+          "weight": 1
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "head_provider": {
+      "source": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "berries": "false",
+                "age": "0"
+              },
+              "Name": "minecraft:cave_vines"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Properties": {
+                "berries": "true",
+                "age": "0"
+              },
+              "Name": "minecraft:cave_vines"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "property": "age",
+      "values": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 17,
+          "max_inclusive": 25
+        }
+      },
+      "type": "minecraft:randomized_int_state_provider"
+    },
+    "allow_water": false,
+    "height_distribution": [
+      {
+        "data": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 20
+          }
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 7
+          }
+        },
+        "weight": 10
+      }
+    ],
+    "direction": "down"
+  },
+  "type": "minecraft:growing_plant"
+}

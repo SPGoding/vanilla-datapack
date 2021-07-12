@@ -6,8 +6,11 @@
           "Name": "minecraft:gravel"
         },
         "radius": {
-          "base": 2,
-          "spread": 3
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 5
+          }
         },
         "half_height": 2,
         "targets": [
@@ -31,8 +34,10 @@
           "type": "minecraft:square"
         },
         "inner": {
-          "config": {},
-          "type": "minecraft:top_solid_heightmap"
+          "config": {
+            "heightmap": "OCEAN_FLOOR_WG"
+          },
+          "type": "minecraft:heightmap"
         }
       },
       "type": "minecraft:decorated"

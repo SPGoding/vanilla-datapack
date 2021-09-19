@@ -12938,7 +12938,7 @@
         "lapis_ores": {
           "$end": true
         },
-        "lava_pool_stone_replaceables": {
+        "lava_pool_stone_cannot_replace": {
           "$end": true
         },
         "leaves": {
@@ -13501,6 +13501,9 @@
         "gravelly_mountains": {
           "$end": true
         },
+        "grove": {
+          "$end": true
+        },
         "ice_spikes": {
           "$end": true
         },
@@ -13513,10 +13516,16 @@
         "jungle_hills": {
           "$end": true
         },
+        "lofty_peaks": {
+          "$end": true
+        },
         "lukewarm_ocean": {
           "$end": true
         },
         "lush_caves": {
+          "$end": true
+        },
+        "meadow": {
           "$end": true
         },
         "modified_badlands_plateau": {
@@ -13573,10 +13582,16 @@
         "small_end_islands": {
           "$end": true
         },
+        "snowcapped_peaks": {
+          "$end": true
+        },
         "snowy_beach": {
           "$end": true
         },
         "snowy_mountains": {
+          "$end": true
+        },
+        "snowy_slopes": {
           "$end": true
         },
         "snowy_taiga": {
@@ -13595,6 +13610,9 @@
           "$end": true
         },
         "stone_shore": {
+          "$end": true
+        },
+        "stony_peaks": {
           "$end": true
         },
         "sunflower_plains": {
@@ -13666,7 +13684,7 @@
         "prototype_cave": {
           "$end": true
         },
-        "prototype_crevice": {
+        "prototype_cave_extra_underground": {
           "$end": true
         },
         "underwater_canyon": {
@@ -13835,10 +13853,16 @@
         "fancy_oak_bees_005": {
           "$end": true
         },
+        "fancy_oak_bees_05": {
+          "$end": true
+        },
         "flower_default": {
           "$end": true
         },
         "flower_forest": {
+          "$end": true
+        },
+        "flower_meadow": {
           "$end": true
         },
         "flower_plain": {
@@ -13932,6 +13956,9 @@
           "$end": true
         },
         "lush_caves_vegetation": {
+          "$end": true
+        },
+        "meadow_trees": {
           "$end": true
         },
         "mega_jungle_tree": {
@@ -14192,7 +14219,10 @@
         "prototype_glow_lichen": {
           "$end": true
         },
-        "prototype_ore_andesite": {
+        "prototype_ore_andesite_lower": {
+          "$end": true
+        },
+        "prototype_ore_andesite_upper": {
           "$end": true
         },
         "prototype_ore_coal_lower": {
@@ -14204,13 +14234,19 @@
         "prototype_ore_copper": {
           "$end": true
         },
+        "prototype_ore_copper_large": {
+          "$end": true
+        },
         "prototype_ore_diamond": {
           "$end": true
         },
         "prototype_ore_diamond_large": {
           "$end": true
         },
-        "prototype_ore_diorite": {
+        "prototype_ore_diorite_lower": {
+          "$end": true
+        },
+        "prototype_ore_diorite_upper": {
           "$end": true
         },
         "prototype_ore_dirt": {
@@ -14222,7 +14258,10 @@
         "prototype_ore_gold": {
           "$end": true
         },
-        "prototype_ore_granite": {
+        "prototype_ore_granite_lower": {
+          "$end": true
+        },
+        "prototype_ore_granite_upper": {
           "$end": true
         },
         "prototype_ore_gravel": {
@@ -14352,6 +14391,9 @@
           "$end": true
         },
         "super_birch_bees_0002": {
+          "$end": true
+        },
+        "super_birch_bees_05": {
           "$end": true
         },
         "swamp_oak": {
@@ -14561,7 +14603,13 @@
         "gravelly_mountain": {
           "$end": true
         },
+        "grove": {
+          "$end": true
+        },
         "ice_spikes": {
+          "$end": true
+        },
+        "lofty_peaks": {
           "$end": true
         },
         "mountain": {
@@ -14582,10 +14630,22 @@
         "shattered_savanna": {
           "$end": true
         },
+        "snowcapped_peaks": {
+          "$end": true
+        },
+        "snowy_slopes": {
+          "$end": true
+        },
         "soul_sand_valley": {
           "$end": true
         },
         "stone": {
+          "$end": true
+        },
+        "stone_shore": {
+          "$end": true
+        },
+        "stony_peaks": {
           "$end": true
         },
         "swamp": {

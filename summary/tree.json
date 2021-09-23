@@ -13672,25 +13672,10 @@
         "cave": {
           "$end": true
         },
+        "cave_extra_underground": {
+          "$end": true
+        },
         "nether_cave": {
-          "$end": true
-        },
-        "ocean_cave": {
-          "$end": true
-        },
-        "prototype_canyon": {
-          "$end": true
-        },
-        "prototype_cave": {
-          "$end": true
-        },
-        "prototype_cave_extra_underground": {
-          "$end": true
-        },
-        "underwater_canyon": {
-          "$end": true
-        },
-        "underwater_cave": {
           "$end": true
         }
       }
@@ -13701,6 +13686,9 @@
     "minecraft": {
       "$children": {
         "acacia": {
+          "$end": true
+        },
+        "acacia_checked": {
           "$end": true
         },
         "amethyst_geode": {
@@ -13734,6 +13722,9 @@
           "$end": true
         },
         "birch_bees_005": {
+          "$end": true
+        },
+        "birch_checked": {
           "$end": true
         },
         "birch_other": {
@@ -13805,6 +13796,9 @@
         "dark_oak": {
           "$end": true
         },
+        "dark_oak_checked": {
+          "$end": true
+        },
         "delta": {
           "$end": true
         },
@@ -13856,6 +13850,9 @@
         "fancy_oak_bees_05": {
           "$end": true
         },
+        "fancy_oak_checked": {
+          "$end": true
+        },
         "flower_default": {
           "$end": true
         },
@@ -13889,7 +13886,10 @@
         "forest_rock": {
           "$end": true
         },
-        "fossil": {
+        "fossil_lower": {
+          "$end": true
+        },
+        "fossil_upper": {
           "$end": true
         },
         "freeze_top_layer": {
@@ -13902,6 +13902,9 @@
           "$end": true
         },
         "glowstone_extra": {
+          "$end": true
+        },
+        "grove_vegetation": {
           "$end": true
         },
         "huge_brown_mushroom": {
@@ -13964,10 +13967,19 @@
         "mega_jungle_tree": {
           "$end": true
         },
+        "mega_jungle_tree_checked": {
+          "$end": true
+        },
         "mega_pine": {
           "$end": true
         },
+        "mega_pine_checked": {
+          "$end": true
+        },
         "mega_spruce": {
+          "$end": true
+        },
+        "mega_spruce_checked": {
           "$end": true
         },
         "monster_room": {
@@ -14003,7 +14015,13 @@
         "oak_bees_005": {
           "$end": true
         },
-        "ore_andesite": {
+        "oak_checked": {
+          "$end": true
+        },
+        "ore_andesite_lower": {
+          "$end": true
+        },
+        "ore_andesite_upper": {
           "$end": true
         },
         "ore_blackstone": {
@@ -14012,10 +14030,16 @@
         "ore_clay": {
           "$end": true
         },
-        "ore_coal": {
+        "ore_coal_lower": {
+          "$end": true
+        },
+        "ore_coal_upper": {
           "$end": true
         },
         "ore_copper": {
+          "$end": true
+        },
+        "ore_copper_large": {
           "$end": true
         },
         "ore_debris_large": {
@@ -14024,13 +14048,16 @@
         "ore_debris_small": {
           "$end": true
         },
-        "ore_deepslate": {
-          "$end": true
-        },
         "ore_diamond": {
           "$end": true
         },
-        "ore_diorite": {
+        "ore_diamond_large": {
+          "$end": true
+        },
+        "ore_diorite_lower": {
+          "$end": true
+        },
+        "ore_diorite_upper": {
           "$end": true
         },
         "ore_dirt": {
@@ -14051,7 +14078,10 @@
         "ore_gold_nether": {
           "$end": true
         },
-        "ore_granite": {
+        "ore_granite_lower": {
+          "$end": true
+        },
+        "ore_granite_upper": {
           "$end": true
         },
         "ore_gravel": {
@@ -14063,10 +14093,19 @@
         "ore_infested": {
           "$end": true
         },
-        "ore_iron": {
+        "ore_iron_middle": {
+          "$end": true
+        },
+        "ore_iron_small": {
+          "$end": true
+        },
+        "ore_iron_upper": {
           "$end": true
         },
         "ore_lapis": {
+          "$end": true
+        },
+        "ore_lapis_buried": {
           "$end": true
         },
         "ore_magma": {
@@ -14079,6 +14118,9 @@
           "$end": true
         },
         "ore_redstone": {
+          "$end": true
+        },
+        "ore_redstone_lower": {
           "$end": true
         },
         "ore_soul_sand": {
@@ -14207,106 +14249,13 @@
         "pine": {
           "$end": true
         },
+        "pine_checked": {
+          "$end": true
+        },
+        "pine_on_snow": {
+          "$end": true
+        },
         "plain_vegetation": {
-          "$end": true
-        },
-        "prototype_fossil_lower": {
-          "$end": true
-        },
-        "prototype_fossil_upper": {
-          "$end": true
-        },
-        "prototype_glow_lichen": {
-          "$end": true
-        },
-        "prototype_ore_andesite_lower": {
-          "$end": true
-        },
-        "prototype_ore_andesite_upper": {
-          "$end": true
-        },
-        "prototype_ore_coal_lower": {
-          "$end": true
-        },
-        "prototype_ore_coal_upper": {
-          "$end": true
-        },
-        "prototype_ore_copper": {
-          "$end": true
-        },
-        "prototype_ore_copper_large": {
-          "$end": true
-        },
-        "prototype_ore_diamond": {
-          "$end": true
-        },
-        "prototype_ore_diamond_large": {
-          "$end": true
-        },
-        "prototype_ore_diorite_lower": {
-          "$end": true
-        },
-        "prototype_ore_diorite_upper": {
-          "$end": true
-        },
-        "prototype_ore_dirt": {
-          "$end": true
-        },
-        "prototype_ore_emerald": {
-          "$end": true
-        },
-        "prototype_ore_gold": {
-          "$end": true
-        },
-        "prototype_ore_granite_lower": {
-          "$end": true
-        },
-        "prototype_ore_granite_upper": {
-          "$end": true
-        },
-        "prototype_ore_gravel": {
-          "$end": true
-        },
-        "prototype_ore_infested": {
-          "$end": true
-        },
-        "prototype_ore_iron_middle": {
-          "$end": true
-        },
-        "prototype_ore_iron_small": {
-          "$end": true
-        },
-        "prototype_ore_iron_upper": {
-          "$end": true
-        },
-        "prototype_ore_lapis": {
-          "$end": true
-        },
-        "prototype_ore_lapis_buried": {
-          "$end": true
-        },
-        "prototype_ore_redstone": {
-          "$end": true
-        },
-        "prototype_ore_redstone_lower": {
-          "$end": true
-        },
-        "prototype_ore_tuff": {
-          "$end": true
-        },
-        "prototype_spring_water": {
-          "$end": true
-        },
-        "prototype_underwater_magma": {
-          "$end": true
-        },
-        "prototype_vines": {
-          "$end": true
-        },
-        "rare_dripstone_cluster": {
-          "$end": true
-        },
-        "rare_small_dripstone": {
           "$end": true
         },
         "red_mushroom_giant": {
@@ -14390,6 +14339,12 @@
         "spruce": {
           "$end": true
         },
+        "spruce_checked": {
+          "$end": true
+        },
+        "spruce_on_snow": {
+          "$end": true
+        },
         "super_birch_bees_0002": {
           "$end": true
         },
@@ -14442,6 +14397,9 @@
           "$end": true
         },
         "twisting_vines": {
+          "$end": true
+        },
+        "underwater_magma": {
           "$end": true
         },
         "vines": {

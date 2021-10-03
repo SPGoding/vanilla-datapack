@@ -13,6 +13,9 @@
             "bullseye": {
               "$end": true
             },
+            "caves_and_cliffs": {
+              "$end": true
+            },
             "hero_of_the_village": {
               "$end": true
             },
@@ -29,6 +32,9 @@
               "$end": true
             },
             "ol_betsy": {
+              "$end": true
+            },
+            "ride_strider_in_overworld_lava": {
               "$end": true
             },
             "root": {
@@ -62,6 +68,9 @@
               "$end": true
             },
             "trade": {
+              "$end": true
+            },
+            "trade_at_world_height": {
               "$end": true
             },
             "two_birds_one_arrow": {
@@ -142,6 +151,9 @@
               "$end": true
             },
             "plant_seed": {
+              "$end": true
+            },
+            "play_jukebox_in_meadows": {
               "$end": true
             },
             "ride_a_boat_with_a_goat": {
@@ -13838,6 +13850,9 @@
         "fancy_oak": {
           "$end": true
         },
+        "fancy_oak_bees": {
+          "$end": true
+        },
         "fancy_oak_bees_0002": {
           "$end": true
         },
@@ -13845,9 +13860,6 @@
           "$end": true
         },
         "fancy_oak_bees_005": {
-          "$end": true
-        },
-        "fancy_oak_bees_05": {
           "$end": true
         },
         "fancy_oak_checked": {
@@ -14345,10 +14357,10 @@
         "spruce_on_snow": {
           "$end": true
         },
-        "super_birch_bees_0002": {
+        "super_birch_bees": {
           "$end": true
         },
-        "super_birch_bees_05": {
+        "super_birch_bees_0002": {
           "$end": true
         },
         "swamp_oak": {
@@ -14631,6 +14643,9 @@
           "$end": true
         },
         "floating_islands": {
+          "$end": true
+        },
+        "large_biomes": {
           "$end": true
         },
         "nether": {

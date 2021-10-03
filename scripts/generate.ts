@@ -40,13 +40,37 @@ async function generateData() {
 }
 
 async function generateJarData() {
-    return decompress(JarPath, GeneratedDataPath, {
-        filter: f => f.path.startsWith('data') && ['.json', '.mcfunction', '.nbt'].includes(path.posix.extname(f.path)),
-        map: f => {
-            f.path = f.path.split(/[\\\/]/).slice(1).join('/')
-            return f
+    function getFile(files: decompress.File[], path: string): decompress.File | undefined {
+        return files.find(f => f.path.replace(/\\/g, '/') === path)
+    }
+
+    try {
+        const files = await decompress(JarPath)
+        const versionsList = getFile(files, 'META-INF/versions.list')
+
+        let versionJarFiles: decompress.File[]
+        if (versionsList) {
+            // New bundler format after 21w39a.
+            const [, , versionJarRelPath] = versionsList.data.toString('utf-8').split(/[\t\r\n]/)
+            const versionJarPath = path.posix.join('META-INF/versions', versionJarRelPath)
+            const versionJar = getFile(files, versionJarPath)
+            if (!versionJar) {
+                throw new Error(`Cannot find version jar ${versionJarPath}`)
+            }
+            versionJarFiles = await decompress(versionJar.data)
+        } else {
+            // Legacy format before 21w39a.
+            versionJarFiles = files
         }
-    })
+
+        await Promise.all(versionJarFiles.map(async file => {
+            if (file.path.startsWith('data') && ['.json', '.mcfunction', '.nbt'].includes(path.posix.extname(file.path))) {
+                await fs.promises.writeFile(path.join(GeneratedPath, file.path), file.data)
+            }
+        }))
+    } catch (e) {
+        console.error(`Handling ${JarPath}: `, e)
+    }
 }
 
 async function generateWorldgenData() {

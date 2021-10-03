@@ -65,6 +65,8 @@ async function generateJarData() {
 
         await Promise.all(versionJarFiles.map(async file => {
             if (file.path.startsWith('data') && ['.json', '.mcfunction', '.nbt'].includes(path.posix.extname(file.path))) {
+                const outputPath = path.join(GeneratedPath, file.path)
+                await fs.promises.mkdir(path.resolve(outputPath, '..'), { recursive: true })
                 await fs.promises.writeFile(path.join(GeneratedPath, file.path), file.data)
             }
         }))

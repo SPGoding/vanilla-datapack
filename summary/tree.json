@@ -13414,13 +13414,7 @@
         "badlands": {
           "$end": true
         },
-        "badlands_plateau": {
-          "$end": true
-        },
         "bamboo_jungle": {
-          "$end": true
-        },
-        "bamboo_jungle_hills": {
           "$end": true
         },
         "basalt_deltas": {
@@ -13432,9 +13426,6 @@
         "birch_forest": {
           "$end": true
         },
-        "birch_forest_hills": {
-          "$end": true
-        },
         "cold_ocean": {
           "$end": true
         },
@@ -13442,9 +13433,6 @@
           "$end": true
         },
         "dark_forest": {
-          "$end": true
-        },
-        "dark_forest_hills": {
           "$end": true
         },
         "deep_cold_ocean": {
@@ -13463,12 +13451,6 @@
           "$end": true
         },
         "desert": {
-          "$end": true
-        },
-        "desert_hills": {
-          "$end": true
-        },
-        "desert_lakes": {
           "$end": true
         },
         "dripstone_caves": {
@@ -13495,22 +13477,10 @@
         "frozen_ocean": {
           "$end": true
         },
+        "frozen_peaks": {
+          "$end": true
+        },
         "frozen_river": {
-          "$end": true
-        },
-        "giant_spruce_taiga": {
-          "$end": true
-        },
-        "giant_spruce_taiga_hills": {
-          "$end": true
-        },
-        "giant_tree_taiga": {
-          "$end": true
-        },
-        "giant_tree_taiga_hills": {
-          "$end": true
-        },
-        "gravelly_mountains": {
           "$end": true
         },
         "grove": {
@@ -13519,16 +13489,10 @@
         "ice_spikes": {
           "$end": true
         },
+        "jagged_peaks": {
+          "$end": true
+        },
         "jungle": {
-          "$end": true
-        },
-        "jungle_edge": {
-          "$end": true
-        },
-        "jungle_hills": {
-          "$end": true
-        },
-        "lofty_peaks": {
           "$end": true
         },
         "lukewarm_ocean": {
@@ -13540,30 +13504,6 @@
         "meadow": {
           "$end": true
         },
-        "modified_badlands_plateau": {
-          "$end": true
-        },
-        "modified_gravelly_mountains": {
-          "$end": true
-        },
-        "modified_jungle": {
-          "$end": true
-        },
-        "modified_jungle_edge": {
-          "$end": true
-        },
-        "modified_wooded_badlands_plateau": {
-          "$end": true
-        },
-        "mountain_edge": {
-          "$end": true
-        },
-        "mountains": {
-          "$end": true
-        },
-        "mushroom_field_shore": {
-          "$end": true
-        },
         "mushroom_fields": {
           "$end": true
         },
@@ -13571,6 +13511,15 @@
           "$end": true
         },
         "ocean": {
+          "$end": true
+        },
+        "old_growth_birch_forest": {
+          "$end": true
+        },
+        "old_growth_pine_taiga": {
+          "$end": true
+        },
+        "old_growth_spruce_taiga": {
           "$end": true
         },
         "plains": {
@@ -13585,22 +13534,13 @@
         "savanna_plateau": {
           "$end": true
         },
-        "shattered_savanna": {
-          "$end": true
-        },
-        "shattered_savanna_plateau": {
-          "$end": true
-        },
         "small_end_islands": {
-          "$end": true
-        },
-        "snowcapped_peaks": {
           "$end": true
         },
         "snowy_beach": {
           "$end": true
         },
-        "snowy_mountains": {
+        "snowy_plains": {
           "$end": true
         },
         "snowy_slopes": {
@@ -13609,22 +13549,16 @@
         "snowy_taiga": {
           "$end": true
         },
-        "snowy_taiga_hills": {
-          "$end": true
-        },
-        "snowy_taiga_mountains": {
-          "$end": true
-        },
-        "snowy_tundra": {
-          "$end": true
-        },
         "soul_sand_valley": {
           "$end": true
         },
-        "stone_shore": {
+        "sparse_jungle": {
           "$end": true
         },
         "stony_peaks": {
+          "$end": true
+        },
+        "stony_shore": {
           "$end": true
         },
         "sunflower_plains": {
@@ -13633,22 +13567,7 @@
         "swamp": {
           "$end": true
         },
-        "swamp_hills": {
-          "$end": true
-        },
         "taiga": {
-          "$end": true
-        },
-        "taiga_hills": {
-          "$end": true
-        },
-        "taiga_mountains": {
-          "$end": true
-        },
-        "tall_birch_forest": {
-          "$end": true
-        },
-        "tall_birch_hills": {
           "$end": true
         },
         "the_end": {
@@ -13663,13 +13582,19 @@
         "warped_forest": {
           "$end": true
         },
-        "wooded_badlands_plateau": {
+        "windswept_forest": {
           "$end": true
         },
-        "wooded_hills": {
+        "windswept_gravelly_hills": {
           "$end": true
         },
-        "wooded_mountains": {
+        "windswept_hills": {
+          "$end": true
+        },
+        "windswept_savanna": {
+          "$end": true
+        },
+        "wooded_badlands": {
           "$end": true
         }
       }
@@ -13955,9 +13880,6 @@
         "lake_lava": {
           "$end": true
         },
-        "lake_water": {
-          "$end": true
-        },
         "large_basalt_columns": {
           "$end": true
         },
@@ -13995,6 +13917,9 @@
           "$end": true
         },
         "monster_room": {
+          "$end": true
+        },
+        "monster_room_deep": {
           "$end": true
         },
         "moss_patch": {
@@ -14063,6 +13988,9 @@
         "ore_diamond": {
           "$end": true
         },
+        "ore_diamond_buried": {
+          "$end": true
+        },
         "ore_diamond_large": {
           "$end": true
         },
@@ -14085,6 +14013,9 @@
           "$end": true
         },
         "ore_gold_extra": {
+          "$end": true
+        },
+        "ore_gold_lower": {
           "$end": true
         },
         "ore_gold_nether": {
@@ -14144,10 +14075,10 @@
         "patch_berry_bush": {
           "$end": true
         },
-        "patch_berry_decorated": {
+        "patch_berry_common": {
           "$end": true
         },
-        "patch_berry_sparse": {
+        "patch_berry_rare": {
           "$end": true
         },
         "patch_brown_mushroom": {

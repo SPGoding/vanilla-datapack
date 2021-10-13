@@ -13724,10 +13724,7 @@
         "crimson_fungi_planted": {
           "$end": true
         },
-        "dark_forest_vegetation_brown": {
-          "$end": true
-        },
-        "dark_forest_vegetation_red": {
+        "dark_forest_vegetation": {
           "$end": true
         },
         "dark_oak": {
@@ -14468,99 +14465,7 @@
       }
     }
   },
-  "worldgen/configured_surface_builder": {
-    "minecraft": {
-      "$children": {
-        "badlands": {
-          "$end": true
-        },
-        "basalt_deltas": {
-          "$end": true
-        },
-        "crimson_forest": {
-          "$end": true
-        },
-        "desert": {
-          "$end": true
-        },
-        "end": {
-          "$end": true
-        },
-        "eroded_badlands": {
-          "$end": true
-        },
-        "frozen_ocean": {
-          "$end": true
-        },
-        "full_sand": {
-          "$end": true
-        },
-        "giant_tree_taiga": {
-          "$end": true
-        },
-        "grass": {
-          "$end": true
-        },
-        "gravelly_mountain": {
-          "$end": true
-        },
-        "grove": {
-          "$end": true
-        },
-        "ice_spikes": {
-          "$end": true
-        },
-        "lofty_peaks": {
-          "$end": true
-        },
-        "mountain": {
-          "$end": true
-        },
-        "mycelium": {
-          "$end": true
-        },
-        "nether": {
-          "$end": true
-        },
-        "nope": {
-          "$end": true
-        },
-        "ocean_sand": {
-          "$end": true
-        },
-        "shattered_savanna": {
-          "$end": true
-        },
-        "snowcapped_peaks": {
-          "$end": true
-        },
-        "snowy_slopes": {
-          "$end": true
-        },
-        "soul_sand_valley": {
-          "$end": true
-        },
-        "stone": {
-          "$end": true
-        },
-        "stone_shore": {
-          "$end": true
-        },
-        "stony_peaks": {
-          "$end": true
-        },
-        "swamp": {
-          "$end": true
-        },
-        "warped_forest": {
-          "$end": true
-        },
-        "wooded_badlands": {
-          "$end": true
-        }
-      }
-    }
-  },
+  "worldgen/configured_surface_builder": {},
   "worldgen/noise_settings": {
     "minecraft": {
       "$children": {

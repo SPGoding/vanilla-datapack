@@ -14198,6 +14198,9 @@
         "plain_vegetation": {
           "$end": true
         },
+        "pointed_dripstone": {
+          "$end": true
+        },
         "red_mushroom_giant": {
           "$end": true
         },
@@ -14247,9 +14250,6 @@
           "$end": true
         },
         "small_basalt_columns": {
-          "$end": true
-        },
-        "small_dripstone": {
           "$end": true
         },
         "spore_blossom": {

@@ -12815,6 +12815,9 @@
         "beehives": {
           "$end": true
         },
+        "big_dripleaf_placeable": {
+          "$end": true
+        },
         "birch_logs": {
           "$end": true
         },
@@ -13445,9 +13448,6 @@
           "$end": true
         },
         "deep_ocean": {
-          "$end": true
-        },
-        "deep_warm_ocean": {
           "$end": true
         },
         "desert": {
@@ -14268,6 +14268,9 @@
           "$end": true
         },
         "spring_lava_double": {
+          "$end": true
+        },
+        "spring_lava_frozen": {
           "$end": true
         },
         "spring_open": {

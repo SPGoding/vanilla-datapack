@@ -12788,7 +12788,13 @@
         "acacia_logs": {
           "$end": true
         },
+        "animals_spawnable_on": {
+          "$end": true
+        },
         "anvil": {
+          "$end": true
+        },
+        "axolotls_spawnable_on": {
           "$end": true
         },
         "bamboo_plantable_on": {
@@ -12914,7 +12920,13 @@
         "flowers": {
           "$end": true
         },
+        "foxes_spawnable_on": {
+          "$end": true
+        },
         "geode_invalid_blocks": {
+          "$end": true
+        },
+        "goats_spawnable_on": {
           "$end": true
         },
         "gold_ores": {
@@ -12984,6 +12996,9 @@
             }
           }
         },
+        "mooshrooms_spawnable_on": {
+          "$end": true
+        },
         "moss_replaceable": {
           "$end": true
         },
@@ -13011,10 +13026,16 @@
         "occludes_vibration_signals": {
           "$end": true
         },
+        "parrots_spawnable_on": {
+          "$end": true
+        },
         "piglin_repellents": {
           "$end": true
         },
         "planks": {
+          "$end": true
+        },
+        "polar_bears_spawnable_on_in_frozen_ocean": {
           "$end": true
         },
         "portals": {
@@ -13024,6 +13045,9 @@
           "$end": true
         },
         "prevent_mob_spawning_inside": {
+          "$end": true
+        },
+        "rabbits_spawnable_on": {
           "$end": true
         },
         "rails": {
@@ -13120,6 +13144,9 @@
           "$end": true
         },
         "wither_summon_base_blocks": {
+          "$end": true
+        },
+        "wolves_spawnable_on": {
           "$end": true
         },
         "wooden_buttons": {

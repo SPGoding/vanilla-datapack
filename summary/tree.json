@@ -13,7 +13,7 @@
             "bullseye": {
               "$end": true
             },
-            "caves_and_cliffs": {
+            "fall_from_world_height": {
               "$end": true
             },
             "hero_of_the_village": {
@@ -34,7 +34,7 @@
             "ol_betsy": {
               "$end": true
             },
-            "ride_strider_in_overworld_lava": {
+            "play_jukebox_in_meadows": {
               "$end": true
             },
             "root": {
@@ -153,9 +153,6 @@
             "plant_seed": {
               "$end": true
             },
-            "play_jukebox_in_meadows": {
-              "$end": true
-            },
             "ride_a_boat_with_a_goat": {
               "$end": true
             },
@@ -239,6 +236,9 @@
               "$end": true
             },
             "ride_strider": {
+              "$end": true
+            },
+            "ride_strider_in_overworld_lava": {
               "$end": true
             },
             "root": {
@@ -13652,19 +13652,16 @@
         "acacia": {
           "$end": true
         },
-        "acacia_checked": {
-          "$end": true
-        },
         "amethyst_geode": {
           "$end": true
         },
         "azalea_tree": {
           "$end": true
         },
-        "bamboo": {
+        "bamboo_no_podzol": {
           "$end": true
         },
-        "bamboo_light": {
+        "bamboo_some_podzol": {
           "$end": true
         },
         "bamboo_vegetation": {
@@ -13688,12 +13685,6 @@
         "birch_bees_005": {
           "$end": true
         },
-        "birch_checked": {
-          "$end": true
-        },
-        "birch_other": {
-          "$end": true
-        },
         "birch_tall": {
           "$end": true
         },
@@ -13706,34 +13697,13 @@
         "bonus_chest": {
           "$end": true
         },
-        "brown_mushroom_giant": {
-          "$end": true
-        },
-        "brown_mushroom_nether": {
-          "$end": true
-        },
-        "brown_mushroom_normal": {
-          "$end": true
-        },
-        "brown_mushroom_swamp": {
-          "$end": true
-        },
-        "brown_mushroom_taiga": {
-          "$end": true
-        },
         "cave_vine": {
           "$end": true
         },
         "cave_vine_in_moss": {
           "$end": true
         },
-        "cave_vines": {
-          "$end": true
-        },
         "chorus_plant": {
-          "$end": true
-        },
-        "classic_vines_cave_feature": {
           "$end": true
         },
         "clay_pool_with_dripleaves": {
@@ -13745,19 +13715,19 @@
         "crimson_forest_vegetation": {
           "$end": true
         },
-        "crimson_fungi": {
+        "crimson_forest_vegetation_bonemeal": {
           "$end": true
         },
-        "crimson_fungi_planted": {
+        "crimson_fungus": {
+          "$end": true
+        },
+        "crimson_fungus_planted": {
           "$end": true
         },
         "dark_forest_vegetation": {
           "$end": true
         },
         "dark_oak": {
-          "$end": true
-        },
-        "dark_oak_checked": {
           "$end": true
         },
         "delta": {
@@ -13781,16 +13751,13 @@
         "dripstone_cluster": {
           "$end": true
         },
-        "end_gateway": {
-          "$end": true
-        },
         "end_gateway_delayed": {
           "$end": true
         },
-        "end_island": {
+        "end_gateway_return": {
           "$end": true
         },
-        "end_island_decorated": {
+        "end_island": {
           "$end": true
         },
         "end_spike": {
@@ -13811,13 +13778,10 @@
         "fancy_oak_bees_005": {
           "$end": true
         },
-        "fancy_oak_checked": {
-          "$end": true
-        },
         "flower_default": {
           "$end": true
         },
-        "flower_forest": {
+        "flower_flower_forest": {
           "$end": true
         },
         "flower_meadow": {
@@ -13826,31 +13790,19 @@
         "flower_plain": {
           "$end": true
         },
-        "flower_plain_decorated": {
-          "$end": true
-        },
         "flower_swamp": {
           "$end": true
         },
-        "flower_warm": {
-          "$end": true
-        },
-        "forest_flower_trees": {
-          "$end": true
-        },
-        "forest_flower_vegetation": {
-          "$end": true
-        },
-        "forest_flower_vegetation_common": {
+        "forest_flowers": {
           "$end": true
         },
         "forest_rock": {
           "$end": true
         },
-        "fossil_lower": {
+        "fossil_coal": {
           "$end": true
         },
-        "fossil_upper": {
+        "fossil_diamonds": {
           "$end": true
         },
         "freeze_top_layer": {
@@ -13859,13 +13811,7 @@
         "glow_lichen": {
           "$end": true
         },
-        "glowstone": {
-          "$end": true
-        },
         "glowstone_extra": {
-          "$end": true
-        },
-        "grove_vegetation": {
           "$end": true
         },
         "huge_brown_mushroom": {
@@ -13895,28 +13841,19 @@
         "jungle_tree_no_vine": {
           "$end": true
         },
-        "kelp_cold": {
-          "$end": true
-        },
-        "kelp_warm": {
+        "kelp": {
           "$end": true
         },
         "lake_lava": {
           "$end": true
         },
-        "large_basalt_columns": {
+        "large_basalt_columns_temp": {
           "$end": true
         },
         "large_dripstone": {
           "$end": true
         },
-        "lush_caves_ceiling_vegetation": {
-          "$end": true
-        },
         "lush_caves_clay": {
-          "$end": true
-        },
-        "lush_caves_vegetation": {
           "$end": true
         },
         "meadow_trees": {
@@ -13925,25 +13862,13 @@
         "mega_jungle_tree": {
           "$end": true
         },
-        "mega_jungle_tree_checked": {
-          "$end": true
-        },
         "mega_pine": {
-          "$end": true
-        },
-        "mega_pine_checked": {
           "$end": true
         },
         "mega_spruce": {
           "$end": true
         },
-        "mega_spruce_checked": {
-          "$end": true
-        },
         "monster_room": {
-          "$end": true
-        },
-        "monster_room_deep": {
           "$end": true
         },
         "moss_patch": {
@@ -13958,10 +13883,13 @@
         "moss_vegetation": {
           "$end": true
         },
-        "mushroom_field_vegetation": {
+        "mushroom_island_vegetation": {
           "$end": true
         },
         "nether_sprouts": {
+          "$end": true
+        },
+        "nether_sprouts_bonemeal": {
           "$end": true
         },
         "oak": {
@@ -13976,13 +13904,13 @@
         "oak_bees_005": {
           "$end": true
         },
-        "oak_checked": {
+        "ore_ancient_debris_large": {
           "$end": true
         },
-        "ore_andesite_lower": {
+        "ore_ancient_debris_small": {
           "$end": true
         },
-        "ore_andesite_upper": {
+        "ore_andesite": {
           "$end": true
         },
         "ore_blackstone": {
@@ -13991,25 +13919,16 @@
         "ore_clay": {
           "$end": true
         },
-        "ore_coal_lower": {
+        "ore_coal": {
           "$end": true
         },
-        "ore_coal_upper": {
-          "$end": true
-        },
-        "ore_copper": {
+        "ore_coal_buried": {
           "$end": true
         },
         "ore_copper_large": {
           "$end": true
         },
-        "ore_debris_large": {
-          "$end": true
-        },
-        "ore_debris_small": {
-          "$end": true
-        },
-        "ore_diamond": {
+        "ore_copper_small": {
           "$end": true
         },
         "ore_diamond_buried": {
@@ -14018,10 +13937,10 @@
         "ore_diamond_large": {
           "$end": true
         },
-        "ore_diorite_lower": {
+        "ore_diamond_small": {
           "$end": true
         },
-        "ore_diorite_upper": {
+        "ore_diorite": {
           "$end": true
         },
         "ore_dirt": {
@@ -14033,22 +13952,10 @@
         "ore_gold": {
           "$end": true
         },
-        "ore_gold_deltas": {
+        "ore_gold_buried": {
           "$end": true
         },
-        "ore_gold_extra": {
-          "$end": true
-        },
-        "ore_gold_lower": {
-          "$end": true
-        },
-        "ore_gold_nether": {
-          "$end": true
-        },
-        "ore_granite_lower": {
-          "$end": true
-        },
-        "ore_granite_upper": {
+        "ore_granite": {
           "$end": true
         },
         "ore_gravel": {
@@ -14060,13 +13967,10 @@
         "ore_infested": {
           "$end": true
         },
-        "ore_iron_middle": {
+        "ore_iron": {
           "$end": true
         },
         "ore_iron_small": {
-          "$end": true
-        },
-        "ore_iron_upper": {
           "$end": true
         },
         "ore_lapis": {
@@ -14078,16 +13982,13 @@
         "ore_magma": {
           "$end": true
         },
-        "ore_quartz_deltas": {
+        "ore_nether_gold": {
           "$end": true
         },
-        "ore_quartz_nether": {
+        "ore_quartz": {
           "$end": true
         },
         "ore_redstone": {
-          "$end": true
-        },
-        "ore_redstone_lower": {
           "$end": true
         },
         "ore_soul_sand": {
@@ -14099,22 +14000,10 @@
         "patch_berry_bush": {
           "$end": true
         },
-        "patch_berry_common": {
-          "$end": true
-        },
-        "patch_berry_rare": {
-          "$end": true
-        },
         "patch_brown_mushroom": {
           "$end": true
         },
         "patch_cactus": {
-          "$end": true
-        },
-        "patch_cactus_decorated": {
-          "$end": true
-        },
-        "patch_cactus_desert": {
           "$end": true
         },
         "patch_crimson_roots": {
@@ -14123,37 +14012,13 @@
         "patch_dead_bush": {
           "$end": true
         },
-        "patch_dead_bush_2": {
-          "$end": true
-        },
-        "patch_dead_bush_badlands": {
-          "$end": true
-        },
         "patch_fire": {
           "$end": true
         },
-        "patch_grass_badlands": {
-          "$end": true
-        },
-        "patch_grass_forest": {
+        "patch_grass": {
           "$end": true
         },
         "patch_grass_jungle": {
-          "$end": true
-        },
-        "patch_grass_normal": {
-          "$end": true
-        },
-        "patch_grass_plain": {
-          "$end": true
-        },
-        "patch_grass_savanna": {
-          "$end": true
-        },
-        "patch_grass_taiga": {
-          "$end": true
-        },
-        "patch_grass_taiga_2": {
           "$end": true
         },
         "patch_large_fern": {
@@ -14174,15 +14039,6 @@
         "patch_sugar_cane": {
           "$end": true
         },
-        "patch_sugar_cane_badlands": {
-          "$end": true
-        },
-        "patch_sugar_cane_desert": {
-          "$end": true
-        },
-        "patch_sugar_cane_swamp": {
-          "$end": true
-        },
         "patch_sunflower": {
           "$end": true
         },
@@ -14192,10 +14048,7 @@
         "patch_tall_grass": {
           "$end": true
         },
-        "patch_tall_grass_2": {
-          "$end": true
-        },
-        "patch_waterlilly": {
+        "patch_waterlily": {
           "$end": true
         },
         "pile_hay": {
@@ -14216,64 +14069,31 @@
         "pine": {
           "$end": true
         },
-        "pine_checked": {
-          "$end": true
-        },
-        "pine_on_snow": {
-          "$end": true
-        },
-        "plain_vegetation": {
-          "$end": true
-        },
         "pointed_dripstone": {
           "$end": true
         },
-        "red_mushroom_giant": {
-          "$end": true
-        },
-        "red_mushroom_nether": {
-          "$end": true
-        },
-        "red_mushroom_normal": {
-          "$end": true
-        },
-        "red_mushroom_swamp": {
-          "$end": true
-        },
-        "red_mushroom_taiga": {
-          "$end": true
-        },
-        "rooted_azalea_trees": {
+        "rooted_azalea_tree": {
           "$end": true
         },
         "sea_pickle": {
           "$end": true
         },
-        "seagrass_cold": {
+        "seagrass_mid": {
           "$end": true
         },
-        "seagrass_deep": {
-          "$end": true
-        },
-        "seagrass_deep_cold": {
-          "$end": true
-        },
-        "seagrass_deep_warm": {
-          "$end": true
-        },
-        "seagrass_normal": {
-          "$end": true
-        },
-        "seagrass_river": {
+        "seagrass_short": {
           "$end": true
         },
         "seagrass_simple": {
           "$end": true
         },
-        "seagrass_swamp": {
+        "seagrass_slightly_less_short": {
           "$end": true
         },
-        "seagrass_warm": {
+        "seagrass_tall": {
+          "$end": true
+        },
+        "single_piece_of_grass": {
           "$end": true
         },
         "small_basalt_columns": {
@@ -14282,37 +14102,25 @@
         "spore_blossom": {
           "$end": true
         },
-        "spring_closed": {
-          "$end": true
-        },
-        "spring_closed_double": {
-          "$end": true
-        },
-        "spring_delta": {
-          "$end": true
-        },
-        "spring_lava": {
-          "$end": true
-        },
-        "spring_lava_double": {
-          "$end": true
-        },
         "spring_lava_frozen": {
           "$end": true
         },
-        "spring_open": {
+        "spring_lava_nether": {
+          "$end": true
+        },
+        "spring_lava_overworld": {
+          "$end": true
+        },
+        "spring_nether_closed": {
+          "$end": true
+        },
+        "spring_nether_open": {
           "$end": true
         },
         "spring_water": {
           "$end": true
         },
         "spruce": {
-          "$end": true
-        },
-        "spruce_checked": {
-          "$end": true
-        },
-        "spruce_on_snow": {
           "$end": true
         },
         "super_birch_bees": {
@@ -14324,49 +14132,46 @@
         "swamp_oak": {
           "$end": true
         },
-        "taiga_vegetation": {
+        "trees_birch_and_oak": {
           "$end": true
         },
-        "trees_badlands": {
+        "trees_flower_forest": {
           "$end": true
         },
-        "trees_birch": {
-          "$end": true
-        },
-        "trees_giant": {
-          "$end": true
-        },
-        "trees_giant_spruce": {
+        "trees_grove": {
           "$end": true
         },
         "trees_jungle": {
           "$end": true
         },
-        "trees_jungle_edge": {
+        "trees_old_growth_pine_taiga": {
           "$end": true
         },
-        "trees_mountain": {
+        "trees_old_growth_spruce_taiga": {
           "$end": true
         },
-        "trees_mountain_edge": {
+        "trees_plains": {
           "$end": true
         },
         "trees_savanna": {
           "$end": true
         },
-        "trees_shattered_savanna": {
+        "trees_sparse_jungle": {
           "$end": true
         },
-        "trees_snowy": {
-          "$end": true
-        },
-        "trees_swamp": {
+        "trees_taiga": {
           "$end": true
         },
         "trees_water": {
           "$end": true
         },
+        "trees_windswept_hills": {
+          "$end": true
+        },
         "twisting_vines": {
+          "$end": true
+        },
+        "twisting_vines_bonemeal": {
           "$end": true
         },
         "underwater_magma": {
@@ -14384,10 +14189,13 @@
         "warped_forest_vegetation": {
           "$end": true
         },
-        "warped_fungi": {
+        "warped_forest_vegetation_bonemeal": {
           "$end": true
         },
-        "warped_fungi_planted": {
+        "warped_fungus": {
+          "$end": true
+        },
+        "warped_fungus_planted": {
           "$end": true
         },
         "weeping_vines": {

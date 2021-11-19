@@ -12797,6 +12797,12 @@
         "axolotls_spawnable_on": {
           "$end": true
         },
+        "azalea_grows_on": {
+          "$end": true
+        },
+        "azalea_root_replaceable": {
+          "$end": true
+        },
         "bamboo_plantable_on": {
           "$end": true
         },
@@ -13056,6 +13062,9 @@
         "redstone_ores": {
           "$end": true
         },
+        "replaceable_plants": {
+          "$end": true
+        },
         "sand": {
           "$end": true
         },
@@ -13108,6 +13117,9 @@
           "$end": true
         },
         "tall_flowers": {
+          "$end": true
+        },
+        "terracotta": {
           "$end": true
         },
         "trapdoors": {
@@ -13288,6 +13300,9 @@
         "diamond_ores": {
           "$end": true
         },
+        "dirt": {
+          "$end": true
+        },
         "doors": {
           "$end": true
         },
@@ -13400,6 +13415,9 @@
           "$end": true
         },
         "tall_flowers": {
+          "$end": true
+        },
+        "terracotta": {
           "$end": true
         },
         "trapdoors": {

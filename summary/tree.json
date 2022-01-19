@@ -3522,6 +3522,7 @@
     }
   },
   "function": {},
+  "item_modifier": {},
   "loot_table": {
     "minecraft": {
       "$children": {
@@ -12908,6 +12909,9 @@
         "enderman_holdable": {
           "$end": true
         },
+        "fall_damage_resetting": {
+          "$end": true
+        },
         "features_cannot_replace": {
           "$end": true
         },
@@ -13237,6 +13241,18 @@
     }
   },
   "tag/function": {},
+  "tag/game_event": {
+    "minecraft": {
+      "$children": {
+        "ignore_vibrations_sneaking": {
+          "$end": true
+        },
+        "vibrations": {
+          "$end": true
+        }
+      }
+    }
+  },
   "tag/item": {
     "minecraft": {
       "$children": {
@@ -14322,6 +14338,192 @@
     }
   },
   "worldgen/configured_surface_builder": {},
+  "worldgen/noise": {
+    "minecraft": {
+      "$children": {
+        "aquifer_barrier": {
+          "$end": true
+        },
+        "aquifer_fluid_level_floodedness": {
+          "$end": true
+        },
+        "aquifer_fluid_level_spread": {
+          "$end": true
+        },
+        "aquifer_lava": {
+          "$end": true
+        },
+        "badlands_pillar": {
+          "$end": true
+        },
+        "badlands_pillar_roof": {
+          "$end": true
+        },
+        "badlands_surface": {
+          "$end": true
+        },
+        "calcite": {
+          "$end": true
+        },
+        "cave_cheese": {
+          "$end": true
+        },
+        "cave_entrance": {
+          "$end": true
+        },
+        "cave_layer": {
+          "$end": true
+        },
+        "clay_bands_offset": {
+          "$end": true
+        },
+        "continentalness": {
+          "$end": true
+        },
+        "continentalness_large": {
+          "$end": true
+        },
+        "erosion": {
+          "$end": true
+        },
+        "erosion_large": {
+          "$end": true
+        },
+        "gravel": {
+          "$end": true
+        },
+        "gravel_layer": {
+          "$end": true
+        },
+        "ice": {
+          "$end": true
+        },
+        "iceberg_pillar": {
+          "$end": true
+        },
+        "iceberg_pillar_roof": {
+          "$end": true
+        },
+        "iceberg_surface": {
+          "$end": true
+        },
+        "jagged": {
+          "$end": true
+        },
+        "nether_state_selector": {
+          "$end": true
+        },
+        "nether_wart": {
+          "$end": true
+        },
+        "netherrack": {
+          "$end": true
+        },
+        "noodle": {
+          "$end": true
+        },
+        "noodle_ridge_a": {
+          "$end": true
+        },
+        "noodle_ridge_b": {
+          "$end": true
+        },
+        "noodle_thickness": {
+          "$end": true
+        },
+        "offset": {
+          "$end": true
+        },
+        "ore_gap": {
+          "$end": true
+        },
+        "ore_vein_a": {
+          "$end": true
+        },
+        "ore_vein_b": {
+          "$end": true
+        },
+        "ore_veininess": {
+          "$end": true
+        },
+        "packed_ice": {
+          "$end": true
+        },
+        "patch": {
+          "$end": true
+        },
+        "pillar": {
+          "$end": true
+        },
+        "pillar_rareness": {
+          "$end": true
+        },
+        "pillar_thickness": {
+          "$end": true
+        },
+        "powder_snow": {
+          "$end": true
+        },
+        "ridge": {
+          "$end": true
+        },
+        "soul_sand_layer": {
+          "$end": true
+        },
+        "spaghetti_2d": {
+          "$end": true
+        },
+        "spaghetti_2d_elevation": {
+          "$end": true
+        },
+        "spaghetti_2d_modulator": {
+          "$end": true
+        },
+        "spaghetti_2d_thickness": {
+          "$end": true
+        },
+        "spaghetti_3d_1": {
+          "$end": true
+        },
+        "spaghetti_3d_2": {
+          "$end": true
+        },
+        "spaghetti_3d_rarity": {
+          "$end": true
+        },
+        "spaghetti_3d_thickness": {
+          "$end": true
+        },
+        "spaghetti_roughness": {
+          "$end": true
+        },
+        "spaghetti_roughness_modulator": {
+          "$end": true
+        },
+        "surface": {
+          "$end": true
+        },
+        "surface_secondary": {
+          "$end": true
+        },
+        "surface_swamp": {
+          "$end": true
+        },
+        "temperature": {
+          "$end": true
+        },
+        "temperature_large": {
+          "$end": true
+        },
+        "vegetation": {
+          "$end": true
+        },
+        "vegetation_large": {
+          "$end": true
+        }
+      }
+    }
+  },
   "worldgen/noise_settings": {
     "minecraft": {
       "$children": {
@@ -14344,6 +14546,672 @@
           "$end": true
         },
         "overworld": {
+          "$end": true
+        }
+      }
+    }
+  },
+  "worldgen/placed_feature": {
+    "minecraft": {
+      "$children": {
+        "acacia": {
+          "$end": true
+        },
+        "acacia_checked": {
+          "$end": true
+        },
+        "amethyst_geode": {
+          "$end": true
+        },
+        "bamboo": {
+          "$end": true
+        },
+        "bamboo_light": {
+          "$end": true
+        },
+        "bamboo_vegetation": {
+          "$end": true
+        },
+        "basalt_blobs": {
+          "$end": true
+        },
+        "basalt_pillar": {
+          "$end": true
+        },
+        "birch_bees_0002": {
+          "$end": true
+        },
+        "birch_bees_002": {
+          "$end": true
+        },
+        "birch_checked": {
+          "$end": true
+        },
+        "birch_tall": {
+          "$end": true
+        },
+        "blackstone_blobs": {
+          "$end": true
+        },
+        "blue_ice": {
+          "$end": true
+        },
+        "brown_mushroom_nether": {
+          "$end": true
+        },
+        "brown_mushroom_normal": {
+          "$end": true
+        },
+        "brown_mushroom_old_growth": {
+          "$end": true
+        },
+        "brown_mushroom_swamp": {
+          "$end": true
+        },
+        "brown_mushroom_taiga": {
+          "$end": true
+        },
+        "cave_vines": {
+          "$end": true
+        },
+        "chorus_plant": {
+          "$end": true
+        },
+        "classic_vines_cave_feature": {
+          "$end": true
+        },
+        "crimson_forest_vegetation": {
+          "$end": true
+        },
+        "crimson_fungi": {
+          "$end": true
+        },
+        "dark_forest_vegetation": {
+          "$end": true
+        },
+        "dark_oak_checked": {
+          "$end": true
+        },
+        "delta": {
+          "$end": true
+        },
+        "desert_well": {
+          "$end": true
+        },
+        "disk_clay": {
+          "$end": true
+        },
+        "disk_gravel": {
+          "$end": true
+        },
+        "disk_sand": {
+          "$end": true
+        },
+        "dripstone_cluster": {
+          "$end": true
+        },
+        "end_gateway_return": {
+          "$end": true
+        },
+        "end_island_decorated": {
+          "$end": true
+        },
+        "end_spike": {
+          "$end": true
+        },
+        "fancy_oak_bees": {
+          "$end": true
+        },
+        "fancy_oak_bees_0002": {
+          "$end": true
+        },
+        "fancy_oak_bees_002": {
+          "$end": true
+        },
+        "fancy_oak_checked": {
+          "$end": true
+        },
+        "flower_default": {
+          "$end": true
+        },
+        "flower_flower_forest": {
+          "$end": true
+        },
+        "flower_forest_flowers": {
+          "$end": true
+        },
+        "flower_meadow": {
+          "$end": true
+        },
+        "flower_plain": {
+          "$end": true
+        },
+        "flower_plains": {
+          "$end": true
+        },
+        "flower_swamp": {
+          "$end": true
+        },
+        "flower_warm": {
+          "$end": true
+        },
+        "forest_flowers": {
+          "$end": true
+        },
+        "forest_rock": {
+          "$end": true
+        },
+        "fossil_lower": {
+          "$end": true
+        },
+        "fossil_upper": {
+          "$end": true
+        },
+        "freeze_top_layer": {
+          "$end": true
+        },
+        "glow_lichen": {
+          "$end": true
+        },
+        "glowstone": {
+          "$end": true
+        },
+        "glowstone_extra": {
+          "$end": true
+        },
+        "grass_bonemeal": {
+          "$end": true
+        },
+        "ice_patch": {
+          "$end": true
+        },
+        "ice_spike": {
+          "$end": true
+        },
+        "iceberg_blue": {
+          "$end": true
+        },
+        "iceberg_packed": {
+          "$end": true
+        },
+        "jungle_bush": {
+          "$end": true
+        },
+        "jungle_tree": {
+          "$end": true
+        },
+        "kelp_cold": {
+          "$end": true
+        },
+        "kelp_warm": {
+          "$end": true
+        },
+        "lake_lava_surface": {
+          "$end": true
+        },
+        "lake_lava_underground": {
+          "$end": true
+        },
+        "large_basalt_columns": {
+          "$end": true
+        },
+        "large_dripstone": {
+          "$end": true
+        },
+        "lush_caves_ceiling_vegetation": {
+          "$end": true
+        },
+        "lush_caves_clay": {
+          "$end": true
+        },
+        "lush_caves_vegetation": {
+          "$end": true
+        },
+        "mega_jungle_tree_checked": {
+          "$end": true
+        },
+        "mega_pine_checked": {
+          "$end": true
+        },
+        "mega_spruce_checked": {
+          "$end": true
+        },
+        "monster_room": {
+          "$end": true
+        },
+        "monster_room_deep": {
+          "$end": true
+        },
+        "mushroom_island_vegetation": {
+          "$end": true
+        },
+        "nether_sprouts": {
+          "$end": true
+        },
+        "oak": {
+          "$end": true
+        },
+        "oak_bees_0002": {
+          "$end": true
+        },
+        "oak_bees_002": {
+          "$end": true
+        },
+        "oak_checked": {
+          "$end": true
+        },
+        "ore_ancient_debris_large": {
+          "$end": true
+        },
+        "ore_andesite_lower": {
+          "$end": true
+        },
+        "ore_andesite_upper": {
+          "$end": true
+        },
+        "ore_blackstone": {
+          "$end": true
+        },
+        "ore_clay": {
+          "$end": true
+        },
+        "ore_coal_lower": {
+          "$end": true
+        },
+        "ore_coal_upper": {
+          "$end": true
+        },
+        "ore_copper": {
+          "$end": true
+        },
+        "ore_copper_large": {
+          "$end": true
+        },
+        "ore_debris_small": {
+          "$end": true
+        },
+        "ore_diamond": {
+          "$end": true
+        },
+        "ore_diamond_buried": {
+          "$end": true
+        },
+        "ore_diamond_large": {
+          "$end": true
+        },
+        "ore_diorite_lower": {
+          "$end": true
+        },
+        "ore_diorite_upper": {
+          "$end": true
+        },
+        "ore_dirt": {
+          "$end": true
+        },
+        "ore_emerald": {
+          "$end": true
+        },
+        "ore_gold": {
+          "$end": true
+        },
+        "ore_gold_deltas": {
+          "$end": true
+        },
+        "ore_gold_extra": {
+          "$end": true
+        },
+        "ore_gold_lower": {
+          "$end": true
+        },
+        "ore_gold_nether": {
+          "$end": true
+        },
+        "ore_granite_lower": {
+          "$end": true
+        },
+        "ore_granite_upper": {
+          "$end": true
+        },
+        "ore_gravel": {
+          "$end": true
+        },
+        "ore_gravel_nether": {
+          "$end": true
+        },
+        "ore_infested": {
+          "$end": true
+        },
+        "ore_iron_middle": {
+          "$end": true
+        },
+        "ore_iron_small": {
+          "$end": true
+        },
+        "ore_iron_upper": {
+          "$end": true
+        },
+        "ore_lapis": {
+          "$end": true
+        },
+        "ore_lapis_buried": {
+          "$end": true
+        },
+        "ore_magma": {
+          "$end": true
+        },
+        "ore_quartz_deltas": {
+          "$end": true
+        },
+        "ore_quartz_nether": {
+          "$end": true
+        },
+        "ore_redstone": {
+          "$end": true
+        },
+        "ore_redstone_lower": {
+          "$end": true
+        },
+        "ore_soul_sand": {
+          "$end": true
+        },
+        "ore_tuff": {
+          "$end": true
+        },
+        "patch_berry_bush": {
+          "$end": true
+        },
+        "patch_berry_common": {
+          "$end": true
+        },
+        "patch_berry_rare": {
+          "$end": true
+        },
+        "patch_cactus": {
+          "$end": true
+        },
+        "patch_cactus_decorated": {
+          "$end": true
+        },
+        "patch_cactus_desert": {
+          "$end": true
+        },
+        "patch_crimson_roots": {
+          "$end": true
+        },
+        "patch_dead_bush": {
+          "$end": true
+        },
+        "patch_dead_bush_2": {
+          "$end": true
+        },
+        "patch_dead_bush_badlands": {
+          "$end": true
+        },
+        "patch_fire": {
+          "$end": true
+        },
+        "patch_grass_badlands": {
+          "$end": true
+        },
+        "patch_grass_forest": {
+          "$end": true
+        },
+        "patch_grass_jungle": {
+          "$end": true
+        },
+        "patch_grass_normal": {
+          "$end": true
+        },
+        "patch_grass_plain": {
+          "$end": true
+        },
+        "patch_grass_savanna": {
+          "$end": true
+        },
+        "patch_grass_taiga": {
+          "$end": true
+        },
+        "patch_grass_taiga_2": {
+          "$end": true
+        },
+        "patch_large_fern": {
+          "$end": true
+        },
+        "patch_melon": {
+          "$end": true
+        },
+        "patch_melon_sparse": {
+          "$end": true
+        },
+        "patch_pumpkin": {
+          "$end": true
+        },
+        "patch_soul_fire": {
+          "$end": true
+        },
+        "patch_sugar_cane": {
+          "$end": true
+        },
+        "patch_sugar_cane_badlands": {
+          "$end": true
+        },
+        "patch_sugar_cane_desert": {
+          "$end": true
+        },
+        "patch_sugar_cane_swamp": {
+          "$end": true
+        },
+        "patch_sunflower": {
+          "$end": true
+        },
+        "patch_taiga_grass": {
+          "$end": true
+        },
+        "patch_tall_grass": {
+          "$end": true
+        },
+        "patch_tall_grass_2": {
+          "$end": true
+        },
+        "patch_waterlily": {
+          "$end": true
+        },
+        "pile_hay": {
+          "$end": true
+        },
+        "pile_ice": {
+          "$end": true
+        },
+        "pile_melon": {
+          "$end": true
+        },
+        "pile_pumpkin": {
+          "$end": true
+        },
+        "pile_snow": {
+          "$end": true
+        },
+        "pine": {
+          "$end": true
+        },
+        "pine_checked": {
+          "$end": true
+        },
+        "pine_on_snow": {
+          "$end": true
+        },
+        "pointed_dripstone": {
+          "$end": true
+        },
+        "red_mushroom_nether": {
+          "$end": true
+        },
+        "red_mushroom_normal": {
+          "$end": true
+        },
+        "red_mushroom_old_growth": {
+          "$end": true
+        },
+        "red_mushroom_swamp": {
+          "$end": true
+        },
+        "red_mushroom_taiga": {
+          "$end": true
+        },
+        "rooted_azalea_tree": {
+          "$end": true
+        },
+        "sea_pickle": {
+          "$end": true
+        },
+        "seagrass_cold": {
+          "$end": true
+        },
+        "seagrass_deep": {
+          "$end": true
+        },
+        "seagrass_deep_cold": {
+          "$end": true
+        },
+        "seagrass_deep_warm": {
+          "$end": true
+        },
+        "seagrass_normal": {
+          "$end": true
+        },
+        "seagrass_river": {
+          "$end": true
+        },
+        "seagrass_simple": {
+          "$end": true
+        },
+        "seagrass_swamp": {
+          "$end": true
+        },
+        "seagrass_warm": {
+          "$end": true
+        },
+        "small_basalt_columns": {
+          "$end": true
+        },
+        "spore_blossom": {
+          "$end": true
+        },
+        "spring_closed": {
+          "$end": true
+        },
+        "spring_closed_double": {
+          "$end": true
+        },
+        "spring_delta": {
+          "$end": true
+        },
+        "spring_lava": {
+          "$end": true
+        },
+        "spring_lava_frozen": {
+          "$end": true
+        },
+        "spring_open": {
+          "$end": true
+        },
+        "spring_water": {
+          "$end": true
+        },
+        "spruce": {
+          "$end": true
+        },
+        "spruce_checked": {
+          "$end": true
+        },
+        "spruce_on_snow": {
+          "$end": true
+        },
+        "super_birch_bees": {
+          "$end": true
+        },
+        "super_birch_bees_0002": {
+          "$end": true
+        },
+        "trees_badlands": {
+          "$end": true
+        },
+        "trees_birch": {
+          "$end": true
+        },
+        "trees_birch_and_oak": {
+          "$end": true
+        },
+        "trees_flower_forest": {
+          "$end": true
+        },
+        "trees_grove": {
+          "$end": true
+        },
+        "trees_jungle": {
+          "$end": true
+        },
+        "trees_meadow": {
+          "$end": true
+        },
+        "trees_old_growth_pine_taiga": {
+          "$end": true
+        },
+        "trees_old_growth_spruce_taiga": {
+          "$end": true
+        },
+        "trees_plains": {
+          "$end": true
+        },
+        "trees_savanna": {
+          "$end": true
+        },
+        "trees_snowy": {
+          "$end": true
+        },
+        "trees_sparse_jungle": {
+          "$end": true
+        },
+        "trees_swamp": {
+          "$end": true
+        },
+        "trees_taiga": {
+          "$end": true
+        },
+        "trees_water": {
+          "$end": true
+        },
+        "trees_windswept_forest": {
+          "$end": true
+        },
+        "trees_windswept_hills": {
+          "$end": true
+        },
+        "trees_windswept_savanna": {
+          "$end": true
+        },
+        "twisting_vines": {
+          "$end": true
+        },
+        "underwater_magma": {
+          "$end": true
+        },
+        "vines": {
+          "$end": true
+        },
+        "void_start_platform": {
+          "$end": true
+        },
+        "warm_ocean_vegetation": {
+          "$end": true
+        },
+        "warped_forest_vegetation": {
+          "$end": true
+        },
+        "warped_fungi": {
+          "$end": true
+        },
+        "weeping_vines": {
           "$end": true
         }
       }

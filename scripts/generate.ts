@@ -1,25 +1,22 @@
 import { IdentityNode } from '@spgoding/datapack-language-server/lib/nodes'
 import { walkFile } from '@spgoding/datapack-language-server/lib/services/common'
-import { FileType, FileTypes } from '@spgoding/datapack-language-server/lib/types'
 import decompress from 'decompress'
-import fs from 'fs'
+import cp from 'child_process'
+import fs from 'fs-extra'
 import path from 'path'
-import { createDirs, GeneratedDataPath, GeneratedFlattenedSummaryPath, GeneratedMinFlattenedSummaryPath, GeneratedMinTreeSummaryPath, GeneratedPath, GeneratedTreeSummaryPath, JarPath, TreeSummary, WorldgenPath } from './utils'
-
-const DefaultNamespacePath = path.join(GeneratedDataPath, 'minecraft')
-const SummaryPath = path.join(GeneratedPath, 'summary')
+import { createDirs, DataGeneratorGeneratedDimensionPath, DataGeneratorGeneratedDimensionTypePath, DataGeneratorGeneratedDirName, DataGeneratorGeneratedWorldgenPath, GeneratedDataPath, GeneratedDefaultNamespacePath, GeneratedDimensionPath, GeneratedDimensionTypePath, GeneratedFlattenedSummaryPath, GeneratedMinFlattenedSummaryPath, GeneratedMinTreeSummaryPath, GeneratedPath, GeneratedSummaryPath, GeneratedTreeSummaryPath, GeneratedWorldgenPath, InputPath, JarPath, TreeSummary } from './utils'
 
 export async function generate() {
     console.time('generate')
-    if (!fs.existsSync(JarPath) || !fs.existsSync(WorldgenPath)) {
-        throw new Error(`No input at "${JarPath}" and/or "${WorldgenPath}"`)
+    if (!fs.existsSync(JarPath)) {
+        throw new Error(`No input at "${JarPath}"`)
     }
     createDirs()
     if (fs.existsSync(GeneratedDataPath)) {
         fs.rmdirSync(GeneratedDataPath, { recursive: true })
     }
-    fs.mkdirSync(DefaultNamespacePath, { recursive: true })
-    fs.mkdirSync(SummaryPath, { recursive: true })
+    fs.mkdirSync(GeneratedDefaultNamespacePath, { recursive: true })
+    fs.mkdirSync(GeneratedSummaryPath, { recursive: true })
     console.time('generateData')
     await generateData()
     console.timeEnd('generateData')
@@ -34,9 +31,9 @@ async function generateData() {
     await generateJarData()
     console.timeEnd('generateJarData')
     console.time('generateWorldgenData')
-    await generateWorldgenData()
+    generateWorldgenData()
     console.timeEnd('generateWorldgenData')
-    fs.writeFileSync(path.join(DefaultNamespacePath, 'loot_tables/empty.json'), '{}', 'utf-8')
+    fs.writeFileSync(path.join(GeneratedDefaultNamespacePath, 'loot_tables/empty.json'), '{}', 'utf-8')
 }
 
 async function generateJarData() {
@@ -75,18 +72,19 @@ async function generateJarData() {
     }
 }
 
-async function generateWorldgenData() {
-    return decompress(WorldgenPath, DefaultNamespacePath)
+function generateWorldgenData() {
+    cp.execSync(`java -DbundlerMainClass=net.minecraft.data.Main -jar game.jar --reports --output ${DataGeneratorGeneratedDirName}`, {
+        cwd: InputPath,
+    })
+    fs.moveSync(DataGeneratorGeneratedDimensionPath, GeneratedDimensionPath)
+    fs.moveSync(DataGeneratorGeneratedDimensionTypePath, GeneratedDimensionTypePath)
+    fs.moveSync(DataGeneratorGeneratedWorldgenPath, GeneratedWorldgenPath)
 }
 
 async function generateSummary() {
-    const tree: Record<FileType, TreeSummary> = {} as any
-    const flattened: Record<FileType, string[]> = {} as any
+    const tree: Record<string, TreeSummary | undefined> = {}
+    const flattened: Record<string, string[] | undefined> = {}
     const rels: string[] = []
-    for (const type of FileTypes) {
-        tree[type] = {}
-        flattened[type] = []
-    }
     await walkFile(
         GeneratedPath,
         GeneratedDataPath,
@@ -96,15 +94,15 @@ async function generateSummary() {
     for (const rel of rels.sort()) {
         const result = IdentityNode.fromRel(rel)
         if (result) {
-            flattened[result.category].push(result.id.toString())
+            (flattened[result.category] ??= []).push(result.id.toString())
             const arr = [result.id.getNamespace(), ...result.id.path]
-            let object = tree[result.category]
+            let object = (tree[result.category] ??= {})
             for (const [i, seg] of arr.entries()) {
-                object[seg] = object[seg] ?? {}
+                object[seg] ??= {}
                 if (i === arr.length - 1) {
                     object[seg].$end = true
                 } else {
-                    object = (object[seg].$children = object[seg].$children ?? {})
+                    object = (object[seg].$children ??= {})
                 }
             }
         }

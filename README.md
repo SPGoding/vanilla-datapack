@@ -1,18 +1,22 @@
+```diff
+-! This Repository Has Been Archived !-
+```
+
+[misode](https://github.com/misode) has created [mcmeta](https://github.com/misode/mcmeta),
+an amazing repository with "processed, version controlled history of Minecraft's generated data
+and assets."
+
+You can find the vanilla data pack of every Minecraft version since 1.14 (inclusive) on the
+[`data` branch](https://github.com/misode/mcmeta/tree/data), and more useful information can be
+found on other branches of that repository.
+
 # Vanilla Data Pack
 
 ![Tick](https://github.com/SPGoding/vanilla-datapack/workflows/Tick/badge.svg)
 
 A repository with automated scripts to generate the vanilla data pack from the Minecraft: Java Edition server jar.
 
-<h2>
-
-```diff
-+!  Switch to the 'data' branch if you want to  !+
-+!        see the actual data pack files.       !+
-```
-
 **Click [here][data-branch] to go to the `data` branch.**
-</h2>
 
 ## Branches and Tags
 

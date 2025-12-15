@@ -1,23 +1,9 @@
-```diff
--! This Repository Has Been Archived !-
-```
-
-## TL;DR: [Click Here](https://github.com/misode/mcmeta/tree/data).
-
-[misode](https://github.com/misode) has created [mcmeta](https://github.com/misode/mcmeta),
-an amazing repository with "processed, version controlled history of Minecraft's generated data
-and assets."
-
-You can find the vanilla data pack of every Minecraft version since 1.14 (inclusive) on the
-[`data` branch](https://github.com/misode/mcmeta/tree/data), and more useful information can be
-found on other branches of that repository.
-
-```diff
--! ================================= !-
-```
+> [!Important]
+> This repository has been archived and is no longer maintained.
+> Use Misode's [mcmeta](https://github.com/misode/mcmeta) instead.
 
 <details>
-  <summary>Click to view the original README</summary>
+  <summary>Original README</summary>
 
   # Vanilla Data Pack
 
